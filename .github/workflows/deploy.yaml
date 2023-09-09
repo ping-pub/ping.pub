@@ -23,7 +23,10 @@ jobs:
 
     - name: Setup config
       run: cp -rf chains explorer/chains && cd explorer
-      
+
+    - name: Setup config
+      run: pwd
+  
     - name: Install
       run: yarn install
 
