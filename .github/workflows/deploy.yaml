@@ -14,14 +14,14 @@ jobs:
     steps:
     - name: Environment
       run:  export NODE_OPTIONS="--max_old_space_size=4096"
-      
+         
+    - name: Clean Repository
+      run: rm -rf explorer
+     
     - name: Git Checkout Latest
       uses: actions/checkout@v3   
       with:
         submodules: recursive
-        
-    - name: Clean Repository
-      run: rm -rf explorer
 
     - name: Setup config
       run: cp -rf chains explorer/chains
