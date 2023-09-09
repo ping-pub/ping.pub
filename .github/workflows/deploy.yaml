@@ -24,6 +24,9 @@ jobs:
     - name: Setup config
       run: cp -rf chains explorer/chains
 
+    - name: Setup config
+      run: ls explorer
+      
     - name: Build
       run: cd explorer && yarn && yarn build
 
