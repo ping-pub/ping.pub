@@ -22,16 +22,10 @@ jobs:
       run: git submodule update
 
     - name: Setup config
-      run: cp -rf chains explorer/chains && cd explorer
-
-    - name: Setup config
-      run: pwd
-  
-    - name: Install
-      run: yarn install
+      run: cp -rf chains explorer/chains
 
     - name: Build
-      run: yarn build
+      run: cd explorer && yarn && yarn build
 
     - name: Deploy
-      run: cp -rf ./dist/* /var/www/html/
+      run: cp -rf explorer/dist/* /var/www/html/
