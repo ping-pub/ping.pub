@@ -26,6 +26,9 @@ jobs:
     - name: Setup config
       run: cp -rf chains explorer/chains
 
+    - name: list files
+      run: ls -la explorer/chains
+
     - name: copy logos
       run: cp -rf logos explorer/public/logos
       
