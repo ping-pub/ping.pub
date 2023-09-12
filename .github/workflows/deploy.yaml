@@ -26,11 +26,11 @@ jobs:
     - name: Setup config
       run: cp -rf chains/* explorer/chains/
 
-    - name: copy logos
-      run: cp -rf logos/* explorer/public/logos/
-      
     - name: Build
       run: cd explorer && yarn && yarn build
-
+      
+    - name: copy logos
+      run: cp -rf logos/* explorer/dist/logos/
+      
     - name: Deploy
       run: cp -rf explorer/dist/* /var/www/html/
