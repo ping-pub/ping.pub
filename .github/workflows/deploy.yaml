@@ -37,3 +37,6 @@ jobs:
       
     - name: Deploy
       run: cp -rf explorer/dist/* /var/www/html/
+
+    - name: debug  
+      run: ls -l /var/www/html/logos
