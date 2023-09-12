@@ -32,11 +32,8 @@ jobs:
     - name: copy logos
       run: cp -rf logos explorer/dist/
       
-    - name: debug  
-      run: ls -l explorer/dist/logos
+    # - name: debug  
+    #   run: ls -l explorer/dist/logos
       
     - name: Deploy
       run: cp -rf explorer/dist/* /var/www/html/
-
-    - name: debug  
-      run: ls -l /var/www/html/logos
