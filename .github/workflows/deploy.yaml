@@ -28,14 +28,12 @@ jobs:
 
     - name: Build
       run: cd explorer && yarn && yarn build
-
-    - name: debug  
-      run: ls -l explorer/
+      
+    - name: copy logos
+      run: cp -rf logos explorer/dist/
       
     - name: debug  
       run: ls -l explorer/dist
-    - name: copy logos
-      run: cp -rf logos/* explorer/dist/logos/
       
     - name: Deploy
       run: cp -rf explorer/dist/* /var/www/html/
