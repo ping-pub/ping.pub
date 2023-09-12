@@ -30,10 +30,10 @@ jobs:
       run: cd explorer && yarn && yarn build
 
     - name: debug  
-      run: ls -l /explorer/
+      run: ls -l explorer/
       
     - name: debug  
-      run: ls -l /explorer/dist
+      run: ls -l explorer/dist
     - name: copy logos
       run: cp -rf logos/* explorer/dist/logos/
       
