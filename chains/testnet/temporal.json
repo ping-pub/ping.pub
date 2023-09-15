@@ -1,8 +1,8 @@
 {
     "chain_name": "temporal",
-    "api": ["https://lcd.yieldmos.com/temporal-test-1"],
-    "rpc": ["https://rpc.yieldmos.com/temporal-test-1"],
-    "sdk_version": "0.47.4",
+    "api": ["https://lcd.yieldmos.com/temporal-test-2"],
+    "rpc": ["https://rpc.yieldmos.com/temporal-test-2"],
+    "sdk_version": "0.47.5",
     "coin_type": "118",
     "min_tx_fee": "3000",
     "addr_prefix": "temporal",
