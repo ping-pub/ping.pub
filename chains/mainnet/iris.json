@@ -2,8 +2,15 @@
     "chain_name": "iris",
     "registry_name": "irisnet",
     "alias": "iris-network",
-    "api": ["https://api.irishub-1.irisnet.org"],
-    "rpc": ["http://34.82.96.8:26657","http://34.77.68.145:26657"],
+    "api": [
+        {"provider": "IRISnet", "address": "https://api.irishub-1.irisnet.org"},
+        {"provider": "Allnodes", "address": "https://iris-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Anonymous", "address": "http://34.82.96.8:26657"}, 
+        {"provider": "Anonymous", "address": "http://34.77.68.145:26657"},
+        {"provider": "Allnodes", "address": "https://iris-rpc.publicnode.com:443"}
+    ],
     "sdk_version": "0.46.1",
     "coin_type": "118",
     "min_tx_fee": "40000",
