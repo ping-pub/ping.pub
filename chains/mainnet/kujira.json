@@ -1,8 +1,22 @@
 {
     "chain_name": "kujira",
     "coingecko": "",
-    "api": ["https://kujira-api.polkachu.com", "https://lcd.kaiyo.kujira.setten.io", "https://api-kujira.nodeist.net", "https://kujira.api.kjnodes.com", "https://rest-kujira.goldenratiostaking.net"],
-    "rpc": ["https://kujira-api.polkachu.com", "https://rpc.kaiyo.kujira.setten.io", "https://rpc-stride.nodeist.net", "https://kujira.rpc.kjnodes.com:443", "https://rpc-kujira.goldenratiostaking.net"],
+    "api": [
+        {"provider": "Polkachu", "address": "https://kujira-api.polkachu.com"},
+        {"provider": "Setten", "address": "https://lcd.kaiyo.kujira.setten.io"},
+        {"provider": "Nodeist", "address": "https://api-kujira.nodeist.net"},
+        {"provider": "Kjnodes", "address": "https://kujira.api.kjnodes.com"},
+        {"provider": "Golden Ratio Staking", "address": "https://rest-kujira.goldenratiostaking.net"},
+        {"provider": "Allnodes", "address": "https://kujira-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Polkachu", "address": "https://kujira-api.polkachu.com"}, 
+        {"provider": "Setten", "address": "https://rpc.kaiyo.kujira.setten.io"}, 
+        {"provider": "Nodeist", "address": "https://rpc-stride.nodeist.net"}, 
+        {"provider": "Kjnodes", "address": "https://kujira.rpc.kjnodes.com:443"}, 
+        {"provider": "Golden Ratio Staking", "address": "https://rpc-kujira.goldenratiostaking.net"},
+        {"provider": "Allnodes", "address": "https://kujira-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.4",
     "coin_type": "118",
