@@ -1,7 +1,17 @@
 {
     "chain_name": "injective",
-    "api": ["https://lcd.injective.network", "https://injective-api.polkachu.com", "https://rest-injective.goldenratiostaking.net"],
-    "rpc": ["https://tm.injective.network", "https://injective-rpc.polkachu.com", "https://rpc-injective.goldenratiostaking.net"],
+    "api": [
+        {"provider": "Injective", "address": "https://lcd.injective.network"},
+        {"provider": "Polkachu", "address": "https://injective-api.polkachu.com"},
+        {"provider": "Golden Ratio Staking", "address": "https://rest-injective.goldenratiostaking.net"},
+        {"provider": "Allnodes", "address": "https://injective-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Injective", "address": "https://tm.injective.network"}, 
+        {"provider": "Polkachu", "address": "https://injective-rpc.polkachu.com"}, 
+        {"provider": "Golden Ratio Staking", "address": "https://rpc-injective.goldenratiostaking.net"},
+        {"provider": "Allnodes", "address": "https://injective-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "v0.45.5",
     "coin_type": "60",
