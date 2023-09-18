@@ -1,7 +1,15 @@
 {
   "chain_name": "rebus",
-  "api": ["https://api.mainnet.rebus.money:1317","https://api.rebus.nodestake.top"],
-  "rpc": ["https://api.mainnet.rebus.money:26657","https://rpc.rebus.nodestake.top"],
+  "api": [
+      {"provider": "Rebus", "address": "https://api.mainnet.rebus.money:1317"},
+      {"provider": "NodeStake", "address": "https://api.rebus.nodestake.top"},
+      {"provider": "Allnodes", "address": "https://rebus-rest.publicnode.com"}
+  ],
+  "rpc": [
+      {"provider": "Rebus", "address": "https://api.mainnet.rebus.money:26657"}, 
+      {"provider": "NodeStake", "address": "https://rpc.rebus.nodestake.top"},
+      {"provider": "Allnodes", "address": "https://rebus-rpc.publicnode.com:443"}
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.45.6",
   "coin_type": "118",
