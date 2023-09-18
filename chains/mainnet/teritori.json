@@ -1,7 +1,15 @@
 {
   "chain_name": "teritori",
-  "api": ["https://rest.mainnet.teritori.com","https://api.teritori.nodestake.top"],
-  "rpc": ["https://rpc.mainnet.teritori.com","https://rpc.teritori.nodestake.top"],
+    "api": [
+        {"provider": "Teritori", "address": "https://rest.mainnet.teritori.com"},
+        {"provider": "NodeStake", "address": "https://api.teritori.nodestake.top"},
+        {"provider": "Allnodes", "address": "https://teritori-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Teritori", "address": "https://rpc.mainnet.teritori.com"},
+        {"provider": "NodeStake", "address": "https://rpc.teritori.nodestake.top"},
+        {"provider": "Allnodes", "address": "https://teritori-rpc.publicnode.com:443"}
+    ],
   "snapshot_provider": "",
   "sdk_version": "0.45.4",
   "coin_type": "118",
