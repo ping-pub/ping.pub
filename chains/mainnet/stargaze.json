@@ -1,7 +1,19 @@
 {
     "chain_name": "stargaze",
-    "api": ["https://stargaze-api.polkachu.com/","https://api-stargaze-ia.cosmosia.notional.ventures/", "https://rest.stargaze-apis.com", "https://rest.stargaze.publicawesome.dev"],
-    "rpc": ["https://stargaze-rpc.polkachu.com/", "https://rpc-stargaze-ia.cosmosia.notional.ventures/","https://rpc.stargaze-apis.com:443", "https://rpc.stargaze.ezstaking.io:443"],
+    "api": [
+        {"provider": "Polkachu", "address": "https://stargaze-api.polkachu.com"},
+        {"provider": "Notional", "address": "https://api-stargaze-ia.cosmosia.notional.ventures"},
+        {"provider": "Stargaze", "address": "https://rest.stargaze-apis.co"},
+        {"provider": "PublicAwesome", "address": "https://rest.stargaze.publicawesome.dev"},
+        {"provider": "Allnodes", "address": "https://sifchain-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Polkachu", "address": "https://stargaze-rpc.polkachu.com"},
+        {"provider": "Notional", "address": "https://rpc-stargaze-ia.cosmosia.notional.ventures"},
+        {"provider": "Stargaze", "address": "https://rpc.stargaze-apis.com:443"},
+        {"provider": "EzStaking", "address": "https://rpc.stargaze.ezstaking.io:443"},
+        {"provider": "Allnodes", "address": "https://sifchain-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "118",
