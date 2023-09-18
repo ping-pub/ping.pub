@@ -2,8 +2,15 @@
 {
     "chain_name": "shentu",
     "coingecko": "certik",
-    "api": ["https://shentu-api.polkachu.com", "https://chainfull.noopsbycertik.com"],
-    "rpc": ["https://shentu-rpc.polkachu.com:443"],
+    "api": [
+        {"provider": "Polkachu", "address": "https://shentu-api.polkachu.com"},
+        {"provider": "NoopByCertik", "address": "https://chainfull.noopsbycertik.com"},
+        {"provider": "Allnodes", "address": "https://shentu-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Polkachu", "address": "https://shentu-rpc.polkachu.com:443"},
+        {"provider": "Allnodes", "address": "https://shentu-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.9",
     "coin_type": "118",
