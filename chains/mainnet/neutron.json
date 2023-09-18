@@ -2,7 +2,7 @@
     "chain_name": "neutron",
     "api": [
         {"provider": "Polkachu", "address": "https://neutron-api.polkachu.com"},
-        {"provider": "NodeStake", "address": "ttps://api.neutron.nodestake.top"},
+        {"provider": "NodeStake", "address": "https://api.neutron.nodestake.top"},
         {"provider": "Allnodes", "address": "https://neutron-rest.publicnode.com"}
     ],
     "rpc": [
