@@ -14,7 +14,7 @@
         {"provider": "Comdex", "address": "https://rpc.comdex.one:443"},
         {"provider": "AuditOne", "address": "https://api.comdex.audit.one:443/rpc"},
         {"provider": "Golden Ratio Staking", "address": "https://rpc-comdex.goldenratiostaking.net"},
-        {"provider": "Allnodes", "address": "https://comdex-rpc.publicnode.com"}
+        {"provider": "Allnodes", "address": "https://comdex-rpc.publicnode.com:443"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.45.8",
