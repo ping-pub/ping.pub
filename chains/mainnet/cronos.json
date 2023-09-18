@@ -7,7 +7,7 @@
     ],
     "rpc": [
         {"provider": "Cronos", "address": "https://rpc.cronos.org:443"}, 
-        {"provider": "Allnodes", "address": "https://cronos-rpc.publicnode.com"}
+        {"provider": "Allnodes", "address": "https://cronos-rpc.publicnode.com:443"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.45.11",
