@@ -1,8 +1,21 @@
 {
     "chain_name": "chihuahua",
     "coingecko": "chihuahua-token",
-    "api": ["https://chihuahua-api.polkachu.com", "https://api.chihuahua.wtf", "https://chihuahua-api.mercury-nodes.net", "https://rest-chihuahua.goldenratiostaking.net"],
-    "rpc": ["https://chihuahua-rpc.polkachu.com:443", "https://rpc.chihuahua.wtf:443", "https://rpc-chihuahua.goldenratiostaking.net"],
+    "api": [
+        {"provider": "Polkachu", "address": "https://chihuahua-api.polkachu.com"},
+        {"provider": "Chihuahua", "address": "https://api.chihuahua.wtf"},
+        {"provider": "Mercury Nodes", "address": "https://chihuahua-api.mercury-nodes.net"},
+        {"provider": "Golden Ratio Staking", "address": "https://rest-chihuahua.goldenratiostaking.net"},
+        {"provider": "Allnodes", "address": "https://chihuahua-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Polkachu", "address": "https://chihuahua-rpc.polkachu.com:443"}, 
+        {"provider": "Chihuahua", "address": "https://rpc.chihuahua.wtf:443"}, 
+        {"provider": "Golden Ratio Staking", "address": "https://rpc-chihuahua.goldenratiostaking.net"},
+        {"provider": "Allnodes", "address": "https://chihuahua-rpc.publicnode.com"}
+    ],
+    "api": ["", "", "", ""],
+    "rpc": ["", "", ""],
     "snapshot_provider": "12611137be6f64f9a7fb8977614a5a6f257c1394@65.21.200.224:29656",
     "sdk_version": "0.47.8",
     "coin_type": "118",
