@@ -12,10 +12,8 @@
         {"provider": "Polkachu", "address": "https://chihuahua-rpc.polkachu.com:443"}, 
         {"provider": "Chihuahua", "address": "https://rpc.chihuahua.wtf:443"}, 
         {"provider": "Golden Ratio Staking", "address": "https://rpc-chihuahua.goldenratiostaking.net"},
-        {"provider": "Allnodes", "address": "https://chihuahua-rpc.publicnode.com"}
+        {"provider": "Allnodes", "address": "https://chihuahua-rpc.publicnode.com:443"}
     ],
-    "api": ["", "", "", ""],
-    "rpc": ["", "", ""],
     "snapshot_provider": "12611137be6f64f9a7fb8977614a5a6f257c1394@65.21.200.224:29656",
     "sdk_version": "0.47.8",
     "coin_type": "118",
