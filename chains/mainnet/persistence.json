@@ -1,8 +1,14 @@
 {
     "chain_name": "persistence",
     "coingecko": "persistence",
-    "api": "https://rest.core.persistence.one",
-    "rpc": ["https://rpc.core.persistence.one:443", "https://rpc.core.persistence.one:443"],
+    "api": [
+        {"provider": "Persistence", "address": "https://rest.core.persistence.one"},
+        {"provider": "Allnodes", "address": "https://persistence-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Persistence", "address": "https://rpc.core.persistence.one:443"},
+        {"provider": "Allnodes", "address": "https://persistence-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "750",
