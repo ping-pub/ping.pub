@@ -11,7 +11,7 @@
         {"provider": "Notional", "address": "https://rpc-bitcanna-ia.cosmosia.notional.ventures:443"}, 
         {"provider": "Polkachu", "address": "https://bitcanna-rpc.polkachu.com:443"}, 
         {"provider": "Bitcanna", "address": "https://rpc.bitcanna.io:443"}, 
-        {"provider": "Allnodes", "address": "https://bitcanna-rpc.publicnode.com"}
+        {"provider": "Allnodes", "address": "https://bitcanna-rpc.publicnode.com:443"}
     ],
     "snapshot_provider": "29edc55748bc341224f711a05cb0a9f6d73b4da3@bitcanna.rpc.ping.pub:26656",
     "sdk_version": "0.45.10",
