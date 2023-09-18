@@ -1,7 +1,22 @@
 {
     "chain_name": "evmos",
-    "api": ["https://evmos-api.polkachu.com", "https://api-evmos-ia.cosmosia.notional.ventures", "https://rest.bd.evmos.org:1317", "https://evmos-api.skynetvalidators.com","https://api.evmos.nodestake.top", "https://rest-evmos.goldenratiostaking.net"],
-    "rpc": ["https://evmos-rpc.polkachu.com:443", "https://rpc-evmos-ia.cosmosia.notional.ventures:443", "https://tendermint.bd.evmos.org:26657", "https://tendermint.bd.evmos.org:26657","https://rpc.evmos.nodestake.top", "https://rpc-evmos.goldenratiostaking.net"],
+    "api": [
+        {"provider": "Polkachu", "address": "https://evmos-api.polkachu.com"},
+        {"provider": "Notional", "address": "https://api-evmos-ia.cosmosia.notional.ventures"},
+        {"provider": "Evmos", "address": "https://rest.bd.evmos.org:1317"},
+        {"provider": "Skynet Validators", "address": "https://evmos-api.skynetvalidators.com"},
+        {"provider": "NodeStake", "address": "https://api.evmos.nodestake.top"},
+        {"provider": "Golden Ratio Staking", "address": "https://rest-evmos.goldenratiostaking.net"},
+        {"provider": "Allnodes", "address": "https://evmos-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Polkachu", "address": "https://evmos-rpc.polkachu.com:443"}, 
+        {"provider": "Notional", "address": "https://rpc-evmos-ia.cosmosia.notional.ventures:443"}, 
+        {"provider": "Evmos", "address": "https://tendermint.bd.evmos.org:26657"}, 
+        {"provider": "NodeStake", "address": "https://rpc.evmos.nodestake.top"}, 
+        {"provider": "Golden Ratio Staking", "address": "https://rpc-evmos.goldenratiostaking.net"}, 
+        {"provider": "Allnodes", "address": "https://evmos-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.2",
     "coin_type": "60",
