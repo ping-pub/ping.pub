@@ -1,8 +1,19 @@
 {
     "chain_name": "tenet",
     "coingecko": "tenet",
-    "api": ["https://app.rpc.tenet.org","https://tenet-api.lavenderfive.com","https://api.tenet.nodestake.top"],
-    "rpc": ["https://tendermint-1.rpc.tenet.org:443","https://tendermint-2.rpc.tenet.org:443","https://tenet-rpc.lavenderfive.com","https://rpc.tenet.nodestake.top"],
+    "api": [
+        {"provider": "Tenet", "address": "https://app.rpc.tenet.org"},
+        {"provider": "LavenderFive", "address": "https://tenet-api.lavenderfive.com"},
+        {"provider": "NodeStake", "address": "https://api.tenet.nodestake.top"},
+        {"provider": "Allnodes", "address": "https://tenet-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Tenet", "address": "https://tendermint-1.rpc.tenet.org:443"},
+        {"provider": "Tenet", "address": "https://tendermint-2.rpc.tenet.org:443"},
+        {"provider": "LavenderFive", "address": "https://tenet-rpc.lavenderfive.com"},
+        {"provider": "NodeStake", "address": "https://rpc.tenet.nodestake.top"},
+        {"provider": "Allnodes", "address": "https://tenet-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.9-ledger",
     "coin_type": "60",
