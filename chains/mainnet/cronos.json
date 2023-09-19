@@ -1,8 +1,14 @@
 
 {
     "chain_name": "cronos",
-    "api": ["https://rest.cronos.org"],
-    "rpc": ["https://rpc.cronos.org:443"],
+    "api": [
+        {"provider": "Cronos", "address": "https://rest.cronos.org"},
+        {"provider": "Allnodes", "address": "https://cronos-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Cronos", "address": "https://rpc.cronos.org:443"}, 
+        {"provider": "Allnodes", "address": "https://cronos-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.11",
     "coin_type": "60",

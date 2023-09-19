@@ -1,8 +1,13 @@
 {
     "chain_name": "terra-luna",
     "coingecko": "terra-luna",
-    "api": "https://terra-classic-fcd.publicnode.com",
-    "rpc": ["https://terra-rpc.easy2stake.com:443", "https://terra-classic-rpc.publicnode.com"],
+    "api": [
+        {"provider": "Allnodes", "address": "https://terra-classic-fcd.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Easy2Stake", "address": "https://terra-rpc.easy2stake.com:443"},
+        {"provider": "Allnodes", "address": "https://terra-classic-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.44.2",
     "coin_type": "330",

@@ -1,7 +1,13 @@
 {
     "chain_name": "fetchhub",
-    "api": ["https://rest-fetchhub.fetch.ai"],
-    "rpc": ["https://rpc-fetchhub.fetch.ai:443", "https://rpc-fetchhub.fetch.ai:443"],
+    "api": [
+        {"provider": "Fetch.ai", "address": "https://rest-fetchhub.fetch.ai"},
+        {"provider": "Allnodes", "address": "https://fetch-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Fetch.ai", "address": "https://rpc-fetchhub.fetch.ai:443"}, 
+        {"provider": "Allnodes", "address": "https://fetch-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "118",

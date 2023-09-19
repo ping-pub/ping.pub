@@ -1,7 +1,13 @@
 {
     "chain_name": "terra2",
-    "api": ["https://phoenix-lcd.terra.dev", "https://terra-api.polkachu.com/"],
-    "rpc": [],
+    "api": [
+        {"provider": "TFL", "address": "https://phoenix-lcd.terra.dev"},
+        {"provider": "Polkachu", "address": "https://terra-api.polkachu.com"},
+        {"provider": "Allnodes", "address": "https://terra-lcd.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Allnodes", "address": "https://terra-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.44.2",
     "coin_type": "330",

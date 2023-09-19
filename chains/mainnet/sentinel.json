@@ -1,7 +1,15 @@
 {
     "chain_name": "sentinel",
-    "api": ["https://api-sentinel-ia.cosmosia.notional.ventures", "https://lcd.sentinel.co"],
-    "rpc": ["https://api-sentinel-ia.cosmosia.notional.ventures:443", "https://rpc-sentinel.keplr.app:443", "https://rpc-sentinel.keplr.app:443"],
+    "api": [
+        {"provider": "Notional", "address": "https://api-sentinel-ia.cosmosia.notional.ventures"},
+        {"provider": "Sentinel", "address": "https://lcd.sentinel.co"},
+        {"provider": "Allnodes", "address": "https://sentinel-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "Notional", "address": "https://api-sentinel-ia.cosmosia.notional.ventures:443"},
+        {"provider": "Keplr", "address": "https://rpc-sentinel.keplr.app:443"},
+        {"provider": "Allnodes", "address": "https://sentinel-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.8",
     "coin_type": "118",

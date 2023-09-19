@@ -1,8 +1,18 @@
 {
     "chain_name": "regen",
     "coingecko": "regen",
-    "api": ["https://regen.stakesystems.io", "https://api-regen-ia.cosmosia.notional.ventures", "https://rest-regen.ecostake.com", "https://regen-lcd.easy2stake.com"],
-    "rpc": ["http://public-rpc.regen.vitwit.com:26657", "https://regen.stakesystems.io:2053"],
+    "api": [
+        {"provider": "StakeSystems", "address": "https://regen.stakesystems.io"},
+        {"provider": "Notional", "address": "https://api-regen-ia.cosmosia.notional.ventures"},
+        {"provider": "EcoStake", "address": "https://rest-regen.ecostake.com"},
+        {"provider": "Easy2Stake", "address": "https://regen-lcd.easy2stake.com"},
+        {"provider": "Allnodes", "address": "https://regen-rest.publicnode.com"}
+    ],
+    "rpc": [
+        {"provider": "VitWit", "address": "http://public-rpc.regen.vitwit.com:26657"}, 
+        {"provider": "StakeSystems", "address": "https://regen.stakesystems.io:2053"},
+        {"provider": "Allnodes", "address": "https://regen-rpc.publicnode.com:443"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.2",
     "coin_type": "118",
