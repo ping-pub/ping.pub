@@ -11,10 +11,10 @@
         {"provider": "Allnodes", "address": "https://shentu-rpc.publicnode.com:443"}
     ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.9",
+    "sdk_version": "0.45.11",
     "coin_type": "118",
     "min_tx_fee": "8000",
-    "addr_prefix": "certik",
+    "addr_prefix": "shentu",
     "logo": "/logos/shentu.jpg",
     "assets": [{
         "base": "uctk",
