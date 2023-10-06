@@ -1,10 +1,10 @@
 {
   "chain_name": "centauritestnet",
-  "api": ["https://composable-testnet-api.polkachu.com/"],
-  "rpc": ["https://composable-testnet-rpc.polkachu.com/"],
+  "api": ["https://api-banksy4.notional.ventures"],
+  "rpc": ["https://rpc-banksy4.notional.ventures"],
   "coingecko": "",
   "snapshot_provider": "",
-  "sdk_version": "0.37.0",
+  "sdk_version": "0.47.3",
   "coin_type": "118",
   "min_tx_fee": "500",
   "addr_prefix": "centauri",
