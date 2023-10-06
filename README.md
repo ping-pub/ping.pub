@@ -43,7 +43,7 @@ Your donation will help us make better products. Thanks in advance.
 
 - Submit configs for testnet, go to https://github.com/ping-pub/ping.pub/tree/main/chains/testnet
 
-# Sample of Config
+# Example of Config
 
 ```json
 {
