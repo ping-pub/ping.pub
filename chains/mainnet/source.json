@@ -6,14 +6,14 @@
         {"provider": "MoonBridge", "address": "https://source.api.moonbridge.team"},
         {"provider": "Nodeist", "address": "https://api-source.nodeist.net"},
         {"provider": "ITRocket", "address": "https://source-mainnet-api.itrocket.net:443"},
-        {"provider": "StakeTown", "address": "https://source-api.stake-town.com/"}
+        {"provider": "StakeTown", "address": "https://source-api.stake-town.com:443"}
     ],
     "rpc": [
         {"provider": "NodeStake", "address": "https://rpc.source.nodestake.top"}, 
         {"provider": "MoonBridge", "address": "https://source.rpc.moonbridge.team"}, 
         {"provider": "Nodeist", "address": "https://rpc-source.nodeist.net"}, 
         {"provider": "ITRocket", "address": "https://source-mainnet-rpc.itrocket.net:443"}, 
-        {"provider": "StakeTown", "address": "https://source-rpc.stake-town.com/"}
+        {"provider": "StakeTown", "address": "https://source-rpc.stake-town.com:443"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.45.15",
