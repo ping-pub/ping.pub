@@ -4,7 +4,7 @@
     "api": [
         {"provider": "Bitcanna", "address": "https://lcd.bitcanna.io"},
         {"provider": "Polkachu", "address": "https://bitcanna-api.polkachu.com"},
-        {"provider": "Allnodes", "address": "https://bitcanna-rest.publicnode.com"}
+        {"provider": "Allnodes", "address": "https://bitcanna-rest.publicnode.com"},
         {"provider": "Notional", "address": "https://api-bitcanna-ia.cosmosia.notional.ventures"}
     ],
     "rpc": [
