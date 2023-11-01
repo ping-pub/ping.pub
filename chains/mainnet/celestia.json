@@ -1,0 +1,67 @@
+{
+    "chain_name": "celestia",
+    "api": [
+        {
+          "address": "https://public-celestia-lcd.numia.xyz",
+          "provider": "Numia"
+        },
+        {
+          "address": "https://celestia-mainnet-lcd.autostake.com:443",
+          "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+          "address": "https://celestia-rest.mesa.newmetric.xyz",
+          "provider": "Newmetric"
+        },
+        {
+          "address": "https://api.lunaroasis.net",
+          "provider": "Lunar Oasis"
+        },
+        {
+          "address": "https://api.celestia.nodestake.top",
+          "provider": "NodeStake"
+        },
+        {
+          "address": "https://celestia-api.lavenderfive.com:443",
+          "provider": "Lavender.Five Nodes 🐝"
+        }
+      ],
+    "rpc": [
+        {
+          "address": "https://public-celestia-rpc.numia.xyz",
+          "provider": "Numia"
+        },
+        {
+          "address": "https://celestia-mainnet-rpc.autostake.com:443",
+          "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+          "address": "https://celestia-rpc.mesa.newmetric.xyz",
+          "provider": "Newmetric"
+        },
+        {
+          "address": "https://rpc.lunaroasis.net",
+          "provider": "Lunar Oasis"
+        },
+        {
+          "address": "https://rpc.celestia.nodestake.top",
+          "provider": "NodeStake"
+        },
+        {
+          "address": "https://celestia-rpc.lavenderfive.com:443",
+          "provider": "Lavender.Five Nodes 🐝"
+        }
+      ],
+    "sdk_version": "0.47.0",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "celestia",
+    "logo": "/logos/celestia.png",
+    "assets": [{
+        "base": "utia",
+        "symbol": "TIA",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/celestia.png"
+    }]
+}
