@@ -1,6 +1,5 @@
 {
     "chain_name": "source",
-    "coingecko": "source",
     "api": [
         {"provider": "NodeStake", "address": "https://api.source.nodestake.top"},
         {"provider": "KJNodes", "address": "https://source.api.kjnodes.com"},
@@ -29,7 +28,6 @@
         "base": "usource",
         "symbol": "SOURCE",
         "exponent": "6",
-        "coingecko_id": "source", 
         "logo": "/logos/source.png"
     }]
 }
