@@ -2,10 +2,6 @@
     "chain_name": "celestia",
     "api": [
         {
-          "address": "https://celestia-rest.mesa.newmetric.xyz",
-          "provider": "Newmetric"
-        },
-        {
           "address": "https://api.lunaroasis.net",
           "provider": "Lunar Oasis"
         },
@@ -15,10 +11,6 @@
         }
       ],
     "rpc": [
-        {
-          "address": "https://celestia-rpc.mesa.newmetric.xyz",
-          "provider": "Newmetric"
-        },
         {
           "address": "https://rpc.lunaroasis.net",
           "provider": "Lunar Oasis"
