@@ -1,0 +1,67 @@
+{
+    "chain_name": "dydx",
+    "api": [
+        {
+          "address": "https://dydx-api.lavenderfive.com:443",
+          "provider": "Lavender.Five Nodes 🐝"
+        },
+        {
+          "address": "https://dydx-mainnet-lcd.autostake.com:443",
+          "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+          "address": "https://rest-dydx.ecostake.com:443",
+          "provider": "ecostake"
+        },
+        {
+          "address": "https://api.dydx.nodestake.top:443",
+          "provider": "NodeStake"
+        },
+        {
+          "address": "https://dydx.api.kjnodes.com:443",
+          "provider": "kjnodes"
+        },
+        {
+          "address": "https://dydx-rest.publicnode.com",
+          "provider": "Allnodes ⚡️ Nodes & Staking"
+        }
+      ],
+    "rpc": [
+        {
+          "address": "https://dydx-rpc.lavenderfive.com:443",
+          "provider": "Lavender.Five Nodes 🐝"
+        },
+        {
+          "address": "https://dydx-mainnet-rpc.autostake.com:443",
+          "provider": "AutoStake 🛡️ Slash Protected"
+        },
+        {
+          "address": "https://rpc-dydx.ecostake.com:443",
+          "provider": "ecostake"
+        },
+        {
+          "address": "https://rpc.dydx.nodestake.top:443",
+          "provider": "NodeStake"
+        },
+        {
+          "address": "https://dydx.rpc.kjnodes.com:443",
+          "provider": "kjnodes"
+        },
+        {
+          "address": "https://dydx-rpc.publicnode.com:443",
+          "provider": "Allnodes ⚡️ Nodes & Staking"
+        }
+      ],
+    "sdk_version": "0.46.1",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "dydx",
+    "logo": "https://ping.pub/logos/dydx.svg",
+    "assets": [{
+        "base": "adydx",
+        "symbol": "DYDX",
+        "exponent": "18",
+        "coingecko_id": "dydx", 
+        "logo": "https://ping.pub/logos/dydx.svg"
+    }]
+}
