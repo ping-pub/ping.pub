@@ -1,12 +1,12 @@
 {
-    "chain_name": "terra2",
+    "chain_name": "terra-luna",
+    "coingecko": "terra-luna",
     "api": [
-        {"provider": "TFL", "address": "https://phoenix-lcd.terra.dev"},
-        {"provider": "Polkachu", "address": "https://terra-api.polkachu.com"},
-        {"provider": "Allnodes", "address": "https://terra-lcd.publicnode.com"}
+        {"provider": "Allnodes", "address": "https://terra-classic-fcd.publicnode.com"}
     ],
     "rpc": [
-        {"provider": "Allnodes", "address": "https://terra-rpc.publicnode.com:443"}
+        {"provider": "Easy2Stake", "address": "https://terra-rpc.easy2stake.com:443"},
+        {"provider": "Allnodes", "address": "https://terra-classic-rpc.publicnode.com:443"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.44.2",
@@ -16,13 +16,13 @@
     "logo": "/logos/terra-luna.jpg",
     "assets": [{
         "base": "uluna",
-        "symbol": "LUNA",
+        "symbol": "LUNC",
         "exponent": "6",
-        "coingecko_id": "terra-luna-2", 
+        "coingecko_id": "terra-luna", 
         "logo": "/logos/terra-luna.jpg"
     },{
         "base": "uusd",
-        "symbol": "UST",
+        "symbol": "USTc",
         "exponent": "6",
         "coingecko_id": "terrausd", 
         "logo": "/logos/terra-luna-ust.png"
