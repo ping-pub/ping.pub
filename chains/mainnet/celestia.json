@@ -29,7 +29,7 @@
         "base": "utia",
         "symbol": "TIA",
         "exponent": "6",
-        "coingecko_id": "",
+        "coingecko_id": "celestia",
         "logo": "/logos/celestia.png"
     }]
 }
