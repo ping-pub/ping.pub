@@ -2,13 +2,13 @@
   "chain_name": "qwoyn",
   "api": [
     {
-      "address": "http://66.42.74.12:1317",
+      "address": "https://testnet-api.qwoyn.studio",
       "provider": "Qwoyn Studios"
     }
   ],
   "rpc": [
     {
-      "address": "http://66.42.74.12:26657",
+      "address": "https://testnet-rpc.qwoyn.studio",
       "provider": "Qwoyn Studios"
     }
   ],
