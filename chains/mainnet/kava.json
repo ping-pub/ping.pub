@@ -10,7 +10,7 @@
         {"provider": "Allnodes", "address": "https://kava-rpc.publicnode.com:443"}
     ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.4",
+    "sdk_version": "0.46.11",
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "kava",
