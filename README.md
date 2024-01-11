@@ -18,7 +18,8 @@
 This is a repository of deployment of  https://ping.pub .
 
 ## Are you interested in listing your blockchain on Ping Dashboard?
-Initially, **Ping Dashboard** offers free listing for the first 100 blockchains. However, starting from the 101st blockchain, there will be associated fees.
+
+It's FREE, please submit a PR.
 
 ## Why does Ping Dashboard rely on official/trusted third-party public LCD/RPC servers?
 There are two primary reasons for this choice:
