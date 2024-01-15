@@ -24,7 +24,7 @@
       "logo": "/logos/pundi-x-token-logo.svg"
     },
     {
-      "base": "bsc0x29a63f4b209c29b4dc47f06ffa896f32667dad2c",
+      "base": "bsc0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
       "symbol": "PURSE",
       "exponent": "18",
       "coingecko_id": "pundi-x-purse",
