@@ -1,17 +1,14 @@
 {
     "chain_name": "sifchain",
     "api": [
-        {"provider": "Notional", "address": "https://api-sifchain-ia.cosmosia.notional.ventures"},
         {"provider": "Polkachu", "address": "https://sifchain-api.polkachu.com"},
-        {"provider": "SifChain", "address": "https://api.sifchain.finance"},
-        {"provider": "Allnodes", "address": "https://sifchain-rest.publicnode.com"}
+        {"provider": "Allnodes", "address": "https://sifchain-rest.publicnode.com"},
+        {"provider": "AutoStake", "address": "https://sifchain-mainnet-lcd.autostake.com:443"}
     ],
     "rpc": [
-        {"provider": "Notional", "address": "https://rpc-sifchain-ia.cosmosia.notional.ventures"},
         {"provider": "Polkachu", "address": "https://sifchain-rpc.polkachu.com:443"},
-        {"provider": "SifChain", "address": "https://rpc.sifchain.finance:443"},
-        {"provider": "SifChain", "address": "https://rpc-archive.sifchain.finance:443"},
-        {"provider": "Allnodes", "address": "https://sifchain-rpc.publicnode.com:443"}
+        {"provider": "Allnodes", "address": "https://sifchain-rpc.publicnode.com:443"},
+        {"provider": "AutoStake", "address": "https://sifchain-mainnet-rpc.autostake.com:443"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.45.0",

@@ -27,9 +27,9 @@
         "base": "uqwoyn",
         "symbol": "QWOYN",
         "exponent": "6", 
-        "logo": "/public/logos/qwoyn.png"
+        "logo": "/logos/qwoyn.png"
     }],
     "addr_prefix": "qwoyn",
     "theme_color": "#DC2458",
-    "logo": "/public/logos/qwoyn.png"
+    "logo": "/logos/qwoyn.png"
 }
