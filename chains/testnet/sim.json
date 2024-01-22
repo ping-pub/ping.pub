@@ -1,0 +1,20 @@
+{
+  "chain_name": "testchain-1",
+  "coingecko": "",
+  "api": ["https://api.seum.network"],
+  "rpc": ["https://rpc.seum.network"],
+  "sdk_version": "0.46.1",
+  "coin_type": "118",
+  "min_tx_fee": "8000",
+  "addr_prefix": "test",
+  "logo": "/logos/test.png",
+  "assets": [
+    {
+      "base": "uandr",
+      "symbol": "utoken",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/test.png"
+    }
+  ]
+}
