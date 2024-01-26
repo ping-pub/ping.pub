@@ -1,6 +1,6 @@
 {
     "chain_name": "nolus",
-    "coingecko": "",
+    "coingecko": "nolus",
     "api": [
         {"provider": "Nolus", "address": "https://pirin-cl.nolus.network:1317"},
         {"provider": "LavenderFive", "address": "https://nolus-api.lavenderfive.com:443"},
@@ -12,7 +12,7 @@
         {"provider": "Allnodes", "address": "https://nolus-rpc.publicnode.com:443"}
     ],
     "snapshot_provider": "",
-    "sdk_version": "v0.45.15",
+    "sdk_version": "v0.47.6",
     "coin_type": "118",
     "min_tx_fee": "0",
     "addr_prefix": "nolus",
@@ -21,7 +21,7 @@
         "base": "unls",
         "symbol": "NLS",
         "exponent": "6",
-        "coingecko_id": "",
+        "coingecko_id": "nolus",
         "logo": "/logos/nolus.svg"
     }]
 }
