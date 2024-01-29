@@ -21,7 +21,7 @@
         "base": "uqsr",
         "symbol": "QSR",
         "exponent": 6,
-        "coingecko_id": "",
+        "coingecko_id": "quasar-2",
         "logo": "/logos/quasar.png"
       }
     ]
