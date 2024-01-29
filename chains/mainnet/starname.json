@@ -1,9 +1,9 @@
 {
     "chain_name": "starname",
-    "api": "https://api.iov-mainnet-ibc.iov.one",
-    "rpc": ["https://rpc-iov.keplr.app:443", "https://rpc-iov.keplr.app:443"],
+    "api": ["https://rest.starname.app", "https://api.iov-mainnet-ibc.iov.one"],
+    "rpc": ["https://rpc.starname.app", "https://rpc-iov.keplr.app:443"],
     "snapshot_provider": "",
-    "sdk_version": "0.44.5",
+    "sdk_version": "0.45.9",
     "coin_type": "234",
     "min_tx_fee": "8000",
     "addr_prefix": "star",
