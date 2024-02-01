@@ -1,8 +1,8 @@
 {
     "chain_name": "evmos",
     "coingecko": "",
-    "api": ["https://rest.bd.evmos.dev:1317"],
-    "rpc": ["https://tendermint.bd.evmos.dev:26657"],
+    "api": ["https://evmos-testnet-api.polkachu.com"],
+    "rpc": ["https://evmos-testnet-rpc.polkachu.com:443"],
     "snapshot_provider": "",
     "sdk_version": "0.45.1",
     "coin_type": "60",
