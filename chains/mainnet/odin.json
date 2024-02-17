@@ -26,5 +26,17 @@
         "exponent": "6",
         "coingecko_id": "", 
         "logo": "/logos/odin.png"
+    },{
+        "base": "udoki",
+        "symbol": "DOKI",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/odin.png"
+    },{
+        "base": "umyrk",
+        "symbol": "MYRK",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/odin.png"
     }]
 }
