@@ -23,14 +23,14 @@
   "min_tx_fee": "5000",
   "assets": [
     {
-      "base": "ario,arst",
+      "base": "ario",
       "symbol": "RIO",
       "exponent": "18",
       "coingecko_id": "realio-network",
       "logo": "/logos/realio.png"
     },
     {
-      "base": "ario,arst",
+      "base": "arst",
       "symbol": "RST",
       "exponent": "18",
       "coingecko_id": "",
