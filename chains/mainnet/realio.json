@@ -19,24 +19,24 @@
   ],
   "snapshot_provider": "",
   "addr_prefix": "realio",
-  "coin_type": "494",
-  "min_tx_fee": "8000",
+  "coin_type": "60",
+  "min_tx_fee": "5000",
   "assets": [
     {
-      "base": "ario",
+      "base": "ario,arst",
       "symbol": "RIO",
       "exponent": "18",
       "coingecko_id": "realio-network",
       "logo": "/logos/realio.png"
     },
     {
-      "base": "arst",
+      "base": "ario,arst",
       "symbol": "RST",
       "exponent": "18",
-      "coingecko_id": "realio-network",
+      "coingecko_id": "",
       "logo": "/logos/realio.jpg"
     }
   ],
   "logo": "/logos/realio.png",
-  "sdk_version": "0.45.8"
+  "sdk_version": "v0.46.11"
 }
