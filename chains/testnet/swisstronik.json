@@ -1,0 +1,24 @@
+{
+    "chain_name": "swisstronik",
+    "coingecko": "",
+    "api": [ "https://api.testnet.swisstronik.com" ],
+    "rpc": [ "https://rpc.testnet.swisstronik.com" ],
+    "cosmwasm_enabled": false,
+    "theme_color": "#e74e43",
+    "snapshot_provider": "",
+    "sdk_version": "0.47.5",
+    "coin_type": "60",
+    "min_tx_fee": "100",
+    "addr_prefix": "swtr",
+    "logo": "/logos/swisstronik.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "assets": [
+        {
+            "base": "uswtr",
+            "symbol": "SWTR",
+            "exponent": "18",
+            "coingecko_id": "",
+            "logo": "/logos/swisstronik.png"
+        }
+    ]
+}
