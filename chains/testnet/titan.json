@@ -32,14 +32,14 @@
   "coin_type": "60",
   "min_tx_fee": "100000000000",
   "addr_prefix": "titan",
-  "logo": "/logo/titan.svg",
+  "logo": "/logos/titan.svg",
   "assets": [
     {
       "base": "atkx",
       "symbol": "TKX",
       "exponent": "18",
       "coingecko_id": "",
-      "logo": "/logo/tkx.png"
+      "logo": "/logos/tkx.png"
     }
   ],
   "keplr_price_step": {
