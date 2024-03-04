@@ -41,5 +41,12 @@
         "exponent": "6",
         "coingecko_id": "somm", 
         "logo": ""
+    },{
+        "base": 
+"factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
+        "symbol": "YMOS",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/ymos.png"
     }]
 }
