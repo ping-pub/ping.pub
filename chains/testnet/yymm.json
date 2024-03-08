@@ -1,0 +1,22 @@
+{
+    "chain_name": "yymmchain",
+    "api": [
+      "http://node.bitverse-dev.bitverse.zone:1317"
+    ],
+    "rpc": [
+      "http://node.bitverse-dev.bitverse.zone:26657"
+    ],
+    "addr_prefix": "yymm",
+    "coin_type": "60",
+    "min_tx_fee": "5000000000000",
+    "assets": [
+      {
+        "base": "uxbv",
+        "symbol": "XBV",
+        "exponent": "18",
+        "logo": "/logos/xbv.png"
+      }
+    ],
+    "logo": "/logos/xbv.png",
+    "sdk_version": "v0.50.4"
+}
