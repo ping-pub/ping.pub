@@ -11,12 +11,12 @@
     "min_tx_fee": "5000000000000",
     "assets": [
       {
-        "base": "uxbv",
-        "symbol": "XBV",
+        "base": "ubv",
+        "symbol": "BV",
         "exponent": "18",
-        "logo": "/logos/xbv.png"
+        "logo": "/logos/bv.png"
       }
     ],
-    "logo": "/logos/xbv.png",
+    "logo": "/logos/yymm.png",
     "sdk_version": "v0.50.4"
 }
