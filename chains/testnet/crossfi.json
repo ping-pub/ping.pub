@@ -1,13 +1,15 @@
 {
     "chain_name": "crossfi",
     "api": [
-        {"provider": "Stake-Take", "address": "https://api.crossfi.stake-take.com"}
+        {"provider": "Stake-Take", "address": "https://api.crossfi.stake-take.com"},
+        {"provider": "STAKR.space", "address": "https://crossfi.api.srv.stakr.space"}
     ],
     "rpc": [
-        {"provider": "Stake-Take", "address": "https://rpc.crossfi.stake-take.com"}
+        {"provider": "Stake-Take", "address": "https://rpc.crossfi.stake-take.com"},
+        {"provider": "STAKR.space", "address": "https://crossfi-rpc.srv.stakr.space"}
     ],
     "snapshot_provider": "",
-    "sdk_version": "v0.47.6",
+    "sdk_version": "v0.46.13",
     "keplr_features": ["eth-address-gen", "eth-key-sign"],
     "coin_type": "60",
     "min_tx_fee": "5000000000000000",
