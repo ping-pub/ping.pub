@@ -2,14 +2,14 @@
     "chain_name": "akiro",
     "api": [
         {
-            "address": "http://213.199.36.82:1317", 
-            "provider": "Akiro"
+            "address": "https://api-akiro.d-stake.xyz", 
+            "provider": "D-Stake"
         }
     ], 
     "rpc": [
         {
-            "address": "http://213.199.36.82:26657", 
-            "provider": "Akiro"
+            "address": "https://rpc-akiro.d-stake.xyz", 
+            "provider": "D-Stake"
         }
     ],
     "sdk_version": "0.45.4",
