@@ -2,11 +2,13 @@
     "chain_name": "crossfi",
     "api": [
         {"provider": "Stake-Take", "address": "https://api.crossfi.stake-take.com"},
-        {"provider": "STAKR.space", "address": "https://crossfi.api.srv.stakr.space"}
+        {"provider": "STAKR.space", "address": "https://crossfi.api.srv.stakr.space"},
+        {"provider": "BonyNode", "address": "https://crossfi-testnet-api.bonynode.online"}
     ],
     "rpc": [
         {"provider": "Stake-Take", "address": "https://rpc.crossfi.stake-take.com"},
-        {"provider": "STAKR.space", "address": "https://crossfi-rpc.srv.stakr.space"}
+        {"provider": "STAKR.space", "address": "https://crossfi-rpc.srv.stakr.space"},
+        {"provider": "BonyNode", "address": "https://crossfi-testnet-rpc.bonynode.online"}
     ],
     "snapshot_provider": "",
     "sdk_version": "v0.46.13",
