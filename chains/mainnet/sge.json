@@ -7,7 +7,8 @@
     "https://sge-api.ramuchi.tech",
     "https://api-sge.nodeist.net",
     "https://sge-api.polkachu.com",
-    "https://api.sge.nodestake.top"
+    "https://api.sge.nodestake.top",
+    "https://sge-api.sr20de.xyz"
   ],
   "rpc": [
     "https://rpc.cosmos.directory/sge",
@@ -15,7 +16,8 @@
     "https://sge-rpc.ramuchi.tech",
     "https://rpc-sge.nodeist.net",
     "https://sge-rpc.polkachu.com",
-    "https://rpc.sge.nodestake.top"
+    "https://rpc.sge.nodestake.top",
+    "https://sge-rpc.sr20de.xyz"
   ],
   "snapshot_provider": "",
   "addr_prefix": "sge",
