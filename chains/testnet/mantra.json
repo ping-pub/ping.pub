@@ -8,13 +8,13 @@
     "coin_type": "118",
     "min_tx_fee": "40",
     "addr_prefix": "mantra",
-    "logo": "http://files.stakr.space/mantra/mantra.svg",
+    "logo": "https://testnet.explorer.stakr.space/logos/mantra.svg",
     "theme_color": "#812cd6",
     "assets": [{
         "base": "uom",
         "symbol": "OM",
         "exponent": "6",
         "coingecko_id": "mantra-dao",
-        "logo": "http://files.stakr.space/mantra/mantra.svg"
+        "logo": "https://testnet.explorer.stakr.space/logos/mantra.svg"
     }]
 }
