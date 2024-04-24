@@ -1,0 +1,22 @@
+{
+  "chain_name": "stratos",
+  "registry_name": "stratos",
+  "api": [
+    {"provider": "stratos.org", "address": "https://rest.thestratos.org"}
+  ],
+  "rpc": [
+    {"provider": "stratos.org", "address": "https://rpc.thestratos.org"}
+  ],
+  "sdk_version": "0.47.10",
+  "coin_type": "606",
+  "min_tx_fee": "0",
+  "addr_prefix": "st",
+  "logo": "/logos/stratos.svg",
+  "assets": [{
+    "base": "wei",
+    "symbol": "STOS",
+    "exponent": "18",
+    "coingecko_id": "stratos",
+    "logo": "/logos/stratos.svg"
+  }]
+}
