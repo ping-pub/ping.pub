@@ -1,7 +1,7 @@
 {
     "chain_name": "juno",
-    "api": ["https://api.uni.junonetwork.io", "https://uni-api.reece.sh"],
-    "rpc": ["https://uni-rpc.reece.sh"],
+    "api": ["https://juno-testnet-api.polkachu.com"],
+    "rpc": ["https://juno-testnet-rpc.polkachu.com"],
     "sdk_version": "0.47.3",
     "coin_type": "118",
     "min_tx_fee": "3000",
