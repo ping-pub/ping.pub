@@ -1,20 +1,20 @@
 {
-  "chain_name": "centauritestnet",
-  "api": ["https://api-banksy4.notional.ventures"],
-  "rpc": ["https://rpc-banksy4.notional.ventures"],
+  "chain_name": "picasso",
+  "api": ["https://composable.api.t4.stavr.tech"],
+  "rpc": ["https://composable.rpc.t4.stavr.tech"],
   "coingecko": "",
   "snapshot_provider": "",
   "sdk_version": "0.47.3",
   "coin_type": "118",
   "min_tx_fee": "500",
-  "addr_prefix": "centauri",
-  "logo": "/logos/composable.jpg",
+  "addr_prefix": "pica",
+  "logo": "/logos/picasso.png",
   "assets": [{
     "base": "ppica",
     "symbol": "PICA",
     "exponent": "12",
     "coingecko_id": "",
-    "logo": "/logos/composable.jpg"
+    "logo": "/logos/picasso.png"
   }
   ]
 }
