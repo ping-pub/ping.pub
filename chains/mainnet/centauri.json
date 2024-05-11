@@ -3,7 +3,6 @@
     "registry_name": "composable",
     "api": ["https://api.composable-cosmos.composablenodes.tech","https://picasso-api.polkachu.com"],
     "rpc": ["https://rpc.composable-cosmos.composablenodes.tech","https://picasso-rpc.polkachu.com"],
-    "coingecko": "picasso",
     "snapshot_provider": "",
     "sdk_version": "0.47.1",
     "coin_type": "118",
