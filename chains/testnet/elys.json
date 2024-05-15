@@ -4,10 +4,7 @@
         "https://api.testnet.elys.network"
     ],
     "rpc": [
-        "https://rpc.testnet.elys.network",
-        "http://198.27.74.140:26657",
-        "http://91.183.62.162:26657",
-        "http://5.101.138.254:26657"
+        "https://rpc.testnet.elys.network:443"
     ],
     "coin_type": "118",
     "sdk_version": "0.46.11",
