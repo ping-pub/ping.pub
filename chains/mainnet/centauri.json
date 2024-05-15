@@ -3,7 +3,6 @@
     "registry_name": "composable",
     "api": ["https://api.composable-cosmos.composablenodes.tech","https://picasso-api.polkachu.com"],
     "rpc": ["https://rpc.composable-cosmos.composablenodes.tech","https://picasso-rpc.polkachu.com"],
-    "coingecko": "",
     "snapshot_provider": "",
     "sdk_version": "0.47.1",
     "coin_type": "118",
@@ -14,6 +13,7 @@
         "base": "ppica",
         "symbol": "PICA",
         "exponent": "12",
+        "coingecko_id": "picasso",
         "logo": "/logos/picasso.png"
     }, {
         "base": "ibc/F3EC9F834E57DF704FA3AEAF14E8391C2E58397FE56960AD70E67562990D8265",
