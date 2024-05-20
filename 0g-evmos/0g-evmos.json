@@ -8,7 +8,7 @@
         {"provider": "TuyluBamya", "address": "https://0gevmos-testnet-rpc.TuyluBamya"}
     ],
     "sdk_version": "0.47.6",
-    "coin_type": "118",
+    "coin_type": "60",
     "min_tx_fee": "500000",
     "addr_prefix": "evmos",
     "logo": "/logos/0g-evmos.png",
