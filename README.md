@@ -93,7 +93,7 @@ Your donation will help us make better products. Thanks in advance.
 - **rpc** the rpc endpoint, make sure that the port is added. rpc endpoint is only used for state sync. it's optional.
 - **grpc** the grpc endpoint, make sure that the port is added. grpc endpoint is only used for faucet. it's optional.
 - **assets** Native Assets on blockchain.
-- **faucet** the faucet is only used in `testnet` mode
+- **faucet** the faucet is only enabled in `testnet` mode
 
 Endpoint providers will be listed in the "Popular" tab of the staking.
 
