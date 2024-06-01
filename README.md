@@ -57,13 +57,13 @@ Your donation will help us make better products. Thanks in advance.
     ], 
     "rpc": [
         {
-            "address": "https://cosmos.api.ping.pub", 
+            "address": "https://cosmos.api.ping.pub:443", 
             "provider": "Ping"
         }
     ],
     "grpc": [
         {
-            "address": "https://grpc.api.ping.pub", 
+            "address": "grpc.api.ping.pub:443", 
             "provider": "Ping"
         }
     ],
@@ -91,7 +91,7 @@ Your donation will help us make better products. Thanks in advance.
 - **chain_name** the name to identify the chain on ping.pub, would be better to use the same one as registry
 - **api** the rest api endpoint.(make sure that CORS is enabled: `Allow-Control-Allow-Origin: *`)
 - **rpc** the rpc endpoint, make sure that the port is added. rpc endpoint is only used for state sync. it's optional.
-- **grpc** the grpc endpoint, make sure that the port is added. grpc endpoint is only used for faucet. it's optional.
+- **grpc** the grpc endpoint, make sure that the port is added and ssl is required. grpc endpoint is only used for faucet. it's optional.
 - **assets** Native Assets on blockchain.
 - **faucet** the faucet is only enabled in `testnet` mode
 
