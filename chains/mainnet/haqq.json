@@ -1,6 +1,6 @@
 {
   "chain_name": "haqq",
-  "coingecko": "",
+  "coingecko": "islamic-coin",
     "api": [
         {"provider": "Haqq Network", "address": "https://rest.cosmos.haqq.network"},
         {"provider": "Haqq.sh", "address": "https://m-s1-sdk.haqq.sh"},
