@@ -14,6 +14,7 @@
         {"provider": "NodeStake", "address": "https://rpc.haqq.nodestake.top"}
     ],
   "snapshot_provider": "",
+  "features": ["dashboard","governance", "blocks", "ibc", "uptime", "parameters", "state-sync", "consensus", "supply", "widget"],
   "sdk_version": "0.46.10",
   "coin_type": "60",
   "min_tx_fee": "3000000000000000",
