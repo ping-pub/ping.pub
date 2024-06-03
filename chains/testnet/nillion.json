@@ -23,5 +23,11 @@
       "coingecko_id": "",
       "logo": "/logos/nil.svg"
     }
-  ]
+  ],
+  "faucet": {
+    "amount": "10000unil",
+    "ip_limit": "1",
+    "address_limit": "1",
+    "fees": "100unil"
+  }
 }
