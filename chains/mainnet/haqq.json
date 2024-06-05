@@ -21,7 +21,7 @@
   "min_tx_fee": "3000000000000000",
   "addr_prefix": "haqq",
   "logo": "/logos/haqq.svg",
-  "theme_color": "#EC5728",
+  "theme_color": "#157C83",
   "keplr_features": [
     "ibc-transfer",
     "ibc-go",
