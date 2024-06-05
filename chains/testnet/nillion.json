@@ -1,12 +1,24 @@
 {
   "chain_name": "nillion",
   "api": [
-    "https://nillion-testnet-api.polkachu.com",
-    "https://testnet-nillion-api.lavenderfive.com"
+    {
+      "url": "https://nillion-testnet-api.polkachu.com",
+      "name": "Polkachu"
+    },
+    {
+      "url": "https://testnet-nillion-api.lavenderfive.com",
+      "name": "LavenderFive"
+    }
   ],
   "rpc": [
-    "https://nillion-testnet-rpc.polkachu.com",
-    "https://testnet-nillion-rpc.lavenderfive.com"
+    {
+      "url": "https://nillion-testnet-rpc.polkachu.com",
+      "name": "Polkachu"
+    },
+    {
+      "url": "https://testnet-nillion-rpc.lavenderfive.com",
+      "name": "LavenderFive"
+    }
   ],
   "snapshot_provider": "",
   "sdk_version": "0.50.6",
