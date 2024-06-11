@@ -3,7 +3,7 @@
     "coingecko": "osmosis",
     "api": [
         {
-            "address": "https://api.osmotest5.osmosis.zone",
+            "address": "https://lcd.osmotest5.osmosis.zone",
             "provider": "osmosis"
         }
     ],
