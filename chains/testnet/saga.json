@@ -1,13 +1,19 @@
 {
   "chain_name": "Saga Security Chain",
   "api": [
-    "https://testnet-saga-api.lavenderfive.com/",
-    "https://nodes.chandrastation.com/api/saga/"
+    {
+      "address": "https://testnet-saga-api.lavenderfive.com/",
+      "provider": "lavenderfive"
+    },
+    {
+      "address": "https://nodes.chandrastation.com/api/saga/",
+      "provider": "chandrastation"
+    }
   ],
   "rpc": [
-    "https://testnet-saga-rpc.lavenderfive.com/",
-    "https://nodes.chandrastation.com/rpc/saga/"
-],
+    {"address":"https://testnet-saga-rpc.lavenderfive.com/", "provider":"lavenderfive"},
+    {"address":"https://nodes.chandrastation.com/rpc/saga/", "provider":"chandrastation"}
+  ],
   "coin_type": "118",
   "sdk_version": "0.47.5",
   "addr_prefix": "saga",
@@ -20,5 +26,11 @@
       "exponent": 6,
       "logo": "/logos/saga.png"
     }
-  ]
+  ],
+  "faucet": {
+      "amount": "5000000utsaga",
+      "ip_limit": "1",
+      "address_limit": "1",
+      "fees": "2000utaga"
+  }
 }
