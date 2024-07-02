@@ -1,0 +1,29 @@
+{
+  "chain_name": "symphony",
+  "api": [
+    {
+      "address": "https://lcd.testnet.symphonychain.org",
+      "provider": "Orchestra Labs"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.testnet.symphonychain.org",
+      "provider": "Orchestra Labs"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.8",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "symphony",
+  "logo": "/logos/symphony.png",
+  "assets": [
+    {
+      "base": "note",
+      "symbol": "MLD",
+      "exponent": "6",
+      "logo": "/logos/symphony.png"
+    }
+  ]
+}
