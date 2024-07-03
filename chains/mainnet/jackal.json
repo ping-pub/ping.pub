@@ -11,6 +11,12 @@
         "https://jackal-rpc.polkachu.com",
         "https://rpc.jackal.nodestake.top"
     ],
+    "faucet": {
+        "amount": "10000000ujkl",
+        "ip_limit": "1",
+        "address_limit": "10",
+        "fees": "1000ujkl"
+    },
     "snapshot_provider": "",
     "coin_type": "118",
     "sdk_version": "0.45.11",
