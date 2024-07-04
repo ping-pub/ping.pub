@@ -1,0 +1,29 @@
+{
+  "chain_name": "symphony",
+  "api": [
+    {
+      "address": "https://symphony-api.kleomedes.network/",
+      "provider": "Kleomedes"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://symphony-rpc.kleomedes.network/",
+      "provider": "Kleomedes"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.8",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "symphony",
+  "logo": "/logos/symphony.png",
+  "assets": [
+    {
+      "base": "note",
+      "symbol": "MLD",
+      "exponent": "6",
+      "logo": "/logos/symphony.png"
+    }
+  ]
+}
