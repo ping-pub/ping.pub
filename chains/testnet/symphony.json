@@ -2,13 +2,13 @@
   "chain_name": "symphony",
   "api": [
     {
-      "address": "https://symphony-api.kleomedes.network/",
+      "address": "https://symphony-api.kleomedes.network",
       "provider": "Kleomedes"
     }
   ],
   "rpc": [
     {
-      "address": "https://symphony-rpc.kleomedes.network/",
+      "address": "https://symphony-rpc.kleomedes.network",
       "provider": "Kleomedes"
     }
   ],
@@ -25,5 +25,11 @@
       "exponent": "6",
       "logo": "/logos/symphony.png"
     }
-  ]
+  ],
+  "faucet": {
+    "amount": "100000note",
+    "ip_limit": "1",
+    "address_limit": "2",
+    "fees": "800note"
+}
 }
