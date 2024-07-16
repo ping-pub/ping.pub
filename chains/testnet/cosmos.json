@@ -22,7 +22,7 @@
     ],
     "sdk_version": "0.45.1",
     "coin_type": "118",
-    "min_tx_fee": "800",
+    "min_tx_fee": "1500",
     "addr_prefix": "cosmos",
     "logo": "/logos/cosmos.svg",
     "assets": [
@@ -38,6 +38,6 @@
         "amount": "5000000uatom",
         "ip_limit": "1",
         "address_limit": "1",
-        "fees": "800uatom"
+        "fees": "1500uatom"
     }
 }

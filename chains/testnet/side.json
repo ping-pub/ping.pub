@@ -14,7 +14,7 @@
     "sdk_version": "0.47.4",
     "coin_type": "118",
     "min_tx_fee": "800",
-    "addr_prefix": "bc",
+    "addr_prefix": "side",
     "logo": "/logos/side.png",
     "assets": [{
         "base": "uside",
