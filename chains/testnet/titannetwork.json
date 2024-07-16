@@ -2,13 +2,13 @@
     "chain_name": "Titan Network Testnet",
     "api": [
         {
-            "address": "https://lcd.titannet.io",
+            "address": "https://lcd.titannet.io:443",
             "provider": "titan"
         }
     ],
     "rpc": [
         {
-            "address": "https://rpc.titannet.io",
+            "address": "https://rpc.titannet.io:443",
             "provider": "titan"
         }
     ],
