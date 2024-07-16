@@ -1,0 +1,35 @@
+{
+    "chain_name": "Titan Network Testnet",
+    "api": [
+        {
+            "address": "https://lcd.titannet.io",
+            "provider": "titan"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.titannet.io",
+            "provider": "titan"
+        }
+    ],
+    "sdk_version": "0.47.3",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "addr_prefix": "titan",
+    "logo": "/logos/titan.png",
+    "assets": [
+        {
+            "base": "uttnt",
+            "symbol": "TTNT",
+            "exponent": "6",
+            "coingecko_id": "",
+            "logo": "/logos/titan.png"
+        }
+    ],
+    "faucet": {
+        "amount": "50000000uttnt",
+        "ip_limit": "1",
+        "address_limit": "1",
+        "fees": "500uttnt"
+    }
+}
