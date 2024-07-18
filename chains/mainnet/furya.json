@@ -9,7 +9,7 @@
     ],
     "snapshot_provider": "",
     "coin_type": 118,
-    "sdk_version": "0.45.9",
+    "sdk_version": "0.47.8",
     "addr_prefix": "furya",
     "logo": "/logos/furya.png",
     "assets": [
