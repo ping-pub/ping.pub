@@ -12,7 +12,6 @@
     "min_tx_fee": "8000",
     "addr_prefix": "medas",
     "logo": "/logos/medas.png",
-    "theme_color": "#e91179",
     "assets": [{
         "base": "umedas",
         "symbol": "MEDAS",
