@@ -6,9 +6,6 @@
     "rpc": [
         {"provider": "Neptun", "address": "https://rpc.medas-digital.io:443"}
     ],
-    "provider_chain": {
-        "api": ["https://lcd.medas-digital.io:1317"]
-    },    
     "features": ["dashboard","governance", "blocks", "ibc", "cosmwasm", "uptime", "parameters", "state-sync", "consensus", "supply", "widget"],
     "sdk_version": "0.50.3",
     "coin_type": "118",
