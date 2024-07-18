@@ -1,0 +1,24 @@
+{
+    "chain_name": "Furya",
+    "coingecko": "fanfury",
+    "api": [
+        "https://furya.api.nodeshub.online/"
+    ],
+    "rpc": [
+        "https://furya.rpc.nodeshub.online/"
+    ],
+    "snapshot_provider": "",
+    "coin_type": 118,
+    "sdk_version": "0.45.9",
+    "addr_prefix": "furya",
+    "logo": "/logos/furya.png",
+    "assets": [
+        {
+            "base": "ufury",
+            "symbol": "FURY",
+            "exponent": 6,
+            "coingecko_id": "fanfury",
+            "logo": "/logos/fury.jpg"
+        }
+    ]
+}
