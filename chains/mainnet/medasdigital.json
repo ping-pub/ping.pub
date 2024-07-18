@@ -9,7 +9,7 @@
     "features": ["dashboard","governance", "blocks", "ibc", "cosmwasm", "uptime", "parameters", "state-sync", "consensus", "supply", "widget"],
     "sdk_version": "0.50.3",
     "coin_type": "118",
-    "min_tx_fee": "20000",
+    "min_tx_fee": "8000",
     "addr_prefix": "medas",
     "logo": "/logos/medas.png",
     "theme_color": "#e91179",
