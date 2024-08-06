@@ -2,12 +2,12 @@
     "chain_name": "empe",
     "api": [
         {"provider": "EMPE", "address": "https://lcd-testnet.empe.io"},
-        {"provider": "CryptoNodeID", "address": "https://empe-testnet-api.cryptonode.id"}
+        {"provider": "CryptoNodeID", "address": "https://empeiria-testnet-api.cryptonode.id"}
     ],
     "rpc": [
         {"provider": "EMPE", "address": "https://rpc-testnet.empe.io"},
         {"provider": "EMPE-ARCHIVE", "address": "https://rpc-archive-testnet.empe.io"},
-        {"provider": "CryptoNodeID", "address": "https://empe-testnet-rpc.cryptonode.id"}
+        {"provider": "CryptoNodeID", "address": "https://empeiria-testnet-rpc.cryptonode.id"}
     ],
     "sdk_version": "0.47.12",
     "coin_type": "118",
@@ -22,9 +22,9 @@
         "logo": "/logos/empe.png"
     }],
     "faucet": {
-        "amount": "10000000uempe",
+        "amount": "5000000uempe",
         "ip_limit": "1",
-        "address_limit": "2",
-        "fees": "1uempe"
+        "address_limit": "1",
+        "fees": "20uempe"
     }
 }
