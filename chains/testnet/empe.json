@@ -22,9 +22,9 @@
         "logo": "/logos/empe.png"
     }],
     "faucet": {
-        "amount": "5000000uempe",
+        "amount": "1500000uempe",
         "ip_limit": "1",
         "address_limit": "1",
-        "fees": "20uempe"
+        "fees": "30uempe"
     }
 }
