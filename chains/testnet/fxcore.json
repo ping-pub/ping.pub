@@ -7,7 +7,7 @@
     "https://testnet-fx-json.functionx.io:26657"
   ],
   "snapshot_provider": "",
-  "sdk_version": "v0.46.13",
+  "sdk_version": "v0.47.13",
   "coin_type": "60",
   "min_tx_fee": "500000000000000000",
   "assets": [
