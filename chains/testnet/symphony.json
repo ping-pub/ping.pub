@@ -4,13 +4,15 @@
     {
       "address": "https://symphony-api.kleomedes.network",
       "provider": "Kleomedes"
-    }
+    },
+    {"provider": "CryptoNodeID", "address": "https://symphony-testnet-api.cryptonode.id"}
   ],
   "rpc": [
     {
       "address": "https://symphony-rpc.kleomedes.network",
       "provider": "Kleomedes"
-    }
+    },
+    {"provider": "CryptoNodeID", "address": "https://symphony-testnet-rpc.cryptonode.id"}
   ],
   "snapshot_provider": "",
   "sdk_version": "0.47.8",
