@@ -12,7 +12,7 @@
             "provider": "titan"
         }
     ],
-    "sdk_version": "0.47.3",
+    "sdk_version": "0.50.7",
     "coin_type": "118",
     "min_tx_fee": "500",
     "addr_prefix": "titan",
