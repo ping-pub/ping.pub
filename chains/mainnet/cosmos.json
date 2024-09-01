@@ -3,7 +3,7 @@
     "registry_name": "cosmoshub",
     "api": [
         {"provider": "cosmos.directory", "address": "https://rest.cosmos.directory/cosmoshub"},
-        {"provider": "staketab", "address": "https://cosmos-rest.staketab.org"},
+        {"provider": "publicnode", "address": "https://cosmos-rest.publicnode.com"},
         {"provider": "silknode", "address": "https://cosmos.api.silknodes.io"}
     ],
     "rpc": [
