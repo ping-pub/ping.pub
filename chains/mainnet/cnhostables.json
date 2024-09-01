@@ -1,0 +1,19 @@
+{
+    "chain_name": "cnhostables",
+    "api": ["https://api.cnho.io"],
+    "rpc": ["https://rpc.cnho.io"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.3",
+    "coin_type": "60",
+    "min_tx_fee": "500",
+    "addr_prefix": "cnho",
+    "logo": "/logos/cnho.png",
+    "assets": [{
+        "base": "ucnho",
+        "symbol": "CNHO",
+        "exponent": "6",
+        "logo": "/logos/cnho.png"
+    }
+    ]
+}
+
