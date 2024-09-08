@@ -1,5 +1,5 @@
 {
-    "chain_name": "cnhostables",
+    "chain_name": "CNHO-Stables",
     "api": ["https://api.cnho.io"],
     "rpc": ["https://rpc.cnho.io"],
     "snapshot_provider": "",
