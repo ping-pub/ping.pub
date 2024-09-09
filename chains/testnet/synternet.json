@@ -1,0 +1,27 @@
+{
+  "chain_name": "synternet",
+  "api": [
+      {
+          "address": "https://api-testnet.synternet.com", 
+          "provider": "Synternet"
+      }
+  ], 
+  "rpc": [
+      {
+          "address": "https://rpc-testnet.synternet.com", 
+          "provider": "Synternet"
+      }
+  ],
+  "sdk_version": "0.47.6",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [{
+      "base": "uamber",
+      "symbol": "AMBER",
+      "exponent": "6",
+      "coingecko_id": "synternet-synt", 
+      "logo": "/logos/synternet.png"
+  }],
+  "addr_prefix": "amber",
+  "logo": "/logos/synternet.png"
+}
