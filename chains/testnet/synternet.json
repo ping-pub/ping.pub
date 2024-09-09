@@ -19,7 +19,7 @@
       "base": "uamber",
       "symbol": "AMBER",
       "exponent": "6",
-      "coingecko_id": "synternet-synt", 
+      "coingecko_id": "", 
       "logo": "/logos/synternet.png"
   }],
   "addr_prefix": "amber",
