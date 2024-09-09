@@ -8,11 +8,11 @@
   ], 
   "rpc": [
       {
-          "address": "https://rpc-testnet.synternet.com", 
+          "address": "https://rpc-testnet.synternet.com:443", 
           "provider": "Synternet"
       }
   ],
-  "sdk_version": "0.47.6",
+  "sdk_version": "0.47.11",
   "coin_type": "118",
   "min_tx_fee": "800",
   "assets": [{
@@ -23,5 +23,6 @@
       "logo": "/logos/synternet.png"
   }],
   "addr_prefix": "amber",
+  "theme_color": "#272d45",
   "logo": "/logos/synternet.png"
 }
