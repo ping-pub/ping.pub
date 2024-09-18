@@ -1,12 +1,10 @@
 {
     "chain_name": "archway",
     "api": [
-        "https://api.constantine.archway.tech",
-        "https://constantine.api.trivium.network:1317"
+        "https://api.constantine.archway.tech"
     ],
     "rpc": [
-        "https://rpc.constantine.archway.tech",
-        "https://constantine.api.trivium.network:26657"
+        "https://rpc.constantine.archway.tech"
     ],
     "snapshot_provider": "https://snapshots.archway.tech/",
     "sdk_version": "v0.45.16",
