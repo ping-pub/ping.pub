@@ -1,0 +1,30 @@
+{
+  "chain_name": "synternet",
+  "registry_name": "synternet",
+  "api": [
+      {
+          "address": "https://api.synternet.com", 
+          "provider": "Synternet"
+      }
+  ], 
+  "rpc": [
+      {
+          "address": "https://rpc.synternet.com:443", 
+          "provider": "Synternet"
+      }
+  ],
+  "snapshot_provider": "https://polkachu.com/tendermint_snapshots/synternet",
+  "sdk_version": "0.47.11",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [{
+      "base": "usynt",
+      "symbol": "SYNT",
+      "exponent": "6",
+      "coingecko_id": "synternet-synt", 
+      "logo": "/logos/synternet.png"
+  }],
+  "addr_prefix": "synt",
+  "theme_color": "#272d45",
+  "logo": "/logos/synternet.png"
+}
