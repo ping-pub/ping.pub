@@ -1,0 +1,30 @@
+{
+  "chain_name": "bouachain",
+  "registry_name": "bouachain",
+  "api": [
+      {
+          "address": "https://lcd.bouachain.com", 
+          "provider": "BouaValidator"
+      }
+  ], 
+  "rpc": [
+      {
+          "address": "https://rpc.bouachain.com", 
+          "provider": "BouaValidator"
+      }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.50.8",
+  "coin_type": "118",
+  "min_tx_fee": "",
+  "assets": [{
+      "base": "ubouacoin",
+      "symbol": "BOUA",
+      "exponent": "8",
+      "coingecko_id": "", 
+      "logo": "bouachain.png"
+  }],
+  "addr_prefix": "boua",
+  "theme_color": "#000000",
+  "logo": "/logos/bouachain.png"
+}
