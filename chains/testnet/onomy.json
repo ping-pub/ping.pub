@@ -9,7 +9,7 @@
     ],
     "rpc": [
         {
-            "address": "https://onomy.rpc.decentrio.ventures",
+            "address": "https://onomy-testnet.rpc.decentrio.ventures",
             "provider": "Decentrio"
         }
     ],
