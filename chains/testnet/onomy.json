@@ -1,0 +1,37 @@
+{
+    "chain_name": "onomy",
+    "coingecko": "onomy",
+    "api": [
+        {
+            "address": "https://onomy-testnet.api.decentrio.ventures",
+            "provider": "Decentrio"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://onomy.rpc.decentrio.ventures",
+            "provider": "Decentrio"
+        }
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.44.5",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "onomy",
+    "logo": "/logos/onomy.png",
+    "assets": [
+        {
+            "base": "anom",
+            "symbol": "NOM",
+            "exponent": "18",
+            "coingecko_id": "onomy",
+            "logo": "/logos/onomy.png"
+        }
+    ],
+    "faucet": {
+        "amount": "5000000anom",
+        "ip_limit": "1",
+        "address_limit": "1",
+        "fees": "800anom"
+    }
+}
