@@ -1,6 +1,6 @@
 {
     "chain_name": "onomy",
-    "coingecko": "onomy",
+    "coingecko": "onomy-protocol",
     "api": [
         {
             "address": "https://onomy-testnet.api.decentrio.ventures",
@@ -24,7 +24,7 @@
             "base": "anom",
             "symbol": "NOM",
             "exponent": "18",
-            "coingecko_id": "onomy",
+            "coingecko_id": "onomy-protocol",
             "logo": "/logos/onomy.png"
         }
     ],
