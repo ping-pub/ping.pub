@@ -1,0 +1,16 @@
+{
+    "chain_name": "Dungeonchain",
+    "api": ["http://dungeonlcd.apeironnodes.com:33001","http://dungeonlcd.apeironnodes.com:33001"],
+    "rpc": ["http://dungeonrpc.apeironnodes.com:33005", "http://dungeonrpc.apeironnodes.com:33005"],
+    "sdk_version": "0.45.5",
+    "coin_type": "4444",
+    "min_tx_fee": "3000",
+    "addr_prefix": "dgn",
+    "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
+    "assets": [{
+        "base": "udgn",
+        "symbol": "C4E",
+        "exponent": "6",
+        "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
+    }]
+}
