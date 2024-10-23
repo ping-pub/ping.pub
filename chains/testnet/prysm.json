@@ -47,5 +47,5 @@
 		"coinDecimals": 6,
 		"coinGeckoId": "unknown"
 	},
-	"features": [cosmwasm]
+	"features": [“cosmwasm”]
 }
