@@ -1,0 +1,34 @@
+{
+    "chain_name": "prysm",
+    "coingecko": "prysm",
+    "api": [
+        {
+            "address": "https://prysm-testnet-rpc.itrocket.net",
+            "provider": "ITRocket"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://prysm-testnet-api.itrocket.net",
+            "provider": "ITRocket"
+        }
+    ],
+    "sdk_version": "0.50.8",
+    "addr_prefix": "prysm",
+    "logo": "/logos/prysm.jpg",
+    "assets": [
+        {
+            "base": "uprysm",
+            "symbol": "PRYSM",
+            "exponent": "6",
+            "coingecko_id": "prysm",
+            "logo": "/logos/stride.jpg"
+        }
+    ],
+    "faucet": {
+        "amount": "5000000uprysm",
+        "ip_limit": "2",
+        "address_limit": "1",
+        "fees": "8000uprysm"
+    }
+}
