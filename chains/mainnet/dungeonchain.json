@@ -1,0 +1,16 @@
+{
+    "chain_name": "Dungeonchain",
+    "api": ["https://api-dungeonchain.apeironnodes.com:443","https://api-archive-dungeonchain.apeironnodes.com:443"],
+    "rpc": ["https://rpc-dungeonchain.apeironnodes.com:443","https://rpc-archive-dungeonchain.apeironnodes.com:443"],
+    "sdk_version": "0.50.0",
+    "coin_type": "113",
+    "min_tx_fee": "0",
+    "addr_prefix": "dungeon",
+    "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
+    "assets": [{
+        "base": "udgn",
+        "symbol": "DGN",
+        "exponent": "6",
+        "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
+    }]
+}

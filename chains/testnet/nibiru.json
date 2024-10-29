@@ -1,0 +1,22 @@
+{
+  "chain_name": "nibiru",
+  "coingecko": "nibiru",
+  "api": ["https://lcd.testnet-1.nibiru.zone"],
+  "rpc": ["https://rpc.testnet-1.nibiru.fi/"],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.10",
+  "coin_type": "118",
+  "min_tx_fee": "250",
+  "addr_prefix": "nibi",
+  "logo": "/logos/nibiru.svg",
+  "theme_color": "#04d9d9",
+  "assets": [
+    {
+      "base": "unibi",
+      "symbol": "NIBI",
+      "exponent": "6",
+      "coingecko_id": "nibiru",
+      "logo": "/logos/nibiru.svg"
+    }
+  ]
+}

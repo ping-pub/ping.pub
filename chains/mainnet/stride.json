@@ -15,7 +15,7 @@
         {"provider": "Allnodes", "address": "https://stride-rpc.publicnode.com:443"}
     ],
     "provider_chain": {
-        "api": ["https://api-cosmoshub-ia.cosmosia.notional.ventures"]
+        "api": ["https://rest.cosmos.directory/cosmoshub"]
     },    
     "features": ["dashboard","governance", "blocks", "ibc", "cosmwasm", "uptime", "parameters", "state-sync", "consensus", "supply", "widget"],
     "sdk_version": "0.45.5",

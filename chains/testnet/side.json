@@ -1,12 +1,20 @@
 {
     "chain_name": "side",
     "registry_name": "SIDE",
-    "api": ["https://testnet-rest.side.one"], 
+    "api": [
+        {"provider":"side labs", "address": "https://testnet-rest.side.one"}, 
+        {"provider":"stakelab", "address": "https://side-testnet-rest.staketab.org"},
+        {"provider":"contributiondao", "address": "https://side-protocol-testnet-api.contributiondao.com"},
+        {"provider":"itrocket", "address": "https://itrocket.net/services/testnet/side"},
+        {"provider":"stake-town", "address": "https://side-testnet-api.stake-town.com"},
+        {"provider":"stavr", "address": "https://side.api.t.stavr.tech"}
+    ], 
     "rpc": ["https://testnet-rpc.side.one"],
+    "grpc": [{"address": "testnet-grpc.side.one:443", "provider": "side labs"}],
     "sdk_version": "0.47.4",
     "coin_type": "118",
     "min_tx_fee": "800",
-    "addr_prefix": "bc",
+    "addr_prefix": "side",
     "logo": "/logos/side.png",
     "assets": [{
         "base": "uside",
@@ -14,5 +22,11 @@
         "exponent": "6", 
         "coingecko_id": "",
         "logo": "/logos/side.png"
-    }]
+    }],
+    "faucet": {
+        "amount": "5000000uside",
+        "ip_limit": "1",
+        "address_limit": "1",
+        "fees": "1000uside"
+    }
 }

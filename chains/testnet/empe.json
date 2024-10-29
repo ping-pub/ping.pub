@@ -1,0 +1,30 @@
+{
+    "chain_name": "empe",
+    "api": [
+        {"provider": "EMPE", "address": "https://lcd-testnet.empe.io"},
+        {"provider": "CryptoNodeID", "address": "https://empeiria-testnet-api.cryptonode.id"}
+    ],
+    "rpc": [
+        {"provider": "EMPE", "address": "https://rpc-testnet.empe.io"},
+        {"provider": "EMPE-ARCHIVE", "address": "https://rpc-archive-testnet.empe.io"},
+        {"provider": "CryptoNodeID", "address": "https://empeiria-testnet-rpc.cryptonode.id"}
+    ],
+    "sdk_version": "0.47.12",
+    "coin_type": "118",
+    "min_tx_fee": "3000",
+    "addr_prefix": "empe",
+    "logo": "/logos/empe.png",
+    "snapshot_provider": "https://archive-testnet.empe.io",
+    "assets": [{
+        "base": "uempe",
+        "symbol": "EMPE",
+        "exponent": "6",
+        "logo": "/logos/empe.png"
+    }],
+    "faucet": {
+        "amount": "1500000uempe",
+        "ip_limit": "1",
+        "address_limit": "1",
+        "fees": "30uempe"
+    }
+}

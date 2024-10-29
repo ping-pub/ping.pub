@@ -2,7 +2,6 @@
     "chain_name": "evmos",
     "api": [
         {"provider": "Polkachu", "address": "https://evmos-api.polkachu.com"},
-        {"provider": "Notional", "address": "https://api-evmos-ia.cosmosia.notional.ventures"},
         {"provider": "Evmos", "address": "https://rest.bd.evmos.org:1317"},
         {"provider": "Skynet Validators", "address": "https://evmos-api.skynetvalidators.com"},
         {"provider": "NodeStake", "address": "https://api.evmos.nodestake.top"},
@@ -11,7 +10,6 @@
     ],
     "rpc": [
         {"provider": "Polkachu", "address": "https://evmos-rpc.polkachu.com:443"}, 
-        {"provider": "Notional", "address": "https://rpc-evmos-ia.cosmosia.notional.ventures:443"}, 
         {"provider": "Evmos", "address": "https://tendermint.bd.evmos.org:26657"}, 
         {"provider": "NodeStake", "address": "https://rpc.evmos.nodestake.top"}, 
         {"provider": "Golden Ratio Staking", "address": "https://rpc-evmos.goldenratiostaking.net"}, 

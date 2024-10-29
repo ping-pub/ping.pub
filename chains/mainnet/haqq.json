@@ -1,24 +1,27 @@
 {
   "chain_name": "haqq",
-  "coingecko": "",
+  "coingecko": "islamic-coin",
     "api": [
         {"provider": "Haqq Network", "address": "https://rest.cosmos.haqq.network"},
-        {"provider": "Haqq.sh", "address": "https://m-s1-sdk.haqq.sh"},
+        {"provider": "Haqq.sh", "address": "https://sdk.haqq.sh"},
         {"provider": "Allnodes", "address": "https://haqq-rest.publicnode.com"},
+        {"provider": "Polkachu", "address": "https://haqq-api.polkachu.com"},
         {"provider": "NodeStake", "address": "https://api.haqq.nodestake.top"}
     ],
     "rpc": [
         {"provider": "Haqq Network", "address": "https://rpc.tm.haqq.network"}, 
-        {"provider": "Haqq.sh", "address": "https://m-s1-tm.haqq.sh"}, 
+        {"provider": "Haqq.sh", "address": "https://rpc.haqq.sh"}, 
         {"provider": "Allnodes", "address": "https://haqq-rpc.publicnode.com:443"},
+        {"provider": "Polkachu", "address": "https://haqq-rpc.polkachu.com:443"}, 
         {"provider": "NodeStake", "address": "https://rpc.haqq.nodestake.top"}
     ],
-  "snapshot_provider": "",
-  "sdk_version": "0.46.10",
+  "snapshot_provider": "https://polkachu.com/tendermint_snapshots/haqq",
+  "sdk_version": "0.47.5",
   "coin_type": "60",
   "min_tx_fee": "3000000000000000",
   "addr_prefix": "haqq",
   "logo": "/logos/haqq.svg",
+  "theme_color": "#157C83",
   "keplr_features": [
     "ibc-transfer",
     "ibc-go",
@@ -30,7 +33,7 @@
       "base": "aISLM",
       "symbol": "ISLM",
       "exponent": "18",
-      "coingecko_id": "",
+      "coingecko_id": "islamic-coin",
       "logo": "/logos/islm.svg"
     }
   ]

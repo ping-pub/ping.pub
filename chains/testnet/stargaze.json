@@ -1,8 +1,7 @@
 {
     "chain_name": "stargaze",
-    "api": ["https://rest.elgafar-1.stargaze-apis.com"],
+    "api": [{"address": "https://rest.elgafar-1.stargaze-apis.com", "provider": "elgafar"}],
     "rpc": [""],
-    "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "118",
     "min_tx_fee": "800",
@@ -14,5 +13,11 @@
         "exponent": "6",
         "coingecko_id": "stargaze", 
         "logo": "/logos/stargaze.png"
-    }]
+    }],
+    "faucet": {
+        "amount": "5000000ustars",
+        "ip_limit": "1",
+        "address_limit": "1",
+        "fees": "8000ustars"
+    }
 }
