@@ -151,7 +151,7 @@
     ],
     "sdk_version": "0.50.8",
     "addr_prefix": "prysm",
-    "logo": "/logos/prysm.svg",
+    "logo": "/logos/prysm.png",
     "assets": [
         {
             "base": "uprysm",
