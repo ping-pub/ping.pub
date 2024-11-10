@@ -1,10 +1,12 @@
 {
     "chain_name": "elys",
     "api": [
-        "https://api.testnet.elys.network"
+        {"provider": "Elys Team", "address": "https://api.testnet.elys.network"},
+        {"provider": "Allnodes", "address": "https://elys-testnet-rest.publicnode.com"}
     ],
     "rpc": [
-        "https://rpc.testnet.elys.network:443"
+        {"provider": "Elys Team", "address": "https://rpc.testnet.elys.network:443"}, 
+        {"provider": "Allnodes", "address": "https://elys-testnet-rpc.publicnode.com"}
     ],
     "coin_type": "118",
     "sdk_version": "0.46.11",
