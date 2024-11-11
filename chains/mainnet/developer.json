@@ -1,0 +1,16 @@
+{
+  "chain_name": "developer",
+  "api": ["https://api.devtoken.xyz"],
+  "rpc": ["https://rpc.devtoken.xyz"],
+  "sdk_version": "0.45.1",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "dev",
+  "logo": "/logos/developer.svg",
+  "assets": [{
+    "base": "udev",
+    "symbol": "DEV",
+    "exponent": "6",
+    "logo": "/logos/developer.svg"
+  }]
+}
