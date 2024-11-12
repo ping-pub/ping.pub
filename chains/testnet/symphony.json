@@ -17,7 +17,7 @@
   "snapshot_provider": "",
   "sdk_version": "0.47.8",
   "coin_type": "118",
-  "min_tx_fee": "800",
+  "min_tx_fee": "32",
   "addr_prefix": "symphony",
   "logo": "/logos/symphony.png",
   "assets": [
@@ -32,6 +32,6 @@
     "amount": "10000000note",
     "ip_limit": "1",
     "address_limit": "2",
-    "fees": "800note"
+    "fees": "32note"
   }
 }
