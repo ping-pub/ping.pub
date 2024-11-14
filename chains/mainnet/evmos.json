@@ -6,14 +6,16 @@
         {"provider": "Skynet Validators", "address": "https://evmos-api.skynetvalidators.com"},
         {"provider": "NodeStake", "address": "https://api.evmos.nodestake.top"},
         {"provider": "Golden Ratio Staking", "address": "https://rest-evmos.goldenratiostaking.net"},
-        {"provider": "Allnodes", "address": "https://evmos-rest.publicnode.com"}
+        {"provider": "Allnodes", "address": "https://evmos-rest.publicnode.com"},
+        {"provider": "Lava network", "address": "https://rest.evmos.lava.build"}
     ],
     "rpc": [
         {"provider": "Polkachu", "address": "https://evmos-rpc.polkachu.com:443"}, 
         {"provider": "Evmos", "address": "https://tendermint.bd.evmos.org:26657"}, 
         {"provider": "NodeStake", "address": "https://rpc.evmos.nodestake.top"}, 
         {"provider": "Golden Ratio Staking", "address": "https://rpc-evmos.goldenratiostaking.net"}, 
-        {"provider": "Allnodes", "address": "https://evmos-rpc.publicnode.com:443"}
+        {"provider": "Allnodes", "address": "https://evmos-rpc.publicnode.com:443"},
+        {"provider": "Lava network", "address": "https://tm.evmos.lava.build"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.2",
