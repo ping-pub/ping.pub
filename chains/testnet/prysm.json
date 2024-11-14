@@ -1,0 +1,170 @@
+{
+    "chain_name": "prysm",
+    "coingecko": "prysm",
+    "api": [
+        {
+        "address": "https://prysm-api-devnet.kleomedes.network/",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://prysm-testnet-api.polkachu.com/",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://prysm.api.t.stavr.tech/",
+        "provider": "🔥STAVR🔥"
+      },
+      {
+        "address": "https://prysm-testnet-api.stingray.plus/",
+        "provider": "StingRay"
+      },
+      {
+        "address": "https://prysm-testnet-api.synergynodes.com/",
+        "provider": "Synergy Nodes"
+      },
+      {
+        "address": "https://prysm-api.validatorvn.com/",
+        "provider": "ValidatorVN"
+      },
+      {
+        "address": "https://t-prysm.api.utsa.tech/",
+        "provider": "UTSA"
+      },
+      {
+        "address": "https://api-prysm.stringlabs.xyz/",
+        "provider": "StringLabs"
+      },
+      {
+        "address": "https://api-prysm.vinjan.xyz/",
+        "provider": "Vinjan.Inc"  
+      },
+      {
+        "address": "https://api-prysm.ongtrong.xyz/",
+        "provider": "LexisNexis"
+      },
+      {
+        "address": "https://prysm-testnet-api.mictonode.com/",
+        "provider": "MictoNode"
+      },
+      {
+        "address": "https://api-prysm.coha05.com/",
+        "provider": "Coha05 | Spider Node"
+      },
+      {
+        "address": "https://prysm-testnet-api.validator247.com/",
+        "provider": "Validator247"
+      },
+      {
+        "address": "https://api-prysm.josephtran.xyz/",
+        "provider": "JosephTran"
+      },
+      {
+        "address": "https://prysm-testnet-api.itrocket.net/",
+        "provider": "ITRocket"
+      },
+      {
+        "address": "https://api-prysm-t.sychonix.com/",
+        "provider": "Sychonix"
+      },
+      {
+        "address": "https://api.prysm-testnet.stake-take.com/",
+        "provider": "Stake-Take"
+      },
+      {
+        "address": "https://prysm-testnet-api.cogwheel.zone",
+        "provider": "Cogwheel ⚙️"
+      }
+    ],
+    "rpc": [
+        {
+        "address": "https://prysm-rpc-devnet.kleomedes.network/",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.polkachu.com/",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.stingray.plus/",
+        "provider": "StingRay"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.synergynodes.com/",
+        "provider": "Synergy Nodes"
+      },
+      {
+        "address": "https://prysm.rpc.t.stavr.tech/",
+        "provider": "🔥STAVR🔥"
+      },
+      {
+        "address": "https://prysm-rpc.validatorvn.com/",
+        "provider": "ValidatorVN"
+      },
+      {
+        "address": "https://t-prysm.rpc.utsa.tech/",
+        "provider": "UTSA"
+      },
+      {
+        "address": "https://rpc-prysm.stringlabs.xyz/",
+        "provider": "StringLabs"
+      },
+      {
+        "address": "https://rpc-prysm.vinjan.xyz/",
+        "provider": "Vinjan.Inc"  
+      },
+      {
+        "address": "https://rpc-prysm.ongtrong.xyz/",
+        "provider": "LexisNexis"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.mictonode.com/",
+        "provider": "MictoNode"
+      },
+      {
+        "address": "https://rpc-prysm.coha05.com/",
+        "provider": "Coha05 | Spider Node"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.validator247.com/",
+        "provider": "Validator247"
+      },
+      {
+        "address": "https://rpc-prysm.josephtran.xyz/",
+        "provider": "JosephTran"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.itrocket.net/",
+        "provider": "ITRocket"
+      },
+      {
+        "address": "https://rpc-prysm-t.sychonix.com/",
+        "provider": "Sychonix"
+      },
+      {
+        "address": "https://rpc.prysm-testnet.stake-take.com/",
+        "provider": "Stake-Take"
+      },
+      {
+        "address": "https://prysm-testnet-rpc.cogwheel.zone",
+        "provider": "Cogwheel ⚙️"
+      }
+    ],
+    "sdk_version": "0.50.8",
+    "addr_prefix": "prysm",
+    "logo": "/logos/prysm.png",
+    "assets": [
+        {
+            "base": "uprysm",
+            "symbol": "PRYSM",
+            "exponent": "6",
+            "coingecko_id": "prysm",
+            "logo": "/logos/prysm.svg"
+        }
+    ],
+    "faucet": {
+        "amount": "5000000uprysm",
+        "ip_limit": "2",
+        "address_limit": "1",
+        "fees": "8000uprysm"
+    }
+}
