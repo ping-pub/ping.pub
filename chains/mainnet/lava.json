@@ -22,7 +22,7 @@
             "provider": "Stake Village"
         },
         {
-            "address": "https://m-api.lava.eu01.impulse.expert",
+            "address": "https://m-rpc.lava.eu01.impulse.expert",
             "provider": "Impulse"
         },
         {
