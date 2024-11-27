@@ -11,7 +11,8 @@
         "https://kopi-api.bluestake.net",
         "https://api-kopi.sychonix.com",
         "https://kopi.api.nodeshub.online/",
-        "https://kopi-mainnet-api.czcryptoman.com/"
+        "https://kopi-mainnet-api.czcryptoman.com/",
+        "https://kopi-api.polkachu.com/"
     ],
     "rpc": [
         "https://rpc.kopi.money",
@@ -25,7 +26,8 @@
         "https://rpc-kopi.sychonix.com",
         "https://kopi-rpc.node9x.com/",
         "https://kopi.rpc.nodeshub.online/",
-        "https://kopi-mainnet-rpc.czcryptoman.com/"
+        "https://kopi-mainnet-rpc.czcryptoman.com/",
+        "https://kopi-rpc.polkachu.com/"
     ],
     "coin_type": 118,
     "sdk_version": "v0.50.9",
