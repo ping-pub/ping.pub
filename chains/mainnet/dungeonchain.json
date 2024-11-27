@@ -9,6 +9,7 @@
     "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
     "assets": [{
         "base": "udgn",
+        "coingecko_id": "dragon-coin-2",
         "symbol": "DGN",
         "exponent": "6",
         "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
