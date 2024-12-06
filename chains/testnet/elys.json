@@ -11,7 +11,6 @@
     "provider_chain": {
         "api": ["https://rest.provider-sentry-01.ics-testnet.polypore.xyz"]
     },
-    "features": ["dashboard", "blocks", "ibc", "uptime", "parameters", "state-sync", "consensus", "supply", "widget"],
     "coin_type": "118",
     "sdk_version": "0.50.9",
     "addr_prefix": "elys",
