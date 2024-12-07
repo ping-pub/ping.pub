@@ -1,0 +1,22 @@
+{
+    "chain_name": "firestarter",
+    "registry_name": "firestarter",
+    "api": [
+        {"provider": "gevulot", "address": "https://grpcweb.firestarter.gevulot.com"}
+    ],
+    "rpc": [
+        {"provider": "gevulot", "address": "https://rpc.firestarter.gevulot.com"}
+    ],
+    "sdk_version": "0.50.10",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "gvlt",
+    "logo": "/logos/gevulot.png",
+    "assets": [{
+        "base": "ucredit",
+        "symbol": "CREDIT",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/gevulot.png"
+    }]
+}
