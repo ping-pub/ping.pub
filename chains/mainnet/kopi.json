@@ -1,0 +1,44 @@
+{
+    "chain_name": "kopi",
+    "api": [
+        "https://rest.kopi.money",
+        "https://api.kopi.chaintools.tech",
+        "https://kopi-rest.cosmoscan.com",
+        "https://kopi-rest.stakerhouse.com",
+        "https://kopi.api.moonbridge.team",
+        "https://api-kopid.vinjan.xyz/",
+        "https://kopi-mainnet-api.bonynode.online",
+        "https://kopi-api.bluestake.net",
+        "https://api-kopi.sychonix.com",
+        "https://kopi.api.nodeshub.online/",
+        "https://kopi-mainnet-api.czcryptoman.com/",
+        "https://kopi-api.polkachu.com/"
+    ],
+    "rpc": [
+        "https://rpc.kopi.money",
+        "https://rpc.kopi.chaintools.tech",
+        "https://kopi-rpc.cosmoscan.com",
+        "https://kopi-rpc.stakerhouse.com",
+        "https://kopi.rpc.moonbridge.team",
+        "https://rpc-kopid.vinjan.xyz/",
+        "https://kopi-mainnet-rpc.bonynode.online",
+        "https://kopi-rpc.bluestake.net:443",
+        "https://rpc-kopi.sychonix.com",
+        "https://kopi-rpc.node9x.com/",
+        "https://kopi.rpc.nodeshub.online/",
+        "https://kopi-mainnet-rpc.czcryptoman.com/",
+        "https://kopi-rpc.polkachu.com/"
+    ],
+    "coin_type": 118,
+    "sdk_version": "v0.50.9",
+    "addr_prefix": "kopi",
+    "logo": "/logos/kopi.svg",
+    "assets": [
+        {
+            "base": "ukopi",
+            "symbol": "XKP",
+            "exponent": 6,
+            "logo": "/logos/kopi.svg"
+        }
+    ]
+}
