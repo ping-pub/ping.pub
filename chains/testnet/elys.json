@@ -8,8 +8,11 @@
         {"provider": "Elys Team", "address": "https://rpc.testnet.elys.network:443"}, 
         {"provider": "Allnodes", "address": "https://elys-testnet-rpc.publicnode.com"}
     ],
+    "provider_chain": {
+        "api": ["https://rest.provider-sentry-01.ics-testnet.polypore.xyz"]
+    },
     "coin_type": "118",
-    "sdk_version": "0.46.11",
+    "sdk_version": "0.50.9",
     "addr_prefix": "elys",
     "min_tx_fee": "0",
     "logo": "/logos/elys.png",
