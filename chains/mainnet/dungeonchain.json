@@ -1,7 +1,7 @@
 {
     "chain_name": "Dungeonchain",
-    "api": ["https://api-dungeonchain.apeironnodes.com:443","https://api-archive-dungeonchain.apeironnodes.com:443"],
-    "rpc": ["https://rpc-dungeonchain.apeironnodes.com:443","https://rpc-archive-dungeonchain.apeironnodes.com:443"],
+    "api": ["https://api-dungeonchain.apeironnodes.com:443","https://api-archive-dungeonchain.apeironnodes.com:443", "https://dungeon.api.quasarstaking.ai"],
+    "rpc": ["https://rpc-dungeonchain.apeironnodes.com:443","https://rpc-archive-dungeonchain.apeironnodes.com:443", "https://dungeon.rpc.quasarstaking.ai"],
     "sdk_version": "0.50.9",
     "coin_type": "118",
     "min_tx_fee": "0",
