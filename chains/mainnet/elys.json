@@ -1,5 +1,5 @@
 {
-  "chain_name": "Elys Network",
+  "chain_name": "elys",
   "api": [
     { "provider": "Elys Team API", "address": "https://api.elys.network" }
   ],
