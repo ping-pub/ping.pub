@@ -1,0 +1,29 @@
+{
+  "chain_name": "Elys Network",
+  "api": [
+    { "provider": "Elys Team API", "address": "https://api.elys.network" }
+  ],
+  "rpc": [
+    {
+      "provider": "Elys Team RPC",
+      "address": "https://rpc.elys.network:443"
+    }
+  ],
+  "provider_chain": {
+    "api": ["https://cosmos-rpc.publicnode.com:443"]
+  },
+  "coin_type": "118",
+  "sdk_version": "0.50.9",
+  "addr_prefix": "elys",
+  "min_tx_fee": "0",
+  "logo": "/logos/elys.png",
+  "assets": [
+    {
+      "symbol": "ELYS",
+      "base": "uelys",
+      "exponent": 6,
+      "coingecko_id": "elys",
+      "logo": "https://avatars.githubusercontent.com/u/121874884"
+    }
+  ]
+}
