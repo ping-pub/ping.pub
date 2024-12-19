@@ -1,22 +1,57 @@
 {
   "chain_name": "elys",
   "api": [
-    { "provider": "Elys Team API", "address": "https://api.elys.network" },
-    { "provider": "Quasar API", "address": "https://elys.api.quasarstaking.ai"}
+    {
+      "address": "https://api.elys.network",
+      "provider": "Elys Network"
+    },
+    {
+      "address": "https://elys-api.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "address": "https://elys-rest.publicnode.com",
+      "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+    },
+    {
+      "address": "https://elys-mainnet-api.itrocket.net",
+      "provider": "itrocket"
+    },
+    {
+      "address": "https://api.elys.nodestake.org",
+      "provider": "NodeStake"
+    },
+    {
+      "provider": "Quasar API",
+      "address": "https://elys.api.quasarstaking.ai"
+    }
   ],
   "rpc": [
     {
-      "provider": "Elys Team RPC",
-      "address": "https://rpc.elys.network:443"
+      "address": "https://rpc.elys.network:443",
+      "provider": "Elys Network"
+    },
+    {
+      "address": "https://elys-rpc.polkachu.com:443",
+      "provider": "Polkachu"
+    },
+    {
+      "address": "https://elys-rpc.publicnode.com:443",
+      "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+    },
+    {
+      "address": "https://elys-mainnet-rpc.itrocket.net:443",
+      "provider": "itrocket"
+    },
+    {
+      "address": "https://rpc.elys.nodestake.org:443",
+      "provider": "NodeStake"
     },
     {
       "provider": "Quasar RPC",
       "address": "https://elys.rpc.quasarstaking.ai:443"
     }
   ],
-  "provider_chain": {
-    "api": ["https://cosmos-rpc.publicnode.com:443"]
-  },
   "coin_type": "118",
   "sdk_version": "0.50.9",
   "addr_prefix": "elys",
