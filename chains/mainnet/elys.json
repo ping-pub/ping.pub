@@ -1,12 +1,17 @@
 {
   "chain_name": "elys",
   "api": [
-    { "provider": "Elys Team API", "address": "https://api.elys.network" }
+    { "provider": "Elys Team API", "address": "https://api.elys.network" },
+    { "provider": "Quasar API", "address": "https://elys.api.quasarstaking.ai"}
   ],
   "rpc": [
     {
       "provider": "Elys Team RPC",
       "address": "https://rpc.elys.network:443"
+    },
+    {
+      "provider": "Quasar RPC",
+      "address": "https://elys.rpc.quasarstaking.ai:443"
     }
   ],
   "provider_chain": {
