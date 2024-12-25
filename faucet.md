@@ -1,6 +1,6 @@
 # Guild for faucet service
 
-## Submit You Config 
+## Submit You Config
 
 ```json
 {
