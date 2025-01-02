@@ -1,0 +1,24 @@
+{
+  "chain_name": "hippo-protocol",
+  "api": [
+    "https://api.testnet.hippo-protocol.com"
+  ],
+  "rpc": [
+    "https://rpc.testnet.hippo-protocol.com"
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.12",
+  "coin_type": "0",
+  "min_tx_fee": "1000000000000000000",
+  "addr_prefix": "hippo",
+  "logo": "/logos/hippo-protocol.png",
+  "assets": [
+    {
+      "base": "ahp",
+      "symbol": "HP",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "/logos/hippo-protocol.png"
+    }
+  ]
+}
