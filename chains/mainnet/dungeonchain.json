@@ -3,12 +3,12 @@
     "api": [
         {"provider": "Apeironnodes", "address": "https://api-dungeonchain.apeironnodes.com:443"},
         {"provider": "Apeironnodes", "address": "https://api-archive-dungeonchain.apeironnodes.com:443"},
-        {"provider": "Quasar", "address": "https://dungeon.api.quasarstaking.ai"}
+        {"provider": "Quasar", "address": "https://dungeon-wallet.api.quasarstaking.ai"}
     ],
     "rpc": [
         {"provider": "Apeironnodes", "address": "https://rpc-dungeonchain.apeironnodes.com:443"},
         {"provider": "Apeironnodes", "address": "https://rpc-archive-dungeonchain.apeironnodes.com:443"},
-        {"provider": "Quasar", "address": "https://dungeon.rpc.quasarstaking.ai"}
+        {"provider": "Quasar", "address": "https://dungeon-wallet.rpc.quasarstaking.ai"}
     ],
     "sdk_version": "0.50.9",
     "coin_type": "118",
