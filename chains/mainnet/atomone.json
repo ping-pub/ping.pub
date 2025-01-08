@@ -12,7 +12,7 @@
             "provider": "All In Bits"
         }
     ],
-    "sdk_version": "0.45.4",
+    "sdk_version": "v0.47.13",
     "coin_type": "118",
     "min_tx_fee": "800",
     "assets": [{
