@@ -2,13 +2,13 @@
     "chain_name": "nolus",
     "coingecko": "nolus",
     "api": [
-        {"provider": "Nolus", "address": "https://rila-cl.nolus.network:1317"}
+        {"provider": "Nolus", "address": "https://rila-lcd.nolus.network"}
     ],
     "rpc": [
-        {"provider": "Nolus", "address": "https://rila-cl.nolus.network:26657"}
+        {"provider": "Nolus", "address": "https://rila-rpc.nolus.network"}
     ],
     "snapshot_provider": "",
-    "sdk_version": "v0.47.6",
+    "sdk_version": "https://lcd.nolus.network",
     "coin_type": "118",
     "min_tx_fee": "0",
     "addr_prefix": "nolus",
