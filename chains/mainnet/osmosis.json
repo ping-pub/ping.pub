@@ -43,5 +43,12 @@
         "exponent": "6",
         "coingecko_id": "", 
         "logo": "/logos/ymos.png"
+    },{
+        "base": 
+"factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+        "symbol": "CULT",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/cult.png"
     }]
 }

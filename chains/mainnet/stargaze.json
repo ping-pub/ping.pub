@@ -23,5 +23,12 @@
         "exponent": "6",
         "coingecko_id": "stargaze", 
         "logo": "/logos/stargaze.png"
+    },{
+        "base": 
+"ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764",
+        "symbol": "CULT",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/cult.png"
     }]
 }
