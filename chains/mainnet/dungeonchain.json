@@ -1,12 +1,12 @@
 {
     "chain_name": "Dungeonchain",
     "api": [
-        {"provider": "Proxy", "address": "https://rest.cosmos.directory/dungeon"},
-        {"provider": "Quasar", "address": "https://dungeon-wallet.api.quasarstaking.ai"}
+        {"provider": "Quasar", "address": "https://dungeon-wallet.api.quasarstaking.ai"},
+        {"provider": "Proxy", "address": "https://rest.cosmos.directory/dungeon"}
     ],
     "rpc": [
-        {"provider": "Proxy", "address": "https://rpc.cosmos.directory/dungeon"},
-        {"provider": "Quasar", "address": "https://dungeon-wallet.rpc.quasarstaking.ai"}
+        {"provider": "Quasar", "address": "https://dungeon-wallet.rpc.quasarstaking.ai"},
+        {"provider": "Proxy", "address": "https://rpc.cosmos.directory/dungeon"}
     ],
     "sdk_version": "0.50.9",
     "coin_type": "118",
