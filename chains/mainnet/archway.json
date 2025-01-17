@@ -23,6 +23,13 @@
             "exponent": "18",
             "coingecko_id": "archway",
             "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png"
+        },{
+            "base": 
+    "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
+            "symbol": "CULT",
+            "exponent": "6",
+            "coingecko_id": "", 
+            "logo": "/logos/cult.png"
         }
     ]
 }
