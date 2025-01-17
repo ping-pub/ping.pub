@@ -1,0 +1,24 @@
+{
+  "chain_name": "Vector",
+  "api": [
+    "https://archive-api-1.playonvector.com",
+    "https://archive-api-vector-1.seraphim.zone"
+  ],
+  "rpc": [
+    "https://archive-rpc-1.playonvector.com",
+    "https://archive-rpc-vector-1.seraphim.zone"
+  ],
+  "snapshot_provider": "",
+  "coin_type": 118,
+  "sdk_version": "0.50.11",
+  "addr_prefix": "vector",
+  "logo": "/logos/vector-logo.png",
+  "assets": [
+    {
+      "base": "uvctr",
+      "symbol": "VECTR",
+      "exponent": 6,
+      "logo": "/logos/vector-logo.png"
+    }
+  ]
+}
