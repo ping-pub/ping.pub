@@ -2,10 +2,14 @@
     "chain_name": "side",
     "registry_name": "SIDE",
     "api": [
-        {"provider":"side labs", "address": "https://rest.side.one"}, 
+        {"provider":"side labs", "address": "https://rest.side.one"}
     ], 
-    "rpc": ["https://rpc.side.one"],
-    "grpc": [{"address": "grpc.side.one:443", "provider": "side labs"}],
+    "rpc": [
+        {"provider":"side labs", "address": "https://rpc.side.one"}
+    ],
+    "grpc": [
+        {"address": "grpc.side.one:443", "provider": "side labs"}
+    ],
     "sdk_version": "0.50.9",
     "coin_type": "118",
     "min_tx_fee": "800",
@@ -17,5 +21,5 @@
         "exponent": "6", 
         "coingecko_id": "",
         "logo": "/logos/side.png"
-    }],
+    }]
 }
