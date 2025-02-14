@@ -1,0 +1,32 @@
+{
+  "chain_name": "ggezchain",
+  "api": [
+    {
+      "provider": "GGEZ1 Chain",
+      "address": "https://rest.ggez.one"
+    }
+  ],
+  "rpc": [{ "provider": "GGEZ1 Chain", "address": "https://bc.ggez.one:8443" }],
+  "sdk_version": "0.50.10",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "ggez",
+  "theme_color": "#8400cd",
+  "logo": "/logos/ggezchain.svg",
+  "assets": [
+    {
+      "base": "uggez1",
+      "symbol": "GGEZ1",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/ggezchain-ggez1.svg"
+    },
+    {
+      "base": "uggz",
+      "symbol": "GGZ",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/ggezchain-ggz.svg"
+    }
+  ]
+}
