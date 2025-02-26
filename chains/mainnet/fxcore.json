@@ -7,13 +7,13 @@
     "https://fx-json.functionx.io:26657"
   ],
   "snapshot_provider": "",
-  "sdk_version": "v0.47.13",
+  "sdk_version": "v0.50.11",
   "coin_type": "60",
-  "min_tx_fee": "500000000000000000",
+  "min_tx_fee": "5000000000000000",
   "assets": [
     {
-      "base": "FX",
-      "symbol": "FX",
+      "base": "apundiai",
+      "symbol": "PUNDIAI",
       "exponent": "18",
       "coingecko_id": "fx-coin",
       "logo": "/logos/fxcore.svg"
@@ -22,9 +22,9 @@
   "addr_prefix": "fx",
   "logo": "/logos/fxcore.svg",
   "keplr_price_step": {
-    "low": 4000000000000,
-    "average": 4000000000000,
-    "high": 4100000000000
+    "low": 5000000000,
+    "average": 5000000000,
+    "high": 5100000000
   },
   "keplr_features": [
     "ibc-transfer",
