@@ -15,7 +15,7 @@
       "base": "apundiai",
       "symbol": "PUNDIAI",
       "exponent": "18",
-      "coingecko_id": "fx-coin",
+      "coingecko_id": "pundi-aifx",
       "logo": "/logos/fxcore.svg"
     }
   ],
