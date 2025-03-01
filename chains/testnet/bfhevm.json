@@ -1,0 +1,18 @@
+{
+    "chain_name": "bfhevm",
+    "api": "https://rest-testnet-bfhevm.xyz:4431",
+    "rpc": ["https://rpc-bfhevm.xyz:8443"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.7",
+    "coin_type": "60",
+    "min_tx_fee": "2000000000000000",
+    "addr_prefix": "bfh",
+    "logo": "/logos/cre.png",
+    "assets": [{
+        "base": "abfh",
+        "symbol": "BFH",
+        "exponent": "18",
+        "coingecko_id": "", 
+        "logo": "/logos/bfhevm.png"
+    }]
+}
