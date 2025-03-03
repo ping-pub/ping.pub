@@ -1,15 +1,24 @@
 {
   "chain_name": "fxcore",
+  "registry_name": "fxcore",
   "api": [
-    "https://testnet-fx-rest.functionx.io:1317"
+    {
+      "address": "https://testnet-fx-rest.functionx.io:1317",
+      "provider": "Function X"
+    }
   ],
   "rpc": [
-    "https://testnet-fx-json.functionx.io:26657"
+    {
+      "address": "https://testnet-fx-json.functionx.io:26657",
+      "provider": "Function X"
+    }
   ],
-  "snapshot_provider": "",
+  "snapshot_provider": "https://pundi.gitbook.io/pundi/pundi-aifx/setup-node/use-snapshot#available-snapshots",
   "sdk_version": "v0.50.11",
   "coin_type": "60",
-  "min_tx_fee": "5000000000000000",
+  "addr_prefix": "fx",
+  "logo": "/logos/fxcore.svg",
+  "min_tx_fee": "1000000000000000",
   "assets": [
     {
       "base": "apundiai",
@@ -18,18 +27,5 @@
       "coingecko_id": "pundi-aifx",
       "logo": "/logos/fxcore.svg"
     }
-  ],
-  "addr_prefix": "fx",
-  "logo": "/logos/fxcore.svg",
-  "keplr_price_step": {
-    "low": 5000000000,
-    "average": 5000000000,
-    "high": 5100000000
-  },
-  "keplr_features": [
-    "ibc-transfer",
-    "ibc-go",
-    "eth-address-gen",
-    "eth-key-sign"
   ]
 }
