@@ -21,6 +21,7 @@
       "provider": "Nodes Hub \ud83d\udee1\ufe0f 100% Slash Protected \ud83d\udee1\ufe0f | Restake \u2705"
     }
   ],
+  "snapshot_provider": "https://pundi.gitbook.io/pundi/pundi-aifx/setup-node/use-snapshot#available-snapshots",
   "sdk_version": "v0.50.11",
   "coin_type": "60",
   "addr_prefix": "fx",
