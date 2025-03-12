@@ -27,5 +27,11 @@
       "coingecko_id": "pundi-aifx",
       "logo": "/logos/fxcore.svg"
     }
-  ]
+  ],
+  "faucet": {
+    "amount": "1000000000000000000apundiai",
+    "ip_limit": "1",
+    "address_limit": "10",
+    "fees": "1000000000000000apundiai"
+  }
 }
