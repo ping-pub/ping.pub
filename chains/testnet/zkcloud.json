@@ -1,0 +1,22 @@
+{
+    "chain_name": "zkcloud",
+    "registry_name": "zkcloud",
+    "api": [
+        {"provider": "ZkCloud", "address": "https://api.testnet.zkcloud.com"}
+    ],
+    "rpc": [
+        {"provider": "ZkCloud", "address": "https://rpc.testnet.zkcloud.com"}
+    ],
+    "sdk_version": "0.50.11",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "addr_prefix": "zkcloud",
+    "logo": "/logos/zkcloud.svg",
+    "assets": [{
+        "base": "uproof",
+        "symbol": "PROOF",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "/logos/zkcloud.svg"
+    }]
+}
