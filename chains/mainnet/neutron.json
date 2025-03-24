@@ -2,12 +2,14 @@
     "chain_name": "neutron",
     "api": [
         {"provider": "Neutron", "address": "https://rest-voidara.neutron-1.neutron.org"},
+        {"provider": "Neutron", "address": "https://rest-pulsarix.neutron-1.neutron.org"},
         {"provider": "Polkachu", "address": "https://neutron-api.polkachu.com"},
         {"provider": "NodeStake", "address": "https://api.neutron.nodestake.top"},
         {"provider": "Allnodes", "address": "https://neutron-rest.publicnode.com"}
     ],
     "rpc": [
         {"provider": "Neutron", "address": "https://rpc-voidara.neutron-1.neutron.org"},
+        {"provider": "Neutron", "address": "https://rpc-pulsarix.neutron-1.neutron.org"},
         {"provider": "Polkachu", "address": "https://neutron-rpc.polkachu.com"}, 
         {"provider": "NodeStake", "address": "https://rpc.neutron.nodestake.top"},
         {"provider": "Allnodes", "address": "https://neutron-rpc.publicnode.com:443"}
