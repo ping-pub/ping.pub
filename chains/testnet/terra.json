@@ -23,6 +23,6 @@
         "amount": "10000000uluna",
         "ip_limit": "1",
         "address_limit": "10",
-        "fees": "1000uluna"
+        "fees": "10000uluna"
     }
 }
