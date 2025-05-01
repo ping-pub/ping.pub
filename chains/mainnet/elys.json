@@ -26,11 +26,11 @@
       "address": "https://elys.api.quasarstaking.ai"
     },
     {
-      "provider": "vNodes[V] [North America] Ser[V]ices",
+      "provider": "vNodes[V] North America",
       "address": "https://elys.rest.mtl.vnodesv.net"
     },
     {
-      "provider": "vNodes[V] [Europe] Ser[V]ices",
+      "provider": "vNodes[V] Europe",
       "address": "https://elys.rest.fr.vnodesv.net"
     }
   ],
@@ -60,11 +60,11 @@
       "address": "https://elys.rpc.quasarstaking.ai:443"
     },
     {
-      "provider": "vNodes[V] [North America] Ser[V]ices",
+      "provider": "vNodes[V] North America",
       "address": "https://elys.rpc.mtl.vnodesv.net"
     },
     {
-      "provider": "vNodes[V] [Europe] Ser[V]ices",
+      "provider": "vNodes[V] Europe",
       "address": "https://elys.rpc.fr.vnodesv.net"
     }
   ],
