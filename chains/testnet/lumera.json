@@ -3,13 +3,13 @@
   "network_type": "testnet",
   "rpc": [
     {
-      "address": "https://rpc.lumera.io",
+      "address": "https://rpc.testnet.lumera.io",
       "provider": "Lumera Protocol"
     }
   ],
   "api": [
     {
-      "address": "https://lcd.lumera.io",
+      "address": "https://lcd.testnet.lumera.io",
       "provider": "Lumera Protocol"
     }
   ],
