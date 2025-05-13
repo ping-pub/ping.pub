@@ -29,4 +29,10 @@
   ],
   "keplr_features": [
   ]
+    "faucet": {
+        "amount": "1000000ulume",
+        "ip_limit": "1",
+        "address_limit": "10",
+        "fees": "5000ulume"
+    }
 }
