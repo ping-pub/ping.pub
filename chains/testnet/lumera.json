@@ -1,0 +1,38 @@
+{
+  "chain_name": "lumera",
+  "network_type": "testnet",
+  "rpc": [
+    {
+      "address": "https://rpc.testnet.lumera.io",
+      "provider": "Lumera Protocol"
+    }
+  ],
+  "api": [
+    {
+      "address": "https://lcd.testnet.lumera.io",
+      "provider": "Lumera Protocol"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.50.13",
+  "coin_type": "118",
+  "min_tx_fee": "0.025",
+  "addr_prefix": "lumera",
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png",
+  "assets": [
+    {
+      "base": "ulume",
+      "symbol": "LUME",
+      "exponent": "6",
+      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png"
+    }
+  ],
+  "keplr_features": [
+  ],
+  "faucet": {
+        "amount": "1000000ulume",
+        "ip_limit": "1",
+        "address_limit": "10",
+        "fees": "5000ulume"
+    }
+}
