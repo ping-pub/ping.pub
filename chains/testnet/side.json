@@ -15,6 +15,12 @@
     "min_tx_fee": "800",
     "addr_prefix": "side",
     "logo": "/logos/side.png",
+    "faucet": {
+        "amount": "5000000uside",
+        "ip_limit": "1",
+        "address_limit": "1",
+        "fees": "1500uside"
+    },
     "assets": [{
         "base": "uside",
         "symbol": "SIDE",
