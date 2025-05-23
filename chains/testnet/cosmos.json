@@ -2,21 +2,21 @@
     "chain_name": "cosmos",
     "api": [
         {
-            "address": "https://rest.seed-01.theta-testnet.polypore.xyz",
+            "address": "https://rest.provider-sentry-01.rs-testnet.polypore.xyz",
             "provider": "polypore"
         },
         {
-            "address": "https://rest.seed-02.theta-testnet.polypore.xyz",
+            "address": "https://rest.provider-sentry-02.rs-testnet.polypore.xyz",
             "provider": "polypore"
         }
     ],
     "rpc": [
         {
-            "address": "https://rpc.seed-01.theta-testnet.polypore.xyz",
+            "address": "https://rpc.provider-sentry-01.rs-testnet.polypore.xyz",
             "provider": "polypore"
         },
         {
-            "address": "https://rpc.seed-02.theta-testnet.polypore.xyz",
+            "address": "https://rpc.provider-sentry-02.rs-testnet.polypore.xyz",
             "provider": "polypore"
         }
     ],
