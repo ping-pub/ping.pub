@@ -3,8 +3,14 @@
   "coingecko": "meme-network",
   "api": "https://api-testnet-1.meme.sx:443",
   "rpc": [
-    "https://rpc-testnet-1.meme.sx:443",
-    "https://rpc-testnet-1.meme.sx:443"
+    {
+      "address": "https://rpc-testnet-1.meme.sx:443",
+      "provider": "meme.sx:443"
+    },
+    {
+      "address": "https://rpc-testnet-1.meme.sx:443",
+      "provider": "meme.sx:443"
+    }
   ],
   "snapshot_provider": "",
   "sdk_version": "0.45.10",

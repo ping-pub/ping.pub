@@ -1,14 +1,49 @@
 {
   "chain_name": "agoric",
   "api": [
-    "https://agoric-api.polkachu.com",
-    "https://api-agoric.nodes.guru",
-    "https://agoric.stakesystems.io",
-    "https://agoric-lcd.stakely.io",
-    "https://api.agoric.nodestake.top",
-    "https://agoric.api.kjnodes.com"
+    {
+      "address": "https://agoric-api.polkachu.com",
+      "provider": "polkachu.com"
+    },
+    {
+      "address": "https://api-agoric.nodes.guru",
+      "provider": "nodes.guru"
+    },
+    {
+      "address": "https://agoric.stakesystems.io",
+      "provider": "stakesystems.io"
+    },
+    {
+      "address": "https://agoric-lcd.stakely.io",
+      "provider": "stakely.io"
+    },
+    {
+      "address": "https://api.agoric.nodestake.top",
+      "provider": "nodestake.top"
+    },
+    {
+      "address": "https://agoric.api.kjnodes.com",
+      "provider": "kjnodes.com"
+    }
   ],
-  "rpc": ["https://main.rpc.agoric.net:443", "https://main.rpc.agoric.net:443", "https://rpc.agoric.nodestake.top", "https://agoric.rpc.kjnodes.com:443"],
+  "rpc": [
+    {
+      "address": "https://main.rpc.agoric.net:443",
+      "provider": "agoric.net:443"
+    },
+    {
+      "address": "https://main.rpc.agoric.net:443",
+      "provider": "agoric.net:443"
+    },
+    {
+      "address": "https://rpc.agoric.nodestake.top",
+      "provider": "nodestake.top"
+    },
+    {
+      "address": "https://agoric.rpc.kjnodes.com:443",
+      "provider": "kjnodes.com:443"
+    }
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.45.4",
   "coin_type": "564",

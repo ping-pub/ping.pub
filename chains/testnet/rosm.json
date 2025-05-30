@@ -1,23 +1,31 @@
 {
-    "chain_name": "rosm",
-    "api": [
-        {"provider": "Rollkit", "address": "https://api.rosm.rollkit.dev"}
-    ],
-    "rpc": [
-        {"provider": "Rollkit", "address": "https://rpc.rosm.rollkit.dev"}
-    ],
-    "coingecko": "",
-    "snapshot_provider": "",
-    "sdk_version": "0.50.6",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "addr_prefix": "wasm",
-    "logo": "/logos/rosm.svg",
-    "assets": [{
-        "base": "urosm",
-        "symbol": "ROSM",
-        "exponent": "6",
-        "coingecko_id": "",
-        "logo": "/logos/rosm.svg"
-    }]
+  "chain_name": "rosm",
+  "api": [
+    {
+      "provider": "Rollkit",
+      "address": "https://api.rosm.rollkit.dev"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Rollkit",
+      "address": "https://rpc.rosm.rollkit.dev"
+    }
+  ],
+  "coingecko": "",
+  "snapshot_provider": "",
+  "sdk_version": "0.50.6",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "wasm",
+  "logo": "/logos/rosm.svg",
+  "assets": [
+    {
+      "base": "urosm",
+      "symbol": "ROSM",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/rosm.svg"
+    }
+  ]
 }

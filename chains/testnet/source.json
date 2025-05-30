@@ -1,27 +1,47 @@
 {
-    "chain_name": "Source Testnet",
-    "coingecko": "",
-    "api": [
-        {"provider": "SourceProtocol", "address": "https://testnet.sourceprotocol.io:1317"},
-        {"provider": "SR20DE", "address": "https://api-testnet-source.sr20de.xyz"},
-        {"provider": "StakeTown", "address": "https://source-testnet-api.stake-town.com:443"}
-    ],
-    "rpc": [
-        {"provider": "SourceProtocol", "address": "https://testnet.sourceprotocol.io:26657"},
-        {"provider": "SR20DE", "address": "https://rpc-testnet-source.sr20de.xyz"}, 
-        {"provider": "StakeTown", "address": "https://source-testnet-rpc.stake-town.com:443"}
-    ],
-    "snapshot_provider": "",
-    "sdk_version": "0.45.15",
-    "coin_type": "118",
-    "min_tx_fee": "50000",
-    "addr_prefix": "source",
-    "logo": "/logos/source.png",
-    "assets": [{
-        "base": "usource",
-        "symbol": "SOURCE",
-        "exponent": "6",
-        "coingecko_id": "",
-        "logo": "/logos/source.png"
-    }]
+  "chain_name": "Source Testnet",
+  "coingecko": "",
+  "api": [
+    {
+      "provider": "SourceProtocol",
+      "address": "https://testnet.sourceprotocol.io:1317"
+    },
+    {
+      "provider": "SR20DE",
+      "address": "https://api-testnet-source.sr20de.xyz"
+    },
+    {
+      "provider": "StakeTown",
+      "address": "https://source-testnet-api.stake-town.com:443"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "SourceProtocol",
+      "address": "https://testnet.sourceprotocol.io:26657"
+    },
+    {
+      "provider": "SR20DE",
+      "address": "https://rpc-testnet-source.sr20de.xyz"
+    },
+    {
+      "provider": "StakeTown",
+      "address": "https://source-testnet-rpc.stake-town.com:443"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.15",
+  "coin_type": "118",
+  "min_tx_fee": "50000",
+  "addr_prefix": "source",
+  "logo": "/logos/source.png",
+  "assets": [
+    {
+      "base": "usource",
+      "symbol": "SOURCE",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/source.png"
+    }
+  ]
 }

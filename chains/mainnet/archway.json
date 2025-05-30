@@ -1,35 +1,53 @@
 {
-    "chain_name": "archway",
-    "api": [
-        "https://api.mainnet.archway.io",
-        "https://api-1.archway.nodes.guru",
-        "https://api.archway.nodestake.top"
-    ],
-    "rpc": [
-        "https://rpc.mainnet.archway.io:443",
-        "https://rpc-1.archway.nodes.guru/",
-        "https://rpc.archway.nodestake.top/"
-    ],
-    "snapshot_provider": "https://snapshots.archway.tech/",
-    "sdk_version": "v0.45.16",
-    "coin_type": "118",
-    "min_tx_fee": "",
-    "addr_prefix": "archway",
-    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
-    "assets": [
-        {
-            "base": "aarch",
-            "symbol": "ARCH",
-            "exponent": "18",
-            "coingecko_id": "archway",
-            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png"
-        },{
-            "base": 
-    "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
-            "symbol": "CULT",
-            "exponent": "6",
-            "coingecko_id": "", 
-            "logo": "/logos/cult.png"
-        }
-    ]
+  "chain_name": "archway",
+  "api": [
+    {
+      "address": "https://api.mainnet.archway.io",
+      "provider": "archway.io"
+    },
+    {
+      "address": "https://api-1.archway.nodes.guru",
+      "provider": "nodes.guru"
+    },
+    {
+      "address": "https://api.archway.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.mainnet.archway.io:443",
+      "provider": "archway.io:443"
+    },
+    {
+      "address": "https://rpc-1.archway.nodes.guru/",
+      "provider": "nodes.guru"
+    },
+    {
+      "address": "https://rpc.archway.nodestake.top/",
+      "provider": "nodestake.top"
+    }
+  ],
+  "snapshot_provider": "https://snapshots.archway.tech/",
+  "sdk_version": "v0.45.16",
+  "coin_type": "118",
+  "min_tx_fee": "",
+  "addr_prefix": "archway",
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png",
+  "assets": [
+    {
+      "base": "aarch",
+      "symbol": "ARCH",
+      "exponent": "18",
+      "coingecko_id": "archway",
+      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/archway/images/archway.png"
+    },
+    {
+      "base": "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
+      "symbol": "CULT",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/cult.png"
+    }
+  ]
 }

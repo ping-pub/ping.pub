@@ -1,10 +1,16 @@
 {
   "chain_name": "hippo-protocol",
   "api": [
-    "https://api.testnet.hippo-protocol.com"
+    {
+      "address": "https://api.testnet.hippo-protocol.com",
+      "provider": "hippo-protocol.com"
+    }
   ],
   "rpc": [
-    "https://rpc.testnet.hippo-protocol.com"
+    {
+      "address": "https://rpc.testnet.hippo-protocol.com",
+      "provider": "hippo-protocol.com"
+    }
   ],
   "snapshot_provider": "",
   "sdk_version": "0.47.12",

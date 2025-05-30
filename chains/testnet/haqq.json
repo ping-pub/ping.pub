@@ -2,12 +2,24 @@
   "chain_name": "haqq",
   "coingecko": "",
   "api": [
-    "https://rest.cosmos.testedge2.haqq.network/",
-    "https://te2-s1-sdk.haqq.sh"
+    {
+      "address": "https://rest.cosmos.testedge2.haqq.network/",
+      "provider": "haqq.network"
+    },
+    {
+      "address": "https://te2-s1-sdk.haqq.sh",
+      "provider": "haqq.sh"
+    }
   ],
   "rpc": [
-    "https://rpc.tm.testedge2.haqq.network/",
-    "https://te2-s1-tm.haqq.sh"
+    {
+      "address": "https://rpc.tm.testedge2.haqq.network/",
+      "provider": "haqq.network"
+    },
+    {
+      "address": "https://te2-s1-tm.haqq.sh",
+      "provider": "haqq.sh"
+    }
   ],
   "snapshot_provider": "",
   "sdk_version": "0.46.10",

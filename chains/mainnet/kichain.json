@@ -1,18 +1,42 @@
 {
-    "chain_name": "kichain",
-    "api": ["https://api-mainnet.blockchain.ki", "https://api.ki.nodestake.top"],
-    "rpc": ["https://rpc-mainnet.blockchain.ki:443", "https://rpc-mainnet.blockchain.ki:443","https://rpc.ki.nodestake.top"],
-    "snapshot_provider": "",
-    "sdk_version": "0.45.6",
-    "coin_type": "118",
-    "min_tx_fee": "8000",
-    "addr_prefix": "ki",
-    "logo": "/logos/kichain.png",
-    "assets": [{
-        "base": "uxki",
-        "symbol": "XKI",
-        "exponent": "6",
-        "coingecko_id": "ki", 
-        "logo": "/logos/kichain.png"
-    }]
+  "chain_name": "kichain",
+  "api": [
+    {
+      "address": "https://api-mainnet.blockchain.ki",
+      "provider": "blockchain.ki"
+    },
+    {
+      "address": "https://api.ki.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-mainnet.blockchain.ki:443",
+      "provider": "blockchain.ki:443"
+    },
+    {
+      "address": "https://rpc-mainnet.blockchain.ki:443",
+      "provider": "blockchain.ki:443"
+    },
+    {
+      "address": "https://rpc.ki.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.6",
+  "coin_type": "118",
+  "min_tx_fee": "8000",
+  "addr_prefix": "ki",
+  "logo": "/logos/kichain.png",
+  "assets": [
+    {
+      "base": "uxki",
+      "symbol": "XKI",
+      "exponent": "6",
+      "coingecko_id": "ki",
+      "logo": "/logos/kichain.png"
+    }
+  ]
 }

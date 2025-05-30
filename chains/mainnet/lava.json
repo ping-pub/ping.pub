@@ -1,46 +1,48 @@
 {
-    "chain_name": "lava",
-    "api": [
-        "https://lava.rest.lava.build:443",
-        {
-            "address": "https://lava.api.stakevillage.net",
-            "provider": "Stake Village"
-        },
-        {
-            "address": "https://m-api.lava.eu01.impulse.expert",
-            "provider": "Impulse"
-        },
-        {
-            "address": "https://lava-mainnet-rest.mellifera.network/",
-            "provider": "MELLIFERA"
-        }
-    ],
-    "rpc": [
-        "https://lava.tendermintrpc.lava.build:443",
-        {
-            "address": "https://lava.rpc.stakevillage.net",
-            "provider": "Stake Village"
-        },
-        {
-            "address": "https://m-rpc.lava.eu01.impulse.expert",
-            "provider": "Impulse"
-        },
-        {
-            "address": "https://lava-mainnet-rpc.mellifera.network/",
-            "provider": "MELLIFERA"
-        }
-    ],
-    "snapshot_provider": "",
-    "sdk_version": "0.47.13",
-    "coin_type": "118",
-    "min_tx_fee": "4000",
-    "assets": [{
-        "base": "ulava",
-        "symbol": "LAVA",
-        "exponent": "6",
-        "coingecko_id": "lava-network",
-        "logo": "lava-network"
-    }],
-    "addr_prefix": "lava@",
-    "logo": "/logos/lava.svg"
+  "chain_name": "lava",
+  "api": [
+    "https://lava.rest.lava.build:443",
+    {
+      "address": "https://lava.api.stakevillage.net",
+      "provider": "Stake Village"
+    },
+    {
+      "address": "https://m-api.lava.eu01.impulse.expert",
+      "provider": "Impulse"
+    },
+    {
+      "address": "https://lava-mainnet-rest.mellifera.network/",
+      "provider": "MELLIFERA"
+    }
+  ],
+  "rpc": [
+    "https://lava.tendermintrpc.lava.build:443",
+    {
+      "address": "https://lava.rpc.stakevillage.net",
+      "provider": "Stake Village"
+    },
+    {
+      "address": "https://m-rpc.lava.eu01.impulse.expert",
+      "provider": "Impulse"
+    },
+    {
+      "address": "https://lava-mainnet-rpc.mellifera.network/",
+      "provider": "MELLIFERA"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.13",
+  "coin_type": "118",
+  "min_tx_fee": "4000",
+  "assets": [
+    {
+      "base": "ulava",
+      "symbol": "LAVA",
+      "exponent": "6",
+      "coingecko_id": "lava-network",
+      "logo": "lava-network"
+    }
+  ],
+  "addr_prefix": "lava@",
+  "logo": "/logos/lava.svg"
 }

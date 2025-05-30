@@ -1,28 +1,36 @@
 {
-    "chain_name": "side",
-    "registry_name": "SIDE",
-    "api": [
-        {"provider":"side labs", "address": "https://testnet-rest.side.one"}
-    ], 
-    "rpc": [
-        {"provider":"side labs", "address": "https://testnet-rpc.side.one"}
-    ],
-    "sdk_version": "0.50.9",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "addr_prefix": "side",
-    "logo": "/logos/side.png",
-    "faucet": {
-        "amount": "5000000uside",
-        "ip_limit": "1",
-        "address_limit": "1",
-        "fees": "1500uside"
-    },
-    "assets": [{
-        "base": "uside",
-        "symbol": "SIDE",
-        "exponent": "6", 
-        "coingecko_id": "",
-        "logo": "/logos/side.png"
-    }]
+  "chain_name": "side",
+  "registry_name": "SIDE",
+  "api": [
+    {
+      "provider": "side labs",
+      "address": "https://testnet-rest.side.one"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "side labs",
+      "address": "https://testnet-rpc.side.one"
+    }
+  ],
+  "sdk_version": "0.50.9",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "side",
+  "logo": "/logos/side.png",
+  "faucet": {
+    "amount": "5000000uside",
+    "ip_limit": "1",
+    "address_limit": "1",
+    "fees": "1500uside"
+  },
+  "assets": [
+    {
+      "base": "uside",
+      "symbol": "SIDE",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/side.png"
+    }
+  ]
 }

@@ -1,19 +1,31 @@
 {
   "chain_name": "dhealth",
   "coingecko": "",
-  "api": ["https://lcd-testnet.dhealth.dev"],
-  "rpc": ["https://rpc-testnet.dhealth.dev:443"],
+  "api": [
+    {
+      "address": "https://lcd-testnet.dhealth.dev",
+      "provider": "dhealth.dev"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-testnet.dhealth.dev:443",
+      "provider": "dhealth.dev:443"
+    }
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.47.4",
   "coin_type": "10111",
   "min_tx_fee": "3000",
   "addr_prefix": "tdh02",
   "logo": "/logos/dhealth.png",
-  "assets": [{
+  "assets": [
+    {
       "base": "utdhp",
       "symbol": "tDHP",
       "exponent": "6",
       "coingecko_id": "",
       "logo": "/logos/dhealth.png"
-  }]
+    }
+  ]
 }

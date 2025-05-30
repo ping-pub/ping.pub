@@ -1,22 +1,31 @@
 {
-    "chain_name": "mun",
-    "coingecko": "",
-    "api": ["https://mainnet1.mun.money"],
-    "rpc": ["https://mainnet1rpc.mun.money"],
-    "snapshot_provider": "",
-    "sdk_version": "0.45.16",
-    "coin_type": "118",
-    "min_tx_fee": "8000",
-    "addr_prefix": "mun",
-    "logo": "/logos/mun.png",
-    "assets": [
-      {
-        "base": "umun",
-        "symbol": "MUN",
-        "exponent": "6",
-        "coingecko_id": "",
-        "logo": "/logos/mun.png"
-      }
-    ]
-  }
-  
+  "chain_name": "mun",
+  "coingecko": "",
+  "api": [
+    {
+      "address": "https://mainnet1.mun.money",
+      "provider": "mun.money"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://mainnet1rpc.mun.money",
+      "provider": "mun.money"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.16",
+  "coin_type": "118",
+  "min_tx_fee": "8000",
+  "addr_prefix": "mun",
+  "logo": "/logos/mun.png",
+  "assets": [
+    {
+      "base": "umun",
+      "symbol": "MUN",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/mun.png"
+    }
+  ]
+}

@@ -1,8 +1,54 @@
 {
   "chain_name": "meme",
   "coingecko": "meme-network",
-  "api": [ "https://api-meme-1.meme.sx", "https://meme-api.polkachu.com:443", "https://api.meme.pupmos.network:443", "https://meme-api.kleomedes.network:443", "https://meme.api.m.anode.team:443" ],
-  "rpc": [ "https://rpc-meme-1.meme.sx:443", "https://meme-rpc.polkachu.com:443", "https://rpc-meme.pupmos.network:443", "https://meme-rpc.kleomedes.network:443", "http://meme.statesync.nodersteam.com:26657", "https://meme.rpc.m.anode.team:443" ],
+  "api": [
+    {
+      "address": "https://api-meme-1.meme.sx",
+      "provider": "meme.sx"
+    },
+    {
+      "address": "https://meme-api.polkachu.com:443",
+      "provider": "polkachu.com:443"
+    },
+    {
+      "address": "https://api.meme.pupmos.network:443",
+      "provider": "pupmos.network:443"
+    },
+    {
+      "address": "https://meme-api.kleomedes.network:443",
+      "provider": "kleomedes.network:443"
+    },
+    {
+      "address": "https://meme.api.m.anode.team:443",
+      "provider": "anode.team:443"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-meme-1.meme.sx:443",
+      "provider": "meme.sx:443"
+    },
+    {
+      "address": "https://meme-rpc.polkachu.com:443",
+      "provider": "polkachu.com:443"
+    },
+    {
+      "address": "https://rpc-meme.pupmos.network:443",
+      "provider": "pupmos.network:443"
+    },
+    {
+      "address": "https://meme-rpc.kleomedes.network:443",
+      "provider": "kleomedes.network:443"
+    },
+    {
+      "address": "http://meme.statesync.nodersteam.com:26657",
+      "provider": "nodersteam.com:26657"
+    },
+    {
+      "address": "https://meme.rpc.m.anode.team:443",
+      "provider": "anode.team:443"
+    }
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.45.9",
   "coin_type": "118",

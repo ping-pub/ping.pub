@@ -1,17 +1,29 @@
 {
-    "chain_name": "juno",
-    "api": ["https://juno-testnet-api.polkachu.com"],
-    "rpc": ["https://juno-testnet-rpc.polkachu.com"],
-    "sdk_version": "0.47.3",
-    "coin_type": "118",
-    "min_tx_fee": "3000",
-    "addr_prefix": "juno",
-    "logo": "/logos/juno.png",
-    "assets": [{
-        "base": "ujunox",
-        "symbol": "JUNOX",
-        "exponent": "6",
-        "coingecko_id": "juno-network", 
-        "logo": "/logos/juno.png"
-    }]
+  "chain_name": "juno",
+  "api": [
+    {
+      "address": "https://juno-testnet-api.polkachu.com",
+      "provider": "polkachu.com"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://juno-testnet-rpc.polkachu.com",
+      "provider": "polkachu.com"
+    }
+  ],
+  "sdk_version": "0.47.3",
+  "coin_type": "118",
+  "min_tx_fee": "3000",
+  "addr_prefix": "juno",
+  "logo": "/logos/juno.png",
+  "assets": [
+    {
+      "base": "ujunox",
+      "symbol": "JUNOX",
+      "exponent": "6",
+      "coingecko_id": "juno-network",
+      "logo": "/logos/juno.png"
+    }
+  ]
 }

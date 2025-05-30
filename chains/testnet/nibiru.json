@@ -1,8 +1,18 @@
 {
   "chain_name": "nibiru",
   "coingecko": "nibiru",
-  "api": ["https://lcd.testnet-1.nibiru.zone"],
-  "rpc": ["https://rpc.testnet-1.nibiru.fi/"],
+  "api": [
+    {
+      "address": "https://lcd.testnet-1.nibiru.zone",
+      "provider": "nibiru.zone"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.testnet-1.nibiru.fi/",
+      "provider": "nibiru.fi"
+    }
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.47.10",
   "coin_type": "118",

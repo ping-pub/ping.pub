@@ -1,23 +1,35 @@
 {
-    "chain_name": "stargaze",
-    "api": [{"address": "https://rest.elgafar-1.stargaze-apis.com", "provider": "elgafar"}],
-    "rpc": [""],
-    "sdk_version": "0.45.6",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "addr_prefix": "stars",
-    "logo": "/logos/stargaze.png",
-    "assets": [{
-        "base": "ustars",
-        "symbol": "STARS",
-        "exponent": "6",
-        "coingecko_id": "stargaze", 
-        "logo": "/logos/stargaze.png"
-    }],
-    "faucet": {
-        "amount": "5000000ustars",
-        "ip_limit": "1",
-        "address_limit": "1",
-        "fees": "8000ustars"
+  "chain_name": "stargaze",
+  "api": [
+    {
+      "address": "https://rest.elgafar-1.stargaze-apis.com",
+      "provider": "elgafar"
     }
+  ],
+  "rpc": [
+    {
+      "address": "",
+      "provider": ""
+    }
+  ],
+  "sdk_version": "0.45.6",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "stars",
+  "logo": "/logos/stargaze.png",
+  "assets": [
+    {
+      "base": "ustars",
+      "symbol": "STARS",
+      "exponent": "6",
+      "coingecko_id": "stargaze",
+      "logo": "/logos/stargaze.png"
+    }
+  ],
+  "faucet": {
+    "amount": "5000000ustars",
+    "ip_limit": "1",
+    "address_limit": "1",
+    "fees": "8000ustars"
+  }
 }

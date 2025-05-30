@@ -1,18 +1,30 @@
 {
-    "chain_name": "scorum",
-    "api": ["https://scorum-blockchain-mainnet-api.scorum.com"],
-    "rpc": ["https://scorum-blockchain-mainnet-rpc.scorum.com"],
-    "snapshot_provider": "",
-    "sdk_version": "0.47.11",
-    "coin_type": "118",
-    "min_tx_fee": "",
-    "addr_prefix": "scorum",
-    "logo": "/logos/scorum.png",
-    "assets": [{
-        "base": "nscr",
-        "symbol": "SCR",
-        "exponent": "9",
-        "coingecko_id": "scorum",
-        "logo": "/logos/scorum-scr.png"
-    }]
+  "chain_name": "scorum",
+  "api": [
+    {
+      "address": "https://scorum-blockchain-mainnet-api.scorum.com",
+      "provider": "scorum.com"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://scorum-blockchain-mainnet-rpc.scorum.com",
+      "provider": "scorum.com"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.11",
+  "coin_type": "118",
+  "min_tx_fee": "",
+  "addr_prefix": "scorum",
+  "logo": "/logos/scorum.png",
+  "assets": [
+    {
+      "base": "nscr",
+      "symbol": "SCR",
+      "exponent": "9",
+      "coingecko_id": "scorum",
+      "logo": "/logos/scorum-scr.png"
+    }
+  ]
 }

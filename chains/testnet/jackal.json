@@ -1,31 +1,43 @@
 {
-    "chain_name": "jackal",
-    "coingecko": "jackal_protocol",
-    "api": [
-        {"provider":  "Jackal Labs", "address": "https://testnet-api.jackalprotocol.com"},
-        {"provider":  "Brochain", "address": "https://jackal-testnet-api.brocha.in"}
-    ],
-    "rpc": [
-        {"provider":  "Jackal Labs", "address": "https://testnet-rpc.jackalprotocol.com"},
-        {"provider":  "Brochain", "address": "https://jackal-testnet-rpc.brocha.in"}
-    ],
-    "faucet": {
-        "amount": "10000000ujkl",
-        "ip_limit": "1",
-        "address_limit": "10",
-        "fees": "1000ujkl"
+  "chain_name": "jackal",
+  "coingecko": "jackal_protocol",
+  "api": [
+    {
+      "provider": "Jackal Labs",
+      "address": "https://testnet-api.jackalprotocol.com"
     },
-    "coin_type": "118",
-    "sdk_version": "0.45.11",
-    "addr_prefix": "jkl",
-    "logo": "/logos/jackal.png",
-    "assets": [
-        {
-            "base": "ujkl",
-            "symbol": "JKL",
-            "exponent": "6",
-            "coingecko_id": "jackal-protocol",
-            "logo": "/logos/jackal.png"
-        }
-    ]
+    {
+      "provider": "Brochain",
+      "address": "https://jackal-testnet-api.brocha.in"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Jackal Labs",
+      "address": "https://testnet-rpc.jackalprotocol.com"
+    },
+    {
+      "provider": "Brochain",
+      "address": "https://jackal-testnet-rpc.brocha.in"
+    }
+  ],
+  "faucet": {
+    "amount": "10000000ujkl",
+    "ip_limit": "1",
+    "address_limit": "10",
+    "fees": "1000ujkl"
+  },
+  "coin_type": "118",
+  "sdk_version": "0.45.11",
+  "addr_prefix": "jkl",
+  "logo": "/logos/jackal.png",
+  "assets": [
+    {
+      "base": "ujkl",
+      "symbol": "JKL",
+      "exponent": "6",
+      "coingecko_id": "jackal-protocol",
+      "logo": "/logos/jackal.png"
+    }
+  ]
 }

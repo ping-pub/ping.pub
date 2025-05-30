@@ -1,17 +1,29 @@
 {
   "chain_name": "andromeda",
-  "api": ["https://lcd-andromeda.wildsage.io"],
-  "rpc": ["https://rpc-andromeda.wildsage.io"],
+  "api": [
+    {
+      "address": "https://lcd-andromeda.wildsage.io",
+      "provider": "wildsage.io"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc-andromeda.wildsage.io",
+      "provider": "wildsage.io"
+    }
+  ],
   "sdk_version": "0.45.4",
   "coin_type": "118",
   "min_tx_fee": "250",
-  "assets": [{
-    "base": "uandr",
-    "symbol": "ANDR",
-    "exponent": "6",
-    "coingecko_id": "",
-    "logo": "/logos/andromeda.png"
-  }],
+  "assets": [
+    {
+      "base": "uandr",
+      "symbol": "ANDR",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/andromeda.png"
+    }
+  ],
   "addr_prefix": "andr",
   "logo": "/logos/andromeda.png"
 }

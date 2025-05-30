@@ -1,43 +1,67 @@
 {
-    "chain_name": "picasso",
-    "registry_name": "composable",
-    "api": ["https://api.composable-cosmos.composablenodes.tech","https://picasso-api.polkachu.com"],
-    "rpc": ["https://rpc.composable-cosmos.composablenodes.tech","https://picasso-rpc.polkachu.com"],
-    "snapshot_provider": "",
-    "sdk_version": "0.47.1",
-    "coin_type": "118",
-    "min_tx_fee": "500",
-    "addr_prefix": "pica",
-    "logo": "/logos/picasso.png",
-    "assets": [{
-        "base": "ppica",
-        "symbol": "PICA",
-        "exponent": "12",
-        "coingecko_id": "picasso",
-        "logo": "/logos/picasso.png"
-    }, {
-        "base": "ibc/F3EC9F834E57DF704FA3AEAF14E8391C2E58397FE56960AD70E67562990D8265",
-        "symbol": "USDT",
-        "exponent": "6",
-        "coingecko_id": "tether",
-        "logo": "/logos/usdt.svg"
-    }, {
-        "base": "ibc/F9D075D4079FC56A9C49B601E54A45292C319D8B0E8CC0F8439041130AA7166C",
-        "symbol": "ETH",
-        "exponent": "18",
-        "coingecko_id": "ethereum",
-        "logo": "/logos/ethereum.png"
-    }, {
-        "base": "ibc/A342F6F8D1CDE1D934C50E8EAFF91E813D971E1BFEED7E557F1674E01004A533",
-        "symbol": "DAI",
-        "exponent": "18",
-        "coingecko_id": "dai",
-        "logo": "/logos/dai.svg"
-    }, {
-        "base": "ibc/3CC19CEC7E5A3E90E78A5A9ECC5A0E2F8F826A375CF1E096F4515CF09DA3E366",
-        "symbol": "DOT",
-        "exponent": "10",
-        "coingecko_id": "polkadot",
-        "logo": "/logos/dot.svg"
-    }]
+  "chain_name": "picasso",
+  "registry_name": "composable",
+  "api": [
+    {
+      "address": "https://api.composable-cosmos.composablenodes.tech",
+      "provider": "composablenodes.tech"
+    },
+    {
+      "address": "https://picasso-api.polkachu.com",
+      "provider": "polkachu.com"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.composable-cosmos.composablenodes.tech",
+      "provider": "composablenodes.tech"
+    },
+    {
+      "address": "https://picasso-rpc.polkachu.com",
+      "provider": "polkachu.com"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.1",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "pica",
+  "logo": "/logos/picasso.png",
+  "assets": [
+    {
+      "base": "ppica",
+      "symbol": "PICA",
+      "exponent": "12",
+      "coingecko_id": "picasso",
+      "logo": "/logos/picasso.png"
+    },
+    {
+      "base": "ibc/F3EC9F834E57DF704FA3AEAF14E8391C2E58397FE56960AD70E67562990D8265",
+      "symbol": "USDT",
+      "exponent": "6",
+      "coingecko_id": "tether",
+      "logo": "/logos/usdt.svg"
+    },
+    {
+      "base": "ibc/F9D075D4079FC56A9C49B601E54A45292C319D8B0E8CC0F8439041130AA7166C",
+      "symbol": "ETH",
+      "exponent": "18",
+      "coingecko_id": "ethereum",
+      "logo": "/logos/ethereum.png"
+    },
+    {
+      "base": "ibc/A342F6F8D1CDE1D934C50E8EAFF91E813D971E1BFEED7E557F1674E01004A533",
+      "symbol": "DAI",
+      "exponent": "18",
+      "coingecko_id": "dai",
+      "logo": "/logos/dai.svg"
+    },
+    {
+      "base": "ibc/3CC19CEC7E5A3E90E78A5A9ECC5A0E2F8F826A375CF1E096F4515CF09DA3E366",
+      "symbol": "DOT",
+      "exponent": "10",
+      "coingecko_id": "polkadot",
+      "logo": "/logos/dot.svg"
+    }
+  ]
 }

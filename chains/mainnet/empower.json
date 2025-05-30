@@ -1,19 +1,39 @@
 {
-    "chain_name": "empower",
-    "coingecko": "",
-    "api": ["https://api.empower.nodestake.top", "https://empower-api.polkachu.com"],
-    "rpc": ["https://api.empower.nodestake.top", "https://empower-rpc.polkachu.com"],
-    "snapshot_provider": "",
-    "sdk_version": "0.47.5",
-    "coin_type": "118",
-    "min_tx_fee": "5000",
-    "addr_prefix": "empower",
-    "logo": "/logos/empower.png",
-    "assets": [{
-        "base": "umpwr",
-        "symbol": "MPWR",
-        "exponent": "6",
-        "coingecko_id": "",
-        "logo": "/logos/empower.png"
-    }]
+  "chain_name": "empower",
+  "coingecko": "",
+  "api": [
+    {
+      "address": "https://api.empower.nodestake.top",
+      "provider": "nodestake.top"
+    },
+    {
+      "address": "https://empower-api.polkachu.com",
+      "provider": "polkachu.com"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://api.empower.nodestake.top",
+      "provider": "nodestake.top"
+    },
+    {
+      "address": "https://empower-rpc.polkachu.com",
+      "provider": "polkachu.com"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.5",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "empower",
+  "logo": "/logos/empower.png",
+  "assets": [
+    {
+      "base": "umpwr",
+      "symbol": "MPWR",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/empower.png"
+    }
+  ]
 }

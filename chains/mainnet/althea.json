@@ -1,11 +1,20 @@
 {
   "chain_name": "althea",
   "api": [
-    "https://althea.api.m.stavr.tech",
-    "https://nodes.chandrastation.com/api/althea"
+    {
+      "address": "https://althea.api.m.stavr.tech",
+      "provider": "stavr.tech"
+    },
+    {
+      "address": "https://nodes.chandrastation.com/api/althea",
+      "provider": "chandrastation.com"
+    }
   ],
   "rpc": [
-    "https://althea.rpc.m.stavr.tech"
+    {
+      "address": "https://althea.rpc.m.stavr.tech",
+      "provider": "stavr.tech"
+    }
   ],
   "snapshot_provider": "https://www.polkachu.com/tendermint_snapshots/althea",
   "sdk_version": "v0.45.16",

@@ -1,23 +1,35 @@
 {
-    "chain_name": "test-core-2",
-    "coingecko": "persistence",
-    "rpc": [{"address":"https://rpc.testnet2.persistence.one","provider":"Persistence"}],
-    "api": [{"address":"https://rest.testnet2.persistence.one","provider":"Persistence"}],
-    "sdk_version": "0.45.14",
-    "addr_prefix": "persistence",
-    "min_tx_fee": "3000",
-    "logo": "/logos/persistence.png",
-    "assets": [{
-        "base": "uxprt",
-        "symbol": "XPRT",
-        "exponent": "6",
-        "coingecko_id": "persistence",
-        "logo": "/logos/persistence.png"
-    }],
-    "faucet": {
-        "amount": "5000000uxprt",
-        "ip_limit": "1",
-        "address_limit": "1",
-        "fees": "3000uxprt"
+  "chain_name": "test-core-2",
+  "coingecko": "persistence",
+  "rpc": [
+    {
+      "address": "https://rpc.testnet2.persistence.one",
+      "provider": "Persistence"
     }
+  ],
+  "api": [
+    {
+      "address": "https://rest.testnet2.persistence.one",
+      "provider": "Persistence"
+    }
+  ],
+  "sdk_version": "0.45.14",
+  "addr_prefix": "persistence",
+  "min_tx_fee": "3000",
+  "logo": "/logos/persistence.png",
+  "assets": [
+    {
+      "base": "uxprt",
+      "symbol": "XPRT",
+      "exponent": "6",
+      "coingecko_id": "persistence",
+      "logo": "/logos/persistence.png"
+    }
+  ],
+  "faucet": {
+    "amount": "5000000uxprt",
+    "ip_limit": "1",
+    "address_limit": "1",
+    "fees": "3000uxprt"
+  }
 }

@@ -1,34 +1,34 @@
 {
-    "chain_name": "stride",
-    "coingecko": "stride",
-    "api": [
-        {
-            "address": "https://stride.testnet-1.stridenet.co/api",
-            "provider": "stride"
-        }
-    ],
-    "rpc": [
-        {
-            "address": "https://stride.testnet-1.stridenet.co:443",
-            "provider": "stride"
-        }
-    ],
-    "sdk_version": "0.46.7",
-    "addr_prefix": "stride",
-    "logo": "/logos/stride.jpg",
-    "assets": [
-        {
-            "base": "ustrd",
-            "symbol": "STRD",
-            "exponent": "6",
-            "coingecko_id": "stride",
-            "logo": "/logos/stride.jpg"
-        }
-    ],
-    "faucet": {
-        "amount": "5000000ustrd",
-        "ip_limit": "1",
-        "address_limit": "1",
-        "fees": "8000ustrd"
+  "chain_name": "stride",
+  "coingecko": "stride",
+  "api": [
+    {
+      "address": "https://stride.testnet-1.stridenet.co/api",
+      "provider": "stride"
     }
+  ],
+  "rpc": [
+    {
+      "address": "https://stride.testnet-1.stridenet.co:443",
+      "provider": "stride"
+    }
+  ],
+  "sdk_version": "0.46.7",
+  "addr_prefix": "stride",
+  "logo": "/logos/stride.jpg",
+  "assets": [
+    {
+      "base": "ustrd",
+      "symbol": "STRD",
+      "exponent": "6",
+      "coingecko_id": "stride",
+      "logo": "/logos/stride.jpg"
+    }
+  ],
+  "faucet": {
+    "amount": "5000000ustrd",
+    "ip_limit": "1",
+    "address_limit": "1",
+    "fees": "8000ustrd"
+  }
 }

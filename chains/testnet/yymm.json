@@ -1,22 +1,28 @@
 {
-    "chain_name": "yymmchain",
-    "api": [
-      "http://node.bitverse-dev.bitverse.zone:1317"
-    ],
-    "rpc": [
-      "http://node.bitverse-dev.bitverse.zone:26657"
-    ],
-    "addr_prefix": "yymm",
-    "coin_type": "60",
-    "min_tx_fee": "5000000000000",
-    "assets": [
-      {
-        "base": "ubv",
-        "symbol": "BV",
-        "exponent": "18",
-        "logo": "/logos/bv.png"
-      }
-    ],
-    "logo": "/logos/yymm.png",
-    "sdk_version": "v0.50.4"
+  "chain_name": "yymmchain",
+  "api": [
+    {
+      "address": "http://node.bitverse-dev.bitverse.zone:1317",
+      "provider": "bitverse.zone:1317"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "http://node.bitverse-dev.bitverse.zone:26657",
+      "provider": "bitverse.zone:26657"
+    }
+  ],
+  "addr_prefix": "yymm",
+  "coin_type": "60",
+  "min_tx_fee": "5000000000000",
+  "assets": [
+    {
+      "base": "ubv",
+      "symbol": "BV",
+      "exponent": "18",
+      "logo": "/logos/bv.png"
+    }
+  ],
+  "logo": "/logos/yymm.png",
+  "sdk_version": "v0.50.4"
 }

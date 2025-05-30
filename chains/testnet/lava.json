@@ -1,22 +1,30 @@
 {
-    "chain_name": "lava",
-    "api": [
-        "https://lav1.tendermintrpc.lava.build:443"
-    ],
-    "rpc": [
-        "https://lava.tendermintrpc.lava.build:443"
-    ],
-    "snapshot_provider": "",
-    "sdk_version": "0.47.13",
-    "coin_type": "118",
-    "min_tx_fee": "4000",
-    "assets": [{
-        "base": "ulava",
-        "symbol": "LAVA",
-        "exponent": "6",
-        "coingecko_id": "lava-network",
-        "logo": "lava-network"
-    }],
-    "addr_prefix": "lava@",
-    "logo": "/logos/lava.svg"
+  "chain_name": "lava",
+  "api": [
+    {
+      "address": "https://lav1.tendermintrpc.lava.build:443",
+      "provider": "lava.build:443"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://lava.tendermintrpc.lava.build:443",
+      "provider": "lava.build:443"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.13",
+  "coin_type": "118",
+  "min_tx_fee": "4000",
+  "assets": [
+    {
+      "base": "ulava",
+      "symbol": "LAVA",
+      "exponent": "6",
+      "coingecko_id": "lava-network",
+      "logo": "lava-network"
+    }
+  ],
+  "addr_prefix": "lava@",
+  "logo": "/logos/lava.svg"
 }

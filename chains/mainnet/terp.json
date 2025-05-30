@@ -1,19 +1,47 @@
 {
-    "chain_name": "terp",
-    "coingecko": "",
-    "api": ["https://terp-mainnet-api.itrocket.net","https://lcd.terpnetwork.hexnodes.co","https://api.terp.nodestake.top"],
-    "rpc": ["https://terp-mainnet-rpc.itrocket.net","https://rpc.terpnetwork.hexnodes.co","https://rpc.terp.nodestake.top"],
-    "snapshot_provider": "",
-    "sdk_version": "0.47.1",
-    "coin_type": "118",
-    "min_tx_fee": "500",
-    "addr_prefix": "terp",
-    "logo": "/logos/terp-network.jpg",
-    "assets": [{
-        "base": "uterp",
-        "symbol": "TERP",
-        "exponent": "6",
-        "coingecko_id": "",
-        "logo": "/logos/terp-network.jpg"
-    }]
+  "chain_name": "terp",
+  "coingecko": "",
+  "api": [
+    {
+      "address": "https://terp-mainnet-api.itrocket.net",
+      "provider": "itrocket.net"
+    },
+    {
+      "address": "https://lcd.terpnetwork.hexnodes.co",
+      "provider": "hexnodes.co"
+    },
+    {
+      "address": "https://api.terp.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://terp-mainnet-rpc.itrocket.net",
+      "provider": "itrocket.net"
+    },
+    {
+      "address": "https://rpc.terpnetwork.hexnodes.co",
+      "provider": "hexnodes.co"
+    },
+    {
+      "address": "https://rpc.terp.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.1",
+  "coin_type": "118",
+  "min_tx_fee": "500",
+  "addr_prefix": "terp",
+  "logo": "/logos/terp-network.jpg",
+  "assets": [
+    {
+      "base": "uterp",
+      "symbol": "TERP",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/terp-network.jpg"
+    }
+  ]
 }

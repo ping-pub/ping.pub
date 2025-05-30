@@ -1,16 +1,40 @@
 {
-    "chain_name": "chain4energy",
-    "api": ["https://lcd.c4e.io","https://api.c4e.nodestake.top"],
-    "rpc": ["https://rpc.c4e.io:443", "https://rpc.c4e.io:443","https://rpc.c4e.nodestake.top"],
-    "sdk_version": "0.45.5",
-    "coin_type": "4444",
-    "min_tx_fee": "3000",
-    "addr_prefix": "c4e",
-    "logo": "/logos/c4e.png",
-    "assets": [{
-        "base": "uc4e",
-        "symbol": "C4E",
-        "exponent": "6",
-        "logo": "/logos/c4e.png"
-    }]
+  "chain_name": "chain4energy",
+  "api": [
+    {
+      "address": "https://lcd.c4e.io",
+      "provider": "c4e.io"
+    },
+    {
+      "address": "https://api.c4e.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.c4e.io:443",
+      "provider": "c4e.io:443"
+    },
+    {
+      "address": "https://rpc.c4e.io:443",
+      "provider": "c4e.io:443"
+    },
+    {
+      "address": "https://rpc.c4e.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "sdk_version": "0.45.5",
+  "coin_type": "4444",
+  "min_tx_fee": "3000",
+  "addr_prefix": "c4e",
+  "logo": "/logos/c4e.png",
+  "assets": [
+    {
+      "base": "uc4e",
+      "symbol": "C4E",
+      "exponent": "6",
+      "logo": "/logos/c4e.png"
+    }
+  ]
 }

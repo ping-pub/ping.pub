@@ -1,18 +1,42 @@
 {
-    "chain_name": "kyve",
-    "api": ["https://api.kyve.network","https://api.kyve.nodestake.top"],
-    "rpc": ["https://rpc.kyve.network:443","https://rpc.kyve.network:443","https://rpc.kyve.nodestake.top"],
-    "snapshot_provider": "",
-    "sdk_version": "0.47.6",
-    "coin_type": "118",
-    "min_tx_fee": "4000",
-    "assets": [{
-        "base": "ukyve",
-        "symbol": "KYVE",
-        "exponent": "6",
-        "coingecko_id": "kyve-network",
-        "logo": "/logos/kyve.svg"
-    }],
-    "addr_prefix": "kyve",
-    "logo": "/logos/kyve.svg"
+  "chain_name": "kyve",
+  "api": [
+    {
+      "address": "https://api.kyve.network",
+      "provider": "kyve.network"
+    },
+    {
+      "address": "https://api.kyve.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://rpc.kyve.network:443",
+      "provider": "kyve.network:443"
+    },
+    {
+      "address": "https://rpc.kyve.network:443",
+      "provider": "kyve.network:443"
+    },
+    {
+      "address": "https://rpc.kyve.nodestake.top",
+      "provider": "nodestake.top"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.6",
+  "coin_type": "118",
+  "min_tx_fee": "4000",
+  "assets": [
+    {
+      "base": "ukyve",
+      "symbol": "KYVE",
+      "exponent": "6",
+      "coingecko_id": "kyve-network",
+      "logo": "/logos/kyve.svg"
+    }
+  ],
+  "addr_prefix": "kyve",
+  "logo": "/logos/kyve.svg"
 }

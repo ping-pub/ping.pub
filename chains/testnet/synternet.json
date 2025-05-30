@@ -1,27 +1,29 @@
 {
   "chain_name": "synternet",
   "api": [
-      {
-          "address": "https://api-testnet.synternet.com", 
-          "provider": "Synternet"
-      }
-  ], 
+    {
+      "address": "https://api-testnet.synternet.com",
+      "provider": "Synternet"
+    }
+  ],
   "rpc": [
-      {
-          "address": "https://rpc-testnet.synternet.com:443", 
-          "provider": "Synternet"
-      }
+    {
+      "address": "https://rpc-testnet.synternet.com:443",
+      "provider": "Synternet"
+    }
   ],
   "sdk_version": "0.47.11",
   "coin_type": "118",
   "min_tx_fee": "800",
-  "assets": [{
+  "assets": [
+    {
       "base": "uamber",
       "symbol": "AMBER",
       "exponent": "6",
-      "coingecko_id": "", 
+      "coingecko_id": "",
       "logo": "/logos/synternet.png"
-  }],
+    }
+  ],
   "addr_prefix": "amber",
   "theme_color": "#272d45",
   "logo": "/logos/synternet.png"

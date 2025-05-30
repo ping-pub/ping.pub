@@ -8,7 +8,7 @@
     },
     {
       "address": "https://functionx.api.nodeshub.online:443",
-      "provider": "Nodes Hub \ud83d\udee1\ufe0f 100% Slash Protected \ud83d\udee1\ufe0f | Restake \u2705"
+      "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅"
     }
   ],
   "rpc": [
@@ -18,7 +18,7 @@
     },
     {
       "address": "https://functionx.rpc.nodeshub.online:443",
-      "provider": "Nodes Hub \ud83d\udee1\ufe0f 100% Slash Protected \ud83d\udee1\ufe0f | Restake \u2705"
+      "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅"
     }
   ],
   "snapshot_provider": "https://pundi.gitbook.io/pundi/pundi-aifx/setup-node/use-snapshot#available-snapshots",

@@ -1,8 +1,18 @@
 {
   "chain_name": "androma",
   "coingecko": "",
-  "api": ["https://androma-testnet-api.polkachu.com"],
-  "rpc": ["https://androma-testnet-rpc.polkachu.com"],
+  "api": [
+    {
+      "address": "https://androma-testnet-api.polkachu.com",
+      "provider": "polkachu.com"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://androma-testnet-rpc.polkachu.com",
+      "provider": "polkachu.com"
+    }
+  ],
   "sdk_version": "0.46.1",
   "coin_type": "118",
   "min_tx_fee": "8000",

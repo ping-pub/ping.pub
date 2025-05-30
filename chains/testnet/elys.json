@@ -1,28 +1,42 @@
 {
-    "chain_name": "elys",
-    "api": [
-        {"provider": "Elys Team", "address": "https://api.testnet.elys.network"},
-        {"provider": "Allnodes", "address": "https://elys-testnet-rest.publicnode.com"}
-    ],
-    "rpc": [
-        {"provider": "Elys Team", "address": "https://rpc.testnet.elys.network:443"}, 
-        {"provider": "Allnodes", "address": "https://elys-testnet-rpc.publicnode.com"}
-    ],
-    "provider_chain": {
-        "api": ["https://rest.provider-sentry-01.ics-testnet.polypore.xyz"]
+  "chain_name": "elys",
+  "api": [
+    {
+      "provider": "Elys Team",
+      "address": "https://api.testnet.elys.network"
     },
-    "coin_type": "118",
-    "sdk_version": "0.50.9",
-    "addr_prefix": "elys",
-    "min_tx_fee": "0",
-    "logo": "/logos/elys.png",
-    "assets": [
-        {
-            "symbol": "ELYS",
-            "base": "uelys",
-            "exponent": 6,
-            "coingecko_id": "elys",
-            "logo": "https://avatars.githubusercontent.com/u/121874884"
-        }
+    {
+      "provider": "Allnodes",
+      "address": "https://elys-testnet-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Elys Team",
+      "address": "https://rpc.testnet.elys.network:443"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://elys-testnet-rpc.publicnode.com"
+    }
+  ],
+  "provider_chain": {
+    "api": [
+      "https://rest.provider-sentry-01.ics-testnet.polypore.xyz"
     ]
+  },
+  "coin_type": "118",
+  "sdk_version": "0.50.9",
+  "addr_prefix": "elys",
+  "min_tx_fee": "0",
+  "logo": "/logos/elys.png",
+  "assets": [
+    {
+      "symbol": "ELYS",
+      "base": "uelys",
+      "exponent": 6,
+      "coingecko_id": "elys",
+      "logo": "https://avatars.githubusercontent.com/u/121874884"
+    }
+  ]
 }

@@ -1,23 +1,37 @@
 {
-    "chain_name": "Dungeonchain",
-    "api": [
-        {"provider": "Quasar", "address": "https://dungeon-wallet.api.quasarstaking.ai"},
-        {"provider": "Proxy", "address": "https://rest.cosmos.directory/dungeon"}
-    ],
-    "rpc": [
-        {"provider": "Quasar", "address": "https://dungeon-wallet.rpc.quasarstaking.ai"},
-        {"provider": "Proxy", "address": "https://rpc.cosmos.directory/dungeon"}
-    ],
-    "sdk_version": "0.50.9",
-    "coin_type": "118",
-    "min_tx_fee": "0",
-    "addr_prefix": "dungeon",
-    "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
-    "assets": [{
-        "base": "udgn",
-        "coingecko_id": "dragon-coin-2",
-        "symbol": "DGN",
-        "exponent": "6",
-        "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
-    }]
+  "chain_name": "Dungeonchain",
+  "api": [
+    {
+      "provider": "Quasar",
+      "address": "https://dungeon-wallet.api.quasarstaking.ai"
+    },
+    {
+      "provider": "Proxy",
+      "address": "https://rest.cosmos.directory/dungeon"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Quasar",
+      "address": "https://dungeon-wallet.rpc.quasarstaking.ai"
+    },
+    {
+      "provider": "Proxy",
+      "address": "https://rpc.cosmos.directory/dungeon"
+    }
+  ],
+  "sdk_version": "0.50.9",
+  "coin_type": "118",
+  "min_tx_fee": "0",
+  "addr_prefix": "dungeon",
+  "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png",
+  "assets": [
+    {
+      "base": "udgn",
+      "coingecko_id": "dragon-coin-2",
+      "symbol": "DGN",
+      "exponent": "6",
+      "logo": "https://raw.githubusercontent.com/chainapsis/keplr-chain-registry/main/images/dungeon/chain.png"
+    }
+  ]
 }

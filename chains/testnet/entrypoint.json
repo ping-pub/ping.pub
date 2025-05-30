@@ -1,19 +1,31 @@
 {
   "chain_name": "entrypoint",
   "coingecko": "",
-  "api": ["https://testnet-rest.entrypoint.zone"],
-  "rpc": ["https://testnet-rpc.entrypoint.zone"],
+  "api": [
+    {
+      "address": "https://testnet-rest.entrypoint.zone",
+      "provider": "entrypoint.zone"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://testnet-rpc.entrypoint.zone",
+      "provider": "entrypoint.zone"
+    }
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.47.4",
   "coin_type": "118",
   "min_tx_fee": "0",
   "addr_prefix": "entrypoint",
   "logo": "/logos/entrypoint.png",
-  "assets": [{
-    "base": "uentry",
-    "symbol": "ENTRY",
-    "exponent": "6",
-    "coingecko_id": "",
-    "logo": "/logos/entrypoint.png"
-  }]
+  "assets": [
+    {
+      "base": "uentry",
+      "symbol": "ENTRY",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/entrypoint.png"
+    }
+  ]
 }

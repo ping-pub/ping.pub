@@ -2,22 +2,64 @@
   "chain_name": "sge",
   "alias": "sge",
   "api": [
-    "https://rest.cosmos.directory/sge",
-    "https://sge-api.lavenderfive.com",
-    "https://sge-api.ramuchi.tech",
-    "https://api-sge.nodeist.net",
-    "https://sge-api.polkachu.com",
-    "https://api.sge.nodestake.top",
-    "https://sge-api.sr20de.xyz"
+    {
+      "address": "https://rest.cosmos.directory/sge",
+      "provider": "cosmos.directory"
+    },
+    {
+      "address": "https://sge-api.lavenderfive.com",
+      "provider": "lavenderfive.com"
+    },
+    {
+      "address": "https://sge-api.ramuchi.tech",
+      "provider": "ramuchi.tech"
+    },
+    {
+      "address": "https://api-sge.nodeist.net",
+      "provider": "nodeist.net"
+    },
+    {
+      "address": "https://sge-api.polkachu.com",
+      "provider": "polkachu.com"
+    },
+    {
+      "address": "https://api.sge.nodestake.top",
+      "provider": "nodestake.top"
+    },
+    {
+      "address": "https://sge-api.sr20de.xyz",
+      "provider": "sr20de.xyz"
+    }
   ],
   "rpc": [
-    "https://rpc.cosmos.directory/sge",
-    "https://sge-rpc.lavenderfive.com",
-    "https://sge-rpc.ramuchi.tech",
-    "https://rpc-sge.nodeist.net",
-    "https://sge-rpc.polkachu.com",
-    "https://rpc.sge.nodestake.top",
-    "https://sge-rpc.sr20de.xyz"
+    {
+      "address": "https://rpc.cosmos.directory/sge",
+      "provider": "cosmos.directory"
+    },
+    {
+      "address": "https://sge-rpc.lavenderfive.com",
+      "provider": "lavenderfive.com"
+    },
+    {
+      "address": "https://sge-rpc.ramuchi.tech",
+      "provider": "ramuchi.tech"
+    },
+    {
+      "address": "https://rpc-sge.nodeist.net",
+      "provider": "nodeist.net"
+    },
+    {
+      "address": "https://sge-rpc.polkachu.com",
+      "provider": "polkachu.com"
+    },
+    {
+      "address": "https://rpc.sge.nodestake.top",
+      "provider": "nodestake.top"
+    },
+    {
+      "address": "https://sge-rpc.sr20de.xyz",
+      "provider": "sr20de.xyz"
+    }
   ],
   "snapshot_provider": "",
   "addr_prefix": "sge",
