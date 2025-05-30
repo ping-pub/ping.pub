@@ -21,6 +21,10 @@
     {
       "provider": "NodeStake",
       "address": "https://api.haqq.nodestake.top"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-haqq.imperator.co"
     }
   ],
   "rpc": [
@@ -43,6 +47,10 @@
     {
       "provider": "NodeStake",
       "address": "https://rpc.haqq.nodestake.top"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-haqq.imperator.co"
     }
   ],
   "snapshot_provider": "https://polkachu.com/tendermint_snapshots/haqq",

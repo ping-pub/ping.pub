@@ -20,6 +20,10 @@
     {
       "provider": "Allnodes",
       "address": "https://neutron-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-neutron.imperator.co"
     }
   ],
   "rpc": [
@@ -42,6 +46,10 @@
     {
       "provider": "Allnodes",
       "address": "https://neutron-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-neutron.imperator.co"
     }
   ],
   "sdk_version": "0.50.1",

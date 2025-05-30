@@ -13,6 +13,10 @@
     {
       "provider": "Allnodes",
       "address": "https://nolus-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-nolus.imperator.co"
     }
   ],
   "rpc": [
@@ -27,6 +31,10 @@
     {
       "provider": "Allnodes",
       "address": "https://nolus-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-nolus.imperator.co"
     }
   ],
   "snapshot_provider": "",

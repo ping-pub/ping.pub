@@ -20,6 +20,10 @@
     {
       "provider": "Allnodes",
       "address": "https://stride-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-stride.imperator.co"
     }
   ],
   "rpc": [
@@ -42,6 +46,10 @@
     {
       "provider": "Allnodes",
       "address": "https://stride-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-stride.imperator.co"
     }
   ],
   "provider_chain": {

@@ -1,20 +1,56 @@
 {
   "chain_name": "axelar",
   "api": [
-    "https://lcd-axelar-testnet.imperator.co",
-    "https://axelartest-lcd.quickapi.com",
-    "https://axelar-rest-1.staketab.org",
-    "https://axelar-testnet-lcd.qubelabs.io",
-    "https://axelartest-lcd.quantnode.tech",
-    "https://axelar-testnet-api.polkachu.com"
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-axelar-testnet.imperator.co"
+    },
+    {
+      "provider": "quickapi",
+      "address": "https://axelartest-lcd.quickapi.com"
+    },
+    {
+      "provider": "staketab",
+      "address": "https://axelar-rest-1.staketab.org"
+    },
+    {
+      "provider": "qubelabs",
+      "address": "https://axelar-testnet-lcd.qubelabs.io"
+    },
+    {
+      "provider": "quantnode",
+      "address": "https://axelartest-lcd.quantnode.tech"
+    },
+    {
+      "provider": "Polkachu",
+      "address": "https://axelar-testnet-api.polkachu.com"
+    }
   ],
   "rpc": [
-    "https://rpc-axelar-testnet.imperator.co:443",
-    "https://axelartest-rpc.quickapi.com",
-    "https://axelar-rpc-1.staketab.org:443",
-    "https://axelar-testnet-rpc.qubelabs.io",
-    "https://axelartest-rpc.quantnode.tech",
-    "https://axelar-testnet-rpc.polkachu.com"
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-axelar-testnet.imperator.co"
+    },
+    {
+      "provider": "quickapi",
+      "address": "https://axelartest-rpc.quickapi.com"
+    },
+    {
+      "provider": "staketab",
+      "address": "https://axelar-rpc-1.staketab.org:443"
+    },
+    {
+      "provider": "qubelabs",
+      "address": "https://axelar-testnet-rpc.qubelabs.io"
+    },
+    {
+      "provider": "quantnode",
+      "address": "https://axelartest-rpc.quantnode.tech"
+    },
+    {
+      "provider": "Polkachu",
+      "address": "https://axelar-testnet-rpc.polkachu.com"
+    }
   ],
   "snapshot_provider": "",
   "sdk_version": "0.45.11",

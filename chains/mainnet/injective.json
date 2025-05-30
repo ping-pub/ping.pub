@@ -16,6 +16,10 @@
     {
       "provider": "Allnodes",
       "address": "https://injective-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-injective.imperator.co"
     }
   ],
   "rpc": [
@@ -34,6 +38,10 @@
     {
       "provider": "Allnodes",
       "address": "https://injective-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-injective.imperator.co"
     }
   ],
   "snapshot_provider": "",

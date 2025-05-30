@@ -66,6 +66,10 @@
     {
       "provider": "Allnodes",
       "address": "https://axelar-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-axelar.imperator.co"
     }
   ],
   "snapshot_provider": "",

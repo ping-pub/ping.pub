@@ -28,6 +28,10 @@
     {
       "provider": "Lava network",
       "address": "https://rest.evmos.lava.build"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-evmos.imperator.co"
     }
   ],
   "rpc": [
@@ -54,6 +58,10 @@
     {
       "provider": "Lava network",
       "address": "https://tm.evmos.lava.build"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-evmos.imperator.co"
     }
   ],
   "snapshot_provider": "",

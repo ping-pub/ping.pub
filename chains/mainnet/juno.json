@@ -25,6 +25,10 @@
     {
       "provider": "Allnodes",
       "address": "https://juno-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-juno.imperator.co"
     }
   ],
   "rpc": [
@@ -51,6 +55,10 @@
     {
       "provider": "Allnodes",
       "address": "https://juno-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-juno.imperator.co"
     }
   ],
   "snapshot_provider": "",

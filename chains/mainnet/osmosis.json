@@ -13,6 +13,10 @@
     {
       "provider": "Allnodes",
       "address": "https://osmosis-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-osmosis.imperator.co"
     }
   ],
   "rpc": [
@@ -27,6 +31,10 @@
     {
       "provider": "Allnodes",
       "address": "https://osmosis-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-osmosis.imperator.co"
     }
   ],
   "snapshot_provider": "",

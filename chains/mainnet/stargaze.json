@@ -12,6 +12,10 @@
     {
       "provider": "Allnodes",
       "address": "https://stargaze-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-stargaze.imperator.co"
     }
   ],
   "rpc": [
@@ -30,6 +34,10 @@
     {
       "provider": "Allnodes",
       "address": "https://stargaze-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-stargaze.imperator.co"
     }
   ],
   "snapshot_provider": "",

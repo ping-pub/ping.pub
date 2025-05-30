@@ -20,6 +20,10 @@
     {
       "provider": "Allnodes",
       "address": "https://dymension-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-dymension.imperator.co"
     }
   ],
   "rpc": [
@@ -42,6 +46,10 @@
     {
       "provider": "Allnodes",
       "address": "https://dymension-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-dymension.imperator.co"
     }
   ],
   "sdk_version": "0.46.15",

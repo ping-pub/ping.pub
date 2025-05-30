@@ -25,6 +25,10 @@
     {
       "provider": "Allnodes",
       "address": "https://cosmos-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-cosmos.imperator.co"
     }
   ],
   "rpc": [
@@ -43,6 +47,10 @@
     {
       "provider": "Allnodes",
       "address": "https://cosmos-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-cosmos.imperator.co"
     }
   ],
   "sdk_version": "0.45.1",

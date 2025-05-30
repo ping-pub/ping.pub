@@ -12,6 +12,10 @@
     {
       "provider": "Allnodes",
       "address": "https://terra-lcd.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-terra.imperator.co"
     }
   ],
   "rpc": [
@@ -26,6 +30,10 @@
     {
       "provider": "Allnodes",
       "address": "https://terra-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-terra.imperator.co"
     }
   ],
   "snapshot_provider": "https://polkachu.com/tendermint_snapshots/terra",

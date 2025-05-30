@@ -12,6 +12,10 @@
     {
       "provider": "Allnodes",
       "address": "https://celestia-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-celestia.imperator.co"
     }
   ],
   "rpc": [
@@ -26,6 +30,10 @@
     {
       "provider": "Allnodes",
       "address": "https://celestia-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-celestia.imperator.co"
     }
   ],
   "sdk_version": "0.47.0",
