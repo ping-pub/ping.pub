@@ -1,0 +1,86 @@
+{
+  "chain_name": "babylon",
+  "api": [
+      {
+        "address": "https://babylon.nodes.guru/api",
+        "provider": "Nodes.Guru"
+      },
+      {
+        "address": "https://babylon-archive.nodes.guru/api",
+        "provider": "Nodes.Guru"
+      },
+      {
+        "address": "https://babylon-api.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://babylon-archive-api.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://babylon-rest.publicnode.com",
+        "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+      },
+      {
+        "address": "https://babylon-mainnet-lcd.autostake.com:443",
+        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
+      },
+      {
+        "address": "https://community.nuxian-node.ch:6797/babylon/crpc",
+        "provider": "PRO Delegators"
+      },
+      {
+        "address": "https://babylon-mainnet-api.shazoe.xyz",
+        "provider": "Shazoe"
+      },
+      {
+        "address": "https://babylon.api.nodeshub.online",
+        "provider": "NodesHub"
+      },
+      {
+        "address": "https://babylon-mainnet-api.shazoes.xyz",
+        "provider": "Shazoes"
+      }
+    ],
+  "rpc": [
+    {
+        "address": "https://babylon.nodes.guru/rpc",
+        "provider": "Nodes.Guru"
+      },
+      {
+        "address": "https://babylon-archive.nodes.guru/rpc",
+        "provider": "Nodes.Guru"
+      },
+      {
+        "address": "https://babylon-rpc.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://babylon-archive-rpc.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://babylon-rpc.publicnode.com:443",
+        "provider": "Allnodes \u26a1\ufe0f Nodes & Staking"
+      },
+      {
+        "address": "https://babylon-mainnet-rpc.autostake.com:443",
+        "provider": "AutoStake \ud83d\udee1\ufe0f Slash Protected"
+      },
+  ],
+  "snapshot_provider": "",
+  "addr_prefix": "bbn",
+  "coin_type": "118",
+  "min_tx_fee": "8000",
+  "assets": [
+    {
+      "base": "ubbn",
+      "symbol": "BABY",
+      "exponent": "6",
+      "coingecko_id": "babylon",
+      "logo": "/logos/babylon.svg"
+    }
+  ],
+  "logo": "/logos/babylon.svg",
+  "sdk_version": "0.50.8"
+}
