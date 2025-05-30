@@ -1,28 +1,38 @@
 {
-    "chain_name": "atomone",
-    "api": [
-        {
-            "address": "https://atomone-api.allinbits.services", 
-            "provider": "All in Bits"
-        }
-    ], 
-    "rpc": [
-        {
-            "address": "https://atomone-rpc.allinbits.services", 
-            "provider": "All In Bits"
-        }
-    ],
-    "sdk_version": "v0.47.13",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "assets": [{
-        "base": "uatone",
-        "symbol": "ATONE",
-        "exponent": "6",
-        "coingecko_id": "", 
-        "logo": ""
-    }],
-    "addr_prefix": "atone",
-    "theme_color": "#ce4747",
-    "logo": "/logos/cosmos.svg"
+  "chain_name": "atomone",
+  "api": [
+    {
+      "address": "https://atomone-api.allinbits.services",
+      "provider": "All in Bits"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://atomone-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://atomone-rpc.allinbits.services",
+      "provider": "All In Bits"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://atomone-rpc.publicnode.com:443"
+    }
+  ],
+  "sdk_version": "v0.47.13",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [
+    {
+      "base": "uatone",
+      "symbol": "ATONE",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": ""
+    }
+  ],
+  "addr_prefix": "atone",
+  "theme_color": "#ce4747",
+  "logo": "/logos/cosmos.svg"
 }

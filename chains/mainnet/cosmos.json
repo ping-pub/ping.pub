@@ -1,28 +1,62 @@
 {
-    "chain_name": "cosmos",
-    "registry_name": "cosmoshub",
-    "api": [
-        {"provider": "cosmos.directory", "address": "https://rest.cosmos.directory/cosmoshub"},
-        {"provider": "publicnode", "address": "https://cosmos-rest.publicnode.com"},
-        {"provider": "silknode", "address": "https://cosmos.api.silknodes.io"},
-        {"provider": "Lava network", "address": "https://cosmoshub.rest.lava.build"},
-        {"provider": "Quasar", "address": "https://cosmoshub.api.quasarstaking.ai"}
-    ],
-    "rpc": [
-        {"provider": "icycro", "address": "https://cosmos-rpc.icycro.org"},
-        {"provider": "Lava network", "address": "https://cosmoshub.tendermintrpc.lava.build"},
-        {"provider": "Quasar", "address": "https://cosmoshub.rpc.quasarstaking.ai"}
-    ],
-    "sdk_version": "0.45.1",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "addr_prefix": "cosmos",
-    "logo": "/logos/cosmos.svg",
-    "assets": [{
-        "base": "uatom",
-        "symbol": "ATOM",
-        "exponent": "6",
-        "coingecko_id": "cosmos", 
-        "logo": "/logos/cosmos.svg"
-    }]
+  "chain_name": "cosmos",
+  "registry_name": "cosmoshub",
+  "api": [
+    {
+      "provider": "cosmos.directory",
+      "address": "https://rest.cosmos.directory/cosmoshub"
+    },
+    {
+      "provider": "publicnode",
+      "address": "https://cosmos-rest.publicnode.com"
+    },
+    {
+      "provider": "silknode",
+      "address": "https://cosmos.api.silknodes.io"
+    },
+    {
+      "provider": "Lava network",
+      "address": "https://cosmoshub.rest.lava.build"
+    },
+    {
+      "provider": "Quasar",
+      "address": "https://cosmoshub.api.quasarstaking.ai"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://cosmos-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "icycro",
+      "address": "https://cosmos-rpc.icycro.org"
+    },
+    {
+      "provider": "Lava network",
+      "address": "https://cosmoshub.tendermintrpc.lava.build"
+    },
+    {
+      "provider": "Quasar",
+      "address": "https://cosmoshub.rpc.quasarstaking.ai"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://cosmos-rpc.publicnode.com:443"
+    }
+  ],
+  "sdk_version": "0.45.1",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "cosmos",
+  "logo": "/logos/cosmos.svg",
+  "assets": [
+    {
+      "base": "uatom",
+      "symbol": "ATOM",
+      "exponent": "6",
+      "coingecko_id": "cosmos",
+      "logo": "/logos/cosmos.svg"
+    }
+  ]
 }

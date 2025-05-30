@@ -24,6 +24,10 @@
     {
       "address": "https://api.mainnet.solonation.cf",
       "provider": "solonation"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://coreum-rest.publicnode.com"
     }
   ],
   "rpc": [
@@ -62,6 +66,10 @@
     {
       "address": "https://rpc.mainnet.solonation.cf",
       "provider": "solonation"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://coreum-rpc.publicnode.com:443"
     }
   ],
   "sdk_version": "0.47.5",

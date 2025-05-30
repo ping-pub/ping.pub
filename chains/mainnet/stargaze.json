@@ -1,34 +1,57 @@
 {
-    "chain_name": "stargaze",
-    "api": [
-        {"provider": "Polkachu", "address": "https://stargaze-api.polkachu.com"},
-        {"provider": "Stargaze", "address": "https://rest.stargaze-apis.com"},
-        {"provider": "Allnodes", "address": "https://stargaze-rest.publicnode.com"}
-    ],
-    "rpc": [
-        {"provider": "Polkachu", "address": "https://stargaze-rpc.polkachu.com"},
-        {"provider": "Stargaze", "address": "https://rpc.stargaze-apis.com"},
-        {"provider": "EzStaking", "address": "https://rpc.stargaze.ezstaking.io:443"},
-        {"provider": "Allnodes", "address": "https://stargaze-rpc.publicnode.com:443"}
-    ],
-    "snapshot_provider": "",
-    "sdk_version": "0.47.12",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "addr_prefix": "stars",
-    "logo": "/logos/stargaze.svg",
-    "assets": [{
-        "base": "ustars",
-        "symbol": "STARS",
-        "exponent": "6",
-        "coingecko_id": "stargaze", 
-        "logo": "/logos/stargaze.png"
-    },{
-        "base": 
-"ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764",
-        "symbol": "CULT",
-        "exponent": "6",
-        "coingecko_id": "", 
-        "logo": "/logos/cult.png"
-    }]
+  "chain_name": "stargaze",
+  "api": [
+    {
+      "provider": "Polkachu",
+      "address": "https://stargaze-api.polkachu.com"
+    },
+    {
+      "provider": "Stargaze",
+      "address": "https://rest.stargaze-apis.com"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://stargaze-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Polkachu",
+      "address": "https://stargaze-rpc.polkachu.com"
+    },
+    {
+      "provider": "Stargaze",
+      "address": "https://rpc.stargaze-apis.com"
+    },
+    {
+      "provider": "EzStaking",
+      "address": "https://rpc.stargaze.ezstaking.io:443"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://stargaze-rpc.publicnode.com:443"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.12",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "stars",
+  "logo": "/logos/stargaze.svg",
+  "assets": [
+    {
+      "base": "ustars",
+      "symbol": "STARS",
+      "exponent": "6",
+      "coingecko_id": "stargaze",
+      "logo": "/logos/stargaze.png"
+    },
+    {
+      "base": "ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764",
+      "symbol": "CULT",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/cult.png"
+    }
+  ]
 }

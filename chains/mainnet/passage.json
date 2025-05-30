@@ -1,7 +1,33 @@
 {
   "chain_name": "passage",
-  "api": ["https://passage-api.polkachu.com","https://api.passage.nodestake.top"],
-  "rpc": ["https://passage-rpc.polkachu.com:443","https://rpc.passage.nodestake.top"],
+  "api": [
+    {
+      "provider": "polkachu",
+      "address": "https://passage-api.polkachu.com"
+    },
+    {
+      "provider": "nodestake",
+      "address": "https://api.passage.nodestake.top"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://passage-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "polkachu",
+      "address": "https://passage-rpc.polkachu.com:443"
+    },
+    {
+      "provider": "nodestake",
+      "address": "https://rpc.passage.nodestake.top"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://passage-rpc.publicnode.com:443"
+    }
+  ],
   "snapshot_provider": "",
   "sdk_version": "0.45.5",
   "coin_type": "118",

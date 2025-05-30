@@ -1,35 +1,43 @@
 {
-    "chain_name": "celestia",
-    "api": [
-        {
-            "address": "https://celestia-testnet-api.polkachu.com",
-            "provider": "Polkachu"
-        }
-    ],
-    "rpc": [
-        {
-            "address": "https://celestia-testnet-rpc.polkachu.com",
-            "provider": "Polkachu"
-        }
-    ],
-    "sdk_version": "0.46.0",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "addr_prefix": "celestia",
-    "logo": "/logos/celestia.png",
-    "assets": [
-        {
-            "base": "utia",
-            "symbol": "TIA",
-            "exponent": "6",
-            "coingecko_id": "celestia",
-            "logo": "/logos/celestia.png"
-        }
-    ],
-    "faucet": {
-        "amount": "5000000utia",
-        "ip_limit": "1",
-        "address_limit": "1",
-        "fees": "2000utia"
+  "chain_name": "celestia",
+  "api": [
+    {
+      "address": "https://celestia-testnet-api.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://celestia-mocha-rest.publicnode.com"
     }
+  ],
+  "rpc": [
+    {
+      "address": "https://celestia-testnet-rpc.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://celestia-mocha-rpc.publicnode.com:443"
+    }
+  ],
+  "sdk_version": "0.46.0",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "celestia",
+  "logo": "/logos/celestia.png",
+  "assets": [
+    {
+      "base": "utia",
+      "symbol": "TIA",
+      "exponent": "6",
+      "coingecko_id": "celestia",
+      "logo": "/logos/celestia.png"
+    }
+  ],
+  "faucet": {
+    "amount": "5000000utia",
+    "ip_limit": "1",
+    "address_limit": "1",
+    "fees": "2000utia"
+  }
 }

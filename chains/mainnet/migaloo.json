@@ -1,28 +1,54 @@
 {
-    "chain_name": "Migaloo",
-    "coingecko": "white-whale",
-    "api": [
-        "https://migaloo-api.polkachu.com",
-        "https://api.migaloo.silknodes.io",
-        "https://api.whitewhale.nodestake.top"
-    ],
-    "rpc": [
-        "https://migaloo-rpc.polkachu.com/:443",
-        "https://rpc.migaloo.silknodes.io",
-        "https://rpc.whitewhale.nodestake.top"
-    ],
-    "snapshot_provider": "",
-    "coin_type": 118,
-    "sdk_version": "0.45.9",
-    "addr_prefix": "migaloo",
-    "logo": "/logos/migaloo.png",
-    "assets": [
-        {
-            "base": "uwhale",
-            "symbol": "WHALE",
-            "exponent": 6,
-            "coingecko_id": "white-whale",
-            "logo": "/logos/whitewhale.jpg"
-        }
-    ]
+  "chain_name": "Migaloo",
+  "coingecko": "white-whale",
+  "api": [
+    {
+      "provider": "polkachu",
+      "address": "https://migaloo-api.polkachu.com"
+    },
+    {
+      "provider": "silknodes",
+      "address": "https://api.migaloo.silknodes.io"
+    },
+    {
+      "provider": "nodestake",
+      "address": "https://api.whitewhale.nodestake.top"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://migaloo-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "polkachu",
+      "address": "https://migaloo-rpc.polkachu.com/:443"
+    },
+    {
+      "provider": "silknodes",
+      "address": "https://rpc.migaloo.silknodes.io"
+    },
+    {
+      "provider": "nodestake",
+      "address": "https://rpc.whitewhale.nodestake.top"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://migaloo-rpc.publicnode.com:443"
+    }
+  ],
+  "snapshot_provider": "",
+  "coin_type": 118,
+  "sdk_version": "0.45.9",
+  "addr_prefix": "migaloo",
+  "logo": "/logos/migaloo.png",
+  "assets": [
+    {
+      "base": "uwhale",
+      "symbol": "WHALE",
+      "exponent": 6,
+      "coingecko_id": "white-whale",
+      "logo": "/logos/whitewhale.jpg"
+    }
+  ]
 }

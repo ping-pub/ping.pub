@@ -1,14 +1,32 @@
 {
   "chain_name": "teritori",
   "api": [
-      {"provider": "Teritori", "address": "https://rest.mainnet.teritori.com"},
-      {"provider": "NodeStake", "address": "https://api.teritori.nodestake.top"},
-      {"provider": "Allnodes", "address": "https://teritori-rest.publicnode.com"}
+    {
+      "provider": "Teritori",
+      "address": "https://rest.mainnet.teritori.com"
+    },
+    {
+      "provider": "NodeStake",
+      "address": "https://api.teritori.nodestake.top"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://teritori-rest.publicnode.com"
+    }
   ],
   "rpc": [
-      {"provider": "Teritori", "address": "https://rpc.mainnet.teritori.com"},
-      {"provider": "NodeStake", "address": "https://rpc.teritori.nodestake.top"},
-      {"provider": "Allnodes", "address": "https://teritori-rpc.publicnode.com:443"}
+    {
+      "provider": "Teritori",
+      "address": "https://rpc.mainnet.teritori.com"
+    },
+    {
+      "provider": "NodeStake",
+      "address": "https://rpc.teritori.nodestake.top"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://teritori-rpc.publicnode.com:443"
+    }
   ],
   "snapshot_provider": "",
   "sdk_version": "0.45.4",

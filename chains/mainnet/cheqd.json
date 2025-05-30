@@ -1,18 +1,56 @@
 {
-    "chain_name": "cheqd",
-    "api": ["https://api.cheqd.net","https://api.cheqd.nodestake.top"],
-    "rpc": ["https://rpc.cheqd.net:443", "https://rpc.cheqd.net:443","https://rpc.cheqd.nodestake.top"],
-    "snapshot_provider": "",
-    "sdk_version": "0.45.5",
-    "coin_type": "118",
-    "min_tx_fee": "5000",
-    "addr_prefix": "cheqd",
-    "logo": "/logos/cheqd.png",
-    "assets": [{
-        "base": "ncheq",
-        "symbol": "CHEQ",
-        "exponent": "9",
-        "coingecko_id": "cheqd-network", 
-        "logo": "/logos/cheqd.png"
-    }]
+  "chain_name": "cheqd",
+  "api": [
+    {
+      "provider": "Cheqd",
+      "address": "https://api.cheqd.net"
+    },
+    {
+      "provider": "Nodestake",
+      "address": "https://api.cheqd.nodestake.top"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://cheqd-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Cheqd",
+      "address": "https://rpc.cheqd.net:443"
+    },
+    {
+      "provider": "Cheqd",
+      "address": "https://rpc.cheqd.net:443"
+    },
+    {
+      "provider": "Nodestake",
+      "address": "https://rpc.cheqd.nodestake.top"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://cheqd-rpc.publicnode.com:443"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.5",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "cheqd",
+  "logo": "/logos/cheqd.png",
+  "assets": [
+    {
+      "base": "ncheq",
+      "symbol": "CHEQ",
+      "exponent": "9",
+      "coingecko_id": "cheqd-network",
+      "logo": "/logos/cheqd.png"
+    }
+  ],
+  "rest": [
+    {
+      "provider": "Allnodes",
+      "endpoint": "https://cheqd-rest.publicnode.com"
+    }
+  ]
 }

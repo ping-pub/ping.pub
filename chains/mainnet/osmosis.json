@@ -1,54 +1,76 @@
 {
-    "chain_name": "osmosis",
-    "coingecko": "osmosis",
-    "api": [
-        {"provider": "Osmosis", "address": "https://lcd.osmosis.zone"},
-        {"provider": "Polkachu", "address": "https://osmosis-api.polkachu.com"},
-        {"provider": "Allnodes", "address": "https://osmosis-rest.publicnode.com"}
-    ],
-    "rpc": [
-        {"provider": "Osmosis", "address": "https://rpc.osmosis.zone"}, 
-        {"provider": "Polkachu", "address": "https://osmosis-rpc.polkachu.com:443"}, 
-        {"provider": "Allnodes", "address": "https://osmosis-rpc.publicnode.com:443"}
-    ],
-    "snapshot_provider": "",
-    "sdk_version": "0.46.1",
-    "coin_type": "118",
-    "min_tx_fee": "800",
-    "addr_prefix": "osmo",
-    "logo": "/logos/osmosis.jpg",
-    "theme_color": "#812cd6",
-    "assets": [{
-        "base": "uosmo",
-        "symbol": "OSMO",
-        "exponent": "6",
-        "coingecko_id": "osmosis", 
-        "logo": "/logos/osmosis.jpg"
-    },{
-        "base": "uion",
-        "symbol": "ION",
-        "exponent": "6",
-        "coingecko_id": "ion", 
-        "logo": "/logos/osmosis.jpg"
-    },{
-        "base": "usomm",
-        "symbol": "SOMM",
-        "exponent": "6",
-        "coingecko_id": "somm", 
-        "logo": ""
-    },{
-        "base": 
-"factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
-        "symbol": "YMOS",
-        "exponent": "6",
-        "coingecko_id": "", 
-        "logo": "/logos/ymos.png"
-    },{
-        "base": 
-"factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
-        "symbol": "CULT",
-        "exponent": "6",
-        "coingecko_id": "", 
-        "logo": "/logos/cult.png"
-    }]
+  "chain_name": "osmosis",
+  "coingecko": "osmosis",
+  "api": [
+    {
+      "provider": "Osmosis",
+      "address": "https://lcd.osmosis.zone"
+    },
+    {
+      "provider": "Polkachu",
+      "address": "https://osmosis-api.polkachu.com"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://osmosis-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Osmosis",
+      "address": "https://rpc.osmosis.zone"
+    },
+    {
+      "provider": "Polkachu",
+      "address": "https://osmosis-rpc.polkachu.com:443"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://osmosis-rpc.publicnode.com:443"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.46.1",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "osmo",
+  "logo": "/logos/osmosis.jpg",
+  "theme_color": "#812cd6",
+  "assets": [
+    {
+      "base": "uosmo",
+      "symbol": "OSMO",
+      "exponent": "6",
+      "coingecko_id": "osmosis",
+      "logo": "/logos/osmosis.jpg"
+    },
+    {
+      "base": "uion",
+      "symbol": "ION",
+      "exponent": "6",
+      "coingecko_id": "ion",
+      "logo": "/logos/osmosis.jpg"
+    },
+    {
+      "base": "usomm",
+      "symbol": "SOMM",
+      "exponent": "6",
+      "coingecko_id": "somm",
+      "logo": ""
+    },
+    {
+      "base": "factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
+      "symbol": "YMOS",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/ymos.png"
+    },
+    {
+      "base": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+      "symbol": "CULT",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/cult.png"
+    }
+  ]
 }

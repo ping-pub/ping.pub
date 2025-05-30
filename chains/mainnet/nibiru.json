@@ -53,6 +53,10 @@
     {
       "address": "https://nibiru-rest.publicnode.com",
       "provider": "Allnodes ⚡️ Nodes & Staking"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://nibiru-rest.publicnode.com"
     }
   ],
   "rpc": [
@@ -103,6 +107,10 @@
     {
       "address": "https://nibiru-rpc.publicnode.com:443",
       "provider": "Allnodes ⚡️ Nodes & Staking"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://nibiru-rpc.publicnode.com:443"
     }
   ],
   "snapshot_provider": "",

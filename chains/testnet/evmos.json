@@ -1,20 +1,45 @@
 {
-    "chain_name": "evmos",
-    "coingecko": "",
-    "api": ["https://evmos-testnet-api.polkachu.com"],
-    "rpc": ["https://evmos-testnet-rpc.polkachu.com:443"],
-    "snapshot_provider": "",
-    "sdk_version": "0.45.1",
-    "coin_type": "60",
-    "min_tx_fee": "3000000000000000",
-    "addr_prefix": "evmos",
-    "logo": "/logos/evmos.jpeg",
-    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
-    "assets": [{
-        "base": "atevmos",
-        "symbol": "TEVMOS",
-        "exponent": "18",
-        "coingecko_id": "", 
-        "logo": "/logos/evmos.jpeg"
-    }]
+  "chain_name": "evmos",
+  "coingecko": "",
+  "api": [
+    {
+      "provider": "polkachu",
+      "address": "https://evmos-testnet-api.polkachu.com"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://evmos-testnet-rest.publicnode.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "polkachu",
+      "address": "https://evmos-testnet-rpc.polkachu.com:443"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://evmos-testnet-rpc.publicnode.com:443"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.45.1",
+  "coin_type": "60",
+  "min_tx_fee": "3000000000000000",
+  "addr_prefix": "evmos",
+  "logo": "/logos/evmos.jpeg",
+  "keplr_features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "assets": [
+    {
+      "base": "atevmos",
+      "symbol": "TEVMOS",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "/logos/evmos.jpeg"
+    }
+  ]
 }
