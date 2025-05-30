@@ -1,7 +1,10 @@
 {
   "chain_name": "lava",
   "api": [
-    "https://lava.rest.lava.build:443",
+    {
+      "address": "https://lava.rest.lava.build:443",
+      "provider": "Lava"
+    },
     {
       "address": "https://lava.api.stakevillage.net",
       "provider": "Stake Village"
@@ -13,10 +16,17 @@
     {
       "address": "https://lava-mainnet-rest.mellifera.network/",
       "provider": "MELLIFERA"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-lava.imperator.co"
     }
   ],
   "rpc": [
-    "https://lava.tendermintrpc.lava.build:443",
+    {
+      "address": "https://lava.tendermintrpc.lava.build:443",
+      "provider": "Lava"
+    },
     {
       "address": "https://lava.rpc.stakevillage.net",
       "provider": "Stake Village"
@@ -28,6 +38,10 @@
     {
       "address": "https://lava-mainnet-rpc.mellifera.network/",
       "provider": "MELLIFERA"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-lava.imperator.co"
     }
   ],
   "snapshot_provider": "",

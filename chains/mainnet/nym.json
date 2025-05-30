@@ -8,12 +8,20 @@
     {
       "address": "https://api.nyx.nodes.guru",
       "provider": "nodes.guru"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-nym.imperator.co"
     }
   ],
   "rpc": [
     {
       "address": "https://rpc.nyx.nodes.guru",
       "provider": "nodes.guru"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-nym.imperator.co"
     }
   ],
   "snapshot_provider": "",

@@ -9,6 +9,10 @@
     {
       "address": "https://lumnetwork-api.lavenderfive.com",
       "provider": "lavenderfive.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-lum.imperator.co"
     }
   ],
   "rpc": [
@@ -19,6 +23,10 @@
     {
       "address": "https://lumnetwork-rpc.lavenderfive.com:443",
       "provider": "lavenderfive.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-lum.imperator.co"
     }
   ],
   "snapshot_provider": "",

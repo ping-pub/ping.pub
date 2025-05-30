@@ -12,6 +12,10 @@
     {
       "address": "https://api.archway.nodestake.top",
       "provider": "nodestake.top"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-archway.imperator.co"
     }
   ],
   "rpc": [
@@ -26,6 +30,10 @@
     {
       "address": "https://rpc.archway.nodestake.top/",
       "provider": "nodestake.top"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-archway.imperator.co"
     }
   ],
   "snapshot_provider": "https://snapshots.archway.tech/",

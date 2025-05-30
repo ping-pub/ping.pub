@@ -1,7 +1,16 @@
 {
   "chain_name": "band",
   "alias": "band-protocol",
-  "api": "https://laozi1.bandchain.org/api",
+  "api": [
+    {
+      "address": "https://laozi1.bandchain.org/api",
+      "provider": "bandchain"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-band.imperator.co"
+    }
+  ],
   "rpc": [
     {
       "address": "http://rpc.laozi1.bandchain.org:80",
@@ -10,6 +19,10 @@
     {
       "address": "http://rpc.laozi1.bandchain.org:80",
       "provider": "bandchain.org:80"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-band.imperator.co"
     }
   ],
   "snapshot_provider": "",

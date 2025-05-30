@@ -8,6 +8,10 @@
     {
       "address": "https://api.kyve.nodestake.top",
       "provider": "nodestake.top"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-kyve.imperator.co"
     }
   ],
   "rpc": [
@@ -22,6 +26,10 @@
     {
       "address": "https://rpc.kyve.nodestake.top",
       "provider": "nodestake.top"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-kyve.imperator.co"
     }
   ],
   "snapshot_provider": "",
