@@ -28,11 +28,11 @@
       "base": "uatone",
       "symbol": "ATONE",
       "exponent": "6",
-      "coingecko_id": "",
+      "coingecko_id": "atomone",
       "logo": ""
     }
   ],
   "addr_prefix": "atone",
   "theme_color": "#ce4747",
-  "logo": "/logos/cosmos.svg"
+  "logo": "/logos/atomone.svg"
 }
