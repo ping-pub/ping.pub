@@ -1,0 +1,45 @@
+{
+  "chain_name": "symphony",
+  "api": [
+    {
+      "provider": "CoreNode",
+      "address": "https://sym-mainnet-api.corenodehq.xyz/"
+    },
+    {
+      "provider": "KonsorTech",
+      "address": "https://mainnet-symphony-api.konsortech.xyz"
+    },
+    {
+      "provider": "Nodes Hub",
+      "address": "https://symphony.api.nodeshub.online/"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "CoreNode",
+      "address": "https://sym-mainnet-rpc.corenodehq.xyz/"
+    },
+    {
+      "provider": "KonsorTech",
+      "address": "https://mainnet-symphony-rpc.konsortech.xyz"
+    },
+    {
+      "provider": "Nodes Hub",
+      "address": "https://symphony.rpc.nodeshub.online/"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.47.8",
+  "coin_type": "118",
+  "min_tx_fee": "32",
+  "addr_prefix": "symphony",
+  "logo": "/logos/symphony.png",
+  "assets": [
+    {
+      "base": "note",
+      "symbol": "MLD",
+      "exponent": "6",
+      "logo": "/logos/symphony.png"
+    }
+  ]
+}
