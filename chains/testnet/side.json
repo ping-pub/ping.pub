@@ -19,8 +19,8 @@
   "addr_prefix": "side",
   "logo": "/logos/side.png",
   "faucet": {
-    "amount": "5000000uside",
-    "ip_limit": "1",
+    "amount": "5000000uside,50000000uusdc",
+    "ip_limit": "5",
     "address_limit": "1",
     "fees": "1500uside"
   },
