@@ -12,6 +12,10 @@
     {
       "provider": "Allnodes",
       "address": "https://cheqd-rest.publicnode.com"
+    },
+    {
+      "provider": "vNodes[V] Ser[V]ices",
+      "address": "https://cheqd.srvs.vnodesv.net/rest"
     }
   ],
   "rpc": [
@@ -30,6 +34,10 @@
     {
       "provider": "Allnodes",
       "address": "https://cheqd-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "vNodes[V] Ser[V]ices",
+      "address": "https://cheqd.srvs.vnodesv.net/rpc"
     }
   ],
   "snapshot_provider": "",
