@@ -1,0 +1,95 @@
+{
+  "chain_name": "seda",
+  "registry_name": "seda",
+  "api": [
+{
+        "address": "https://lcd.mainnet.seda.xyz",
+        "provider": "SEDA"
+      },
+      {
+        "address": "https://seda-api.polkachu.com",
+        "provider": "Polkachu"
+      },
+      {
+        "address": "https://seda.api.kjnodes.com",
+        "provider": "kjnodes"
+      },
+      {
+        "address": "https://seda-api.synergynodes.com",
+        "provider": "Synergy Nodes"
+      },
+      {
+        "address": "https://rest.lavenderfive.com:443/seda",
+        "provider": "Lavender.Five Nodes 🐝"
+      },
+      {
+        "address": "https://seda-api.kleomedes.network",
+        "provider": "Kleomedes"
+      },
+      {
+        "address": "https://seda-api.ibs.team:443",
+        "provider": "Inter Blockchain Services"
+      },
+      {
+        "address": "https://seda-mainnet-lcd.autostake.com:443",
+        "provider": "AutoStake 🛡️ Slash Protected"
+      },
+      {
+        "address": "https://lcd.seda.bronbro.io:443",
+        "provider": "Bro_n_Bro"
+      },
+      {
+        "address": "https://api-seda.whispernode.com:443",
+        "provider": "WhisperNode 🤐"
+      },
+      {
+        "address": "https://seda-api.applejuice.256x25.tech:443",
+        "provider": "Apple juice 🧃"
+      },
+      {
+        "address": "https://seda-api.bluestake.net",
+        "provider": "BlueStake 🚀"
+      },
+      {
+        "address": "https://seda_mainnet_api.chain.whenmoonwhenlambo.money",
+        "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+      },
+      {
+        "address": "https://api-seda-mainnet.keepitstaked.com:443",
+        "provider": "KeepItStaked.com"
+      },
+      {
+        "address": "https://seda-api.node39.top:443",
+        "provider": "Node39.TOP"
+      },
+      {
+        "address": "https://seda-rest.cosmos-apis.com:443",
+        "provider": "RHINO \ud83e\udd8f"
+      },
+      {
+        "address": "https://seda-mainnet-api.shazoes.xyz",
+        "provider": "Shazoes"
+      }
+  ],
+  "rpc": [
+    {
+        "address": "https://rpc.mainnet.seda.xyz",
+        "provider": "SEDA"
+    }
+  ],
+  "sdk_version": "0.50.9",
+  "coin_type": "118",
+  "min_tx_fee": "8000",
+  "addr_prefix": "seda",
+  "theme_color": "#8178d1",
+  "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg",
+  "assets": [
+    {
+      "base": "aseda",
+      "symbol": "SEDA",
+      "exponent": "18",
+      "coingecko_id": "seda-2",
+      "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/seda/images/seda.svg"
+    }
+  ]
+}
