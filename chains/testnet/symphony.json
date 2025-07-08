@@ -12,6 +12,10 @@
     {
       "provider": "CryptoNodeID",
       "address": "https://symphony-testnet-api.cryptonode.id"
+    },
+    {
+      "provider": "Sr20de",
+      "address": "https://api-testnet-symphony.sr20de.xyz"
     }
   ],
   "rpc": [
@@ -26,6 +30,10 @@
     {
       "provider": "CryptoNodeID",
       "address": "https://symphony-testnet-rpc.cryptonode.id"
+    },
+      {
+      "provider": "Sr20de",
+      "address": "https://rpc-testnet-symphony.sr20de.xyz"
     }
   ],
   "snapshot_provider": "",
