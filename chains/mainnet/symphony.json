@@ -12,6 +12,10 @@
     {
       "provider": "Nodes Hub",
       "address": "https://symphony.api.nodeshub.online/"
+    },
+    {
+      "provider": "Sr20de",
+      "address": "https://api-symphony.sr20de.xyz/"
     }
   ],
   "rpc": [
@@ -26,6 +30,10 @@
     {
       "provider": "Nodes Hub",
       "address": "https://symphony.rpc.nodeshub.online/"
+    },
+    {
+      "provider": "Sr20de",
+      "address": "https://rpc-symphony.sr20de.xyz/"
     }
   ],
   "snapshot_provider": "",
