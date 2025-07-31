@@ -26,12 +26,8 @@
       "address": "https://elys.api.quasarstaking.ai"
     },
     {
-      "provider": "vNodes[V] North America",
-      "address": "https://rest.elys.mtl.vnodesv.net"
-    },
-    {
-      "provider": "vNodes[V] Europe",
-      "address": "https://elys.rest.fr.vnodesv.net"
+      "provider": "vNodes[V]",
+      "address": "https://rest.elys.srvs.vnodesv.net"
     }
   ],
   "rpc": [
@@ -60,12 +56,8 @@
       "address": "https://elys.rpc.quasarstaking.ai:443"
     },
     {
-      "provider": "vNodes[V] North America",
-      "address": "https://rpc.elys.mtl.vnodesv.net"
-    },
-    {
-      "provider": "vNodes[V] Europe",
-      "address": "https://elys.rpc.fr.vnodesv.net"
+      "provider": "vNodes[V]",
+      "address": "https://rpc.elys.srvs.vnodesv.net"
     }
   ],
   "coin_type": "118",
