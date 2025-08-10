@@ -3,19 +3,19 @@
     "api": [
         {
             "address": "https://mainnet-lcd.paxinet.io",
-            "provider": "Paxi Official"
+            "provider": "Paxi Foundation"
         }
     ],
     "rpc": [
         {
             "address": "https://mainnet-rpc.paxinet.io",
-            "provider": "Paxi Official"
+            "provider": "Paxi Foundation"
         }
     ],
     "grpc": [
         {
             "address": "mainnet-rpc.paxinet.io:443",
-            "provider": "Paxi Official"
+            "provider": "Paxi Foundation"
         }
     ],
     "sdk_version": "0.53.0",
