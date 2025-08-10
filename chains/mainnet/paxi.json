@@ -1,5 +1,5 @@
 {
-    "chain_name": "paxi-mainnet",
+    "chain_name": "paxi",
     "api": [
         {
             "address": "https://mainnet-lcd.paxinet.io",
