@@ -1,0 +1,34 @@
+{
+    "chain_name": "paxi",
+    "api": [
+        {
+            "address": "https://mainnet-lcd.paxinet.io",
+            "provider": "Paxi Foundation"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://mainnet-rpc.paxinet.io",
+            "provider": "Paxi Foundation"
+        }
+    ],
+    "grpc": [
+        {
+            "address": "mainnet-rpc.paxinet.io:443",
+            "provider": "Paxi Foundation"
+        }
+    ],
+    "sdk_version": "0.53.0",
+    "coin_type": "118",
+    "min_tx_fee": "4000",
+    "assets": [{
+        "base": "upaxi",
+        "symbol": "PAXI",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "https://paxinet.io/resources/img/icon_transparent.png"
+    }],
+    "addr_prefix": "paxi",
+    "theme_color": "#8C7EFF",
+    "logo": "https://paxinet.io/resources/img/icon_transparent.png"
+}
