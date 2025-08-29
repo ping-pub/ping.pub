@@ -13,9 +13,9 @@
     }
   ],
   "snapshot_provider": "",
-  "sdk_version": "0.47.12",
+  "sdk_version": "0.50.13",
   "coin_type": "0",
-  "min_tx_fee": "1000000000000000000",
+  "min_tx_fee": "100000000000000000",
   "addr_prefix": "hippo",
   "logo": "/logos/hippo-protocol.png",
   "assets": [
@@ -26,5 +26,11 @@
       "coingecko_id": "",
       "logo": "/logos/hippo-protocol.png"
     }
-  ]
+  ],
+  "faucet": {
+    "amount": "50000000000000000000ahp",
+    "ip_limit": "3",
+    "address_limit": "1",
+    "fees": "100000000000000000ahp"
+  }
 }
