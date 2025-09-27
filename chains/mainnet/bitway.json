@@ -1,10 +1,10 @@
 {
-  "chain_name": "side",
-  "registry_name": "SIDE",
+  "chain_name": "bitway",
+  "registry_name": "BTW",
   "api": [
     {
-      "provider": "side labs",
-      "address": "https://rest.side.one"
+      "provider": "bitway labs",
+      "address": "https://rest.bitway.com"
     },
     {
       "provider": "Allnodes",
@@ -17,8 +17,8 @@
   ],
   "rpc": [
     {
-      "provider": "side labs",
-      "address": "https://rpc.side.one"
+      "provider": "bitway labs",
+      "address": "https://rpc.bitway.com"
     },
     {
       "provider": "Allnodes",
@@ -31,19 +31,19 @@
   ],
   "grpc": [
     {
-      "address": "grpc.side.one:443",
-      "provider": "side labs"
+      "address": "grpc.bitway.com:443",
+      "provider": "bitway labs"
     }
   ],
   "sdk_version": "0.50.9",
   "coin_type": "118",
   "min_tx_fee": "800",
-  "addr_prefix": "side",
+  "addr_prefix": "btw",
   "logo": "/logos/side.png",
   "assets": [
     {
-      "base": "uside",
-      "symbol": "SIDE",
+      "base": "ubtw",
+      "symbol": "BTW",
       "exponent": "6",
       "coingecko_id": "",
       "logo": "/logos/side.png"
