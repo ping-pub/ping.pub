@@ -8,11 +8,11 @@
     },
     {
       "provider": "Allnodes",
-      "address": "https://side-rest.publicnode.com"
+      "address": "https://bitway-rest.publicnode.com/"
     },
     {
-      "provider": "Imperator",
-      "address": "https://lcd-side.imperator.co"
+      "provider": "ITRocket",
+      "address": "https://bitway-mainnet-api.itrocket.net"
     }
   ],
   "rpc": [
@@ -22,11 +22,11 @@
     },
     {
       "provider": "Allnodes",
-      "address": "https://side-rpc.publicnode.com:443"
+      "address": "https://bitway-rpc.publicnode.com:443"
     },
     {
-      "provider": "Imperator",
-      "address": "https://rpc-side.imperator.co"
+      "provider": "ITRocket",
+      "address": "https://bitway-mainnet-rpc.itrocket.net"
     }
   ],
   "grpc": [
@@ -35,18 +35,18 @@
       "provider": "bitway labs"
     }
   ],
-  "sdk_version": "0.50.9",
+  "sdk_version": "0.50.14",
   "coin_type": "118",
   "min_tx_fee": "800",
-  "addr_prefix": "btw",
-  "logo": "/logos/side.png",
+  "addr_prefix": "bitway",
+  "logo": "/logos/bitway.png",
   "assets": [
     {
       "base": "ubtw",
       "symbol": "BTW",
       "exponent": "6",
       "coingecko_id": "",
-      "logo": "/logos/side.png"
+      "logo": "/logos/bitway.png"
     }
   ]
 }
