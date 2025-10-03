@@ -1,0 +1,121 @@
+{
+  "chain_name": "cosvian",
+  "chain_id": "cosvian-1",
+  "registry_name": "cosvian",
+  "coingecko": "cosvian",
+  "network_type": "mainnet",
+  "pretty_name": "Cosvian Protocol",
+  "website": "https://cosvian.io",
+  "description": "Cosvian mainnet for retail PoS fixed-fee experiments.",
+  "api": [
+    {
+      "provider": "cosvian",
+      "address": "https://api.cosvian.io"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "cosvian",
+      "address": "https://rpc.cosvian.io"
+    }
+  ],
+  "grpc": [
+    {
+      "provider": "cosvian",
+      "address": "https://grpc.cosvian.io"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "v1.0.0",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "csv",
+  "daemon_name": "Cosviand",
+  "node_home": ".Cosvian",
+  "key_algos": ["secp256k1"],
+  "slip44": 118,
+  "logo": "/logos/cosvian.png",
+  "theme_color": "#812cd6",
+  "status": "live",
+  "fees": {
+    "fee_tokens": [
+      {
+        "denom": "ucsv",
+        "fixed_min_gas_price": 0.025,
+        "low_gas_price": 0.01,
+        "average_gas_price": 0.025,
+        "high_gas_price": 0.03
+      }
+    ]
+  },
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "ucsv"
+      }
+    ]
+  },
+  "codebase": {
+    "git_repo": "https://github.com/cosvian-labs/cosvian.git",
+    "recommended_version": "v1.0.0",
+    "compatible_versions": ["v1.0.0"],
+    "cosmwasm_enabled": true,
+    "genesis": {
+      "genesis_url": ""
+    }
+  },
+  "features": [
+    "dashboard",
+    "governance",
+    "staking",
+    "blocks",
+    "tx",
+    "uptime",
+    "ibc",
+    "supply",
+    "parameters",
+    "consensus",
+    "cosmwasm",
+    "account"
+  ],
+  "keplr_features": [
+    "ibc-go",
+    "ibc-transfer",
+    "no-legacy-stdTx"
+  ],
+  "assets": [
+    {
+      "description": "The native token of the Cosvian chain",
+      "base": "ucsv",
+      "name": "Cosvian",
+      "display": "csv",
+      "symbol": "CSV",
+      "exponent": "6",
+      "type_asset": "sdk.coin",
+      "denom_units": [
+        {
+          "denom": "ucsv",
+          "exponent": 0
+        },
+        {
+          "denom": "csv",
+          "exponent": 6
+        }
+      ],
+      "logo": "/logos/cosvian.png",
+      "logo_URIs": {
+        "png": "/logos/cosvian.png",
+        "svg": "/logos/cosvian.png"
+      },
+      "keywords": ["payments", "pos"],
+      "socials": {
+        "website": "https://cosvian.io"
+      }
+    }
+  ],
+  "peers": {
+    "seeds": [],
+    "persistent_peers": []
+  },
+  "explorers": []
+}
