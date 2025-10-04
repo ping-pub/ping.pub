@@ -1,6 +1,6 @@
 {
   "chain_name": "bitway",
-  "registry_name": "BTW",
+  "registry_name": "bitway",
   "api": [
     {
       "provider": "bitway labs",
