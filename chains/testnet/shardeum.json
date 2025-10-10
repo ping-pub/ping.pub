@@ -1,0 +1,35 @@
+{
+  "chain_name": "shardeum-testnet",
+  "api": [
+    {
+      "address": "https://api-mezame.shardeum.org",
+      "provider": "Shardeum"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://api-mezame.shardeum.org",
+      "provider": "Shardeum"
+    }
+  ],
+  "sdk_version": "0.53.4",
+  "coin_type": "60",
+  "min_tx_fee": "2048130280389041",
+  "assets": [
+    {
+      "base": "ashm",
+      "symbol": "SHM",
+      "exponent": "18",
+      "coingecko_id": "shardeum",
+      "logo": "/logos/shardeum.png"
+    }
+  ],
+  "addr_prefix": "shardeum",
+  "theme_color": "#3042FB",
+  "logo": "/logos/shardeum.png",
+  "faucet": {
+    "amount": "1920000000000000000000ashm",
+    "address_limit": "48000",
+    "fees": "0ashm"
+  }
+}
