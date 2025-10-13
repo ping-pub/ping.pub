@@ -2,19 +2,19 @@
   "chain_name": "shardeum-testnet",
   "api": [
     {
-      "address": "https://api-mezame.shardeum.org",
+      "address": "https://rest-mezame.shardeum.org",
       "provider": "Shardeum"
     }
   ],
   "rpc": [
     {
-      "address": "https://api-mezame.shardeum.org",
+      "address": "https://rpc-mezame.shardeum.org",
       "provider": "Shardeum"
     }
   ],
   "sdk_version": "0.53.4",
   "coin_type": "60",
-  "min_tx_fee": "2048130280389041",
+  "min_tx_fee": "",
   "assets": [
     {
       "base": "ashm",
