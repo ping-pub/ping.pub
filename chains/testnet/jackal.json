@@ -18,7 +18,7 @@
     },
     {
       "provider": "Polkachu",
-      "address": "https://jackal-testnet-rpc.polkachu.com/"
+      "address": "https://jackal-testnet-rpc.polkachu.com"
     }
   ],
   "faucet": {
