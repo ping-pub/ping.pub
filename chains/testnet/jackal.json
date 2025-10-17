@@ -7,8 +7,8 @@
       "address": "https://testnet-api.jackalprotocol.com"
     },
     {
-      "provider": "Brochain",
-      "address": "https://jackal-testnet-api.brocha.in"
+      "provider": "Polkachu",
+      "address": "https://jackal-testnet-api.polkachu.com"
     }
   ],
   "rpc": [
@@ -17,12 +17,12 @@
       "address": "https://testnet-rpc.jackalprotocol.com"
     },
     {
-      "provider": "Brochain",
-      "address": "https://jackal-testnet-rpc.brocha.in"
+      "provider": "Polkachu",
+      "address": "https://jackal-testnet-rpc.polkachu.com"
     }
   ],
   "faucet": {
-    "amount": "10000000ujkl",
+    "amount": "100000000ujkl",
     "ip_limit": "1",
     "address_limit": "10",
     "fees": "1000ujkl"
