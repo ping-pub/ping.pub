@@ -1,0 +1,30 @@
+{
+  "chain_name": "Shardeum",
+  "api": [
+    {
+      "address": "http://rest.shardeum.org/",
+      "provider": "Shardeum"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "http://rpc.shardeum.org/",
+      "provider": "Shardeum"
+    }
+  ],
+  "sdk_version": "0.53.4",
+  "coin_type": "60",
+  "min_tx_fee": "",
+  "assets": [
+    {
+      "base": "ashm",
+      "symbol": "SHM",
+      "exponent": "18",
+      "coingecko_id": "shardeum",
+      "logo": "/logos/shardeum.png"
+    }
+  ],
+  "addr_prefix": "shardeum",
+  "theme_color": "#3042FB",
+  "logo": "/logos/shardeum.png"
+}
