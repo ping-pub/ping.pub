@@ -2,19 +2,19 @@
     "chain_name": "gonka",
     "api": [
         {
-            "address": "http://47.236.19.22:18000/chain-api/", 
+            "address": "https://gonka04.6block.com:8443/chain-api/", 
             "provider": "6block"
         }
     ], 
     "rpc": [
         {
-            "address": "http://47.236.19.22:18000/chain-rpc/", 
+            "address": "https://gonka04.6block.com:8443/chain-rpc/", 
             "provider": "6block"
         }
     ],
     "grpc": [
         {
-            "address": "http://47.236.19.22:18000/chain-grpc", 
+            "address": "https://gonka04.6block.com:8443/chain-grpc/", 
             "provider": "6block"
         }
     ],
