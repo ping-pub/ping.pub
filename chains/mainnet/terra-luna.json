@@ -9,8 +9,8 @@
   ],
   "rpc": [
     {
-      "provider": "Easy2Stake",
-      "address": "https://terra-rpc.easy2stake.com:443"
+      "provider": "Allnodes",
+      "address": "https://terra-classic-rpc.publicnode.com"
     },
     {
       "provider": "Allnodes",
