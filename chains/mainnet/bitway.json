@@ -1,0 +1,52 @@
+{
+  "chain_name": "bitway",
+  "registry_name": "bitway",
+  "api": [
+    {
+      "provider": "bitway labs",
+      "address": "https://rest.bitway.com"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://bitway-rest.publicnode.com/"
+    },
+    {
+      "provider": "ITRocket",
+      "address": "https://bitway-mainnet-api.itrocket.net"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "bitway labs",
+      "address": "https://rpc.bitway.com"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://bitway-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "ITRocket",
+      "address": "https://bitway-mainnet-rpc.itrocket.net"
+    }
+  ],
+  "grpc": [
+    {
+      "address": "grpc.bitway.com:443",
+      "provider": "bitway labs"
+    }
+  ],
+  "sdk_version": "0.50.14",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "addr_prefix": "bitway",
+  "logo": "/logos/bitway.png",
+  "assets": [
+    {
+      "base": "ubtw",
+      "symbol": "BTW",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/bitway.png"
+    }
+  ]
+}

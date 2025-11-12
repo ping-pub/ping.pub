@@ -1,0 +1,36 @@
+{
+  "chain_name": "axone",
+  "api": [
+    {
+      "address": "https://axone-api.highstakes.ch",
+      "provider": "High Stakes 🇨🇭"
+    },
+    {
+      "address": "https://api.axone.nodestake.org",
+      "provider": "NodeStake"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://axone-rpc.highstakes.ch",
+      "provider": "High Stakes 🇨🇭"
+    },
+    {
+      "address": "https://rpc.axone.nodestake.org",
+      "provider": "NodeStake"
+    }
+  ],
+  "addr_prefix": "axone",
+  "coin_type": "118",
+  "min_tx_fee": "3000",
+  "logo": "/logos/axone.svg",
+  "sdk_version": "0.50.13",
+  "assets": [
+    {
+      "base": "uaxone",
+      "symbol": "AXONE",
+      "exponent": "6",
+      "logo": "/logos/axone.svg"
+    }
+  ]
+}
