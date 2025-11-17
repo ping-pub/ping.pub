@@ -1,5 +1,5 @@
 {
-  "chain_name": "shardeum-testnet",
+  "chain_name": "shardeum",
   "api": [
     {
       "address": "https://rest-mezame.shardeum.org",
