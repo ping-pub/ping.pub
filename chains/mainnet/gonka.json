@@ -1,0 +1,34 @@
+{
+    "chain_name": "gonka",
+    "api": [
+        {
+            "address": "https://gonka04.6block.com:8443/chain-api/", 
+            "provider": "6block"
+        }
+    ], 
+    "rpc": [
+        {
+            "address": "https://gonka04.6block.com:8443/chain-rpc/", 
+            "provider": "6block"
+        }
+    ],
+    "grpc": [
+        {
+            "address": "https://gonka04.6block.com:8443/chain-grpc/", 
+            "provider": "6block"
+        }
+    ],
+    "sdk_version": "0.53.3",
+    "coin_type": "118",
+    "min_tx_fee": "0",
+    "assets": [{
+        "base": "ngonka",
+        "symbol": "GNK",
+        "exponent": "9",
+        "coingecko_id": "gonka", 
+        "logo": "/logos/gonka.svg"
+    }],
+    "addr_prefix": "gonka",
+    "theme_color": "#000000",
+    "logo": "/logos/gonka.svg"
+}
