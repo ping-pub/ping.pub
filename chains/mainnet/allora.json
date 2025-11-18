@@ -1,0 +1,36 @@
+{
+    "chain_name": "allora",
+    "api": [
+      {
+        "provider": "Allora Foundation",
+        "address": "https://allora-api.mainnet.allora.network"
+      }
+    ],
+    "rpc": [
+      {
+        "provider": "Allora Foundation",
+        "address": "https://allora-rpc.mainnet.allora.network"
+      }
+    ],
+    "grpc": [
+      {
+        "provider": "Allora Foundation",
+        "address": "allora-grpc.mainnet.allora.network:443"
+      }
+    ],
+    "sdk_version": "v0.50.14",
+    "coin_type": "118",
+    "theme_color": "#F2F2F2",
+    "addr_prefix": "allo",
+    "logo": "/logos/allora.png",
+    "assets": [
+      {
+        "base": "uallo",
+        "symbol": "ALLO",
+        "exponent": "18",
+        "coingecko_id": "allora",
+        "logo": "/logos/allora.png"
+      }
+    ]
+  }
+  
