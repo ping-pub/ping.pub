@@ -2,13 +2,13 @@
   "chain_name": "Shardeum",
   "api": [
     {
-      "address": "http://rest.shardeum.org/",
+      "address": "https://rest.shardeum.org/",
       "provider": "Shardeum"
     }
   ],
   "rpc": [
     {
-      "address": "http://rpc.shardeum.org/",
+      "address": "https://rpc.shardeum.org/",
       "provider": "Shardeum"
     }
   ],
