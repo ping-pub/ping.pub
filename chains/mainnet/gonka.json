@@ -2,20 +2,20 @@
     "chain_name": "gonka",
     "api": [
         {
-            "address": "https://gonka04.6block.com:8443/chain-api/", 
-            "provider": "6block"
+            "address": "https://node2.gonka.ai:8443/chain-api/", 
+            "provider": "PS on Nebius"
         }
     ], 
     "rpc": [
         {
-            "address": "https://gonka04.6block.com:8443/chain-rpc/", 
-            "provider": "6block"
+            "address": "https://node2.gonka.ai:8443/chain-rpc/", 
+            "provider": "PS on Nebius"
         }
     ],
     "grpc": [
         {
-            "address": "https://gonka04.6block.com:8443/chain-grpc/", 
-            "provider": "6block"
+            "address": "https://node2.gonka.ai:8443/chain-grpc/", 
+            "provider": "PS on Nebius"
         }
     ],
     "sdk_version": "0.53.3",
