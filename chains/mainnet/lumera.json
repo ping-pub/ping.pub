@@ -5,12 +5,20 @@
     {
       "address": "https://rpc.lumera.io",
       "provider": "Lumera Protocol"
+    },
+    {
+      "address": "https://lumera-rpc.linknode.org",
+      "provider": "AstroStake"
     }
   ],
   "api": [
     {
       "address": "https://lcd.lumera.io",
       "provider": "Lumera Protocol"
+    },
+    {
+      "address": "https://lumera-api.linknode.org",
+      "provider": "AstroStake"
     }
   ],
   "snapshot_provider": "",
