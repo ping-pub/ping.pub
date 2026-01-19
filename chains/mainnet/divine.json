@@ -3,43 +3,43 @@
   "api": [
    {
         "provider": "divineray",
-        "url": "https://rest-mainnet.divineray.ca:443"
+        "url": "https://rest-mainnet.divineray.ca"
     },
     {
         "provider": "divineray node2",
-        "url": "https://rest-mainnet-node2.divineray.ca:443"
+        "url": "https://rest-mainnet-node2.divineray.ca"
     },
     {
         "provider": "divineray node3",
-        "url": "https://rest-mainnet-node3.divineray.ca:443"
+        "url": "https://rest-mainnet-node3.divineray.ca"
     }
   ],
   "rpc": [
     {
-      "address": "https://rpc-mainnet.divineray.ca:443",
+      "address": "https://rpc-mainnet.divineray.ca",
       "provider": "divineray"
     },
     {
-      "address": "https://rpc-mainnet-node2.divineray.ca:443",
+      "address": "https://rpc-mainnet-node2.divineray.ca",
       "provider": "divineray node2"
     },
     {
-      "address": "https://rpc-mainnet-node3.divineray.ca:443",
+      "address": "https://rpc-mainnet-node3.divineray.ca",
       "provider": "divineray node3"
     }
   ],
   "grpc": [
    {
         "provider": "divineray",
-        "url": "grpc-mainnet.divineray.ca:443"
+        "url": "grpc-mainnet.divineray.ca"
     },
     {
         "provider": "divineray node2",
-        "url": "grpc-mainnet-node2.divineray.ca:443"
+        "url": "grpc-mainnet-node2.divineray.ca"
     },
     {
         "provider": "divineray node3",
-        "url": "grpc-mainnet-node3.divineray.ca:443"
+        "url": "grpc-mainnet-node3.divineray.ca"
     }
   ],
   "sdk_version": "0.53.3",
