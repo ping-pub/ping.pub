@@ -1,0 +1,29 @@
+{
+  "chain_name": "LumiWave",
+  "api": [
+    {
+      "address": "https://lwp-testnet.lumiwavelab.com",
+      "provider": "pdx-validator-api"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://lwp-testnet.lumiwavelab.com/tendermint",
+      "provider": "pdx-validator-tendermint"
+    }
+  ],
+  "sdk_version": "0.53.4",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "lumi",
+  "logo": "/logos/lumiwave.png",
+  "assets": [
+    {
+      "base": "ulwp",
+      "symbol": "LWP",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/lumiwave.png"
+    }
+  ]
+}
