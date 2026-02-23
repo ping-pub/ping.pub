@@ -15,7 +15,7 @@
     },
     {
       "provider": "vNodes[V] Ser[V]ices",
-      "address": "https://cheqd.srvs.vnodesv.net/rest"
+      "address": "https://api.cheqd.srvs.vnodesv.net"
     }
   ],
   "rpc": [
@@ -37,7 +37,7 @@
     },
     {
       "provider": "vNodes[V] Ser[V]ices",
-      "address": "https://cheqd.srvs.vnodesv.net/rpc"
+      "address": "https://rpc.cheqd.srvs.vnodesv.net:443"
     }
   ],
   "snapshot_provider": "",
