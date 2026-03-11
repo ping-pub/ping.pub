@@ -21,7 +21,6 @@
       "provider": "BadgerBite",
       "address": "https://cheqd-api.badgerbite.io"
     }
-
   ],
   "rpc": [
     {
