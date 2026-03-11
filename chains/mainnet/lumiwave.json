@@ -2,19 +2,19 @@
   "chain_name": "LumiWave Protocol",
   "api": [
     {
-      "address": "https://lwp-testnet.lumiwavelab.com",
-      "provider": "pdx-validator-api"
+      "address": "https://lwp-mainnet-api.lumiwavelab.com",
+      "provider": "lwp-mainnet-api"
     }
   ],
   "rpc": [
     {
-      "address": "https://lwp-testnet.lumiwavelab.com/tendermint",
-      "provider": "pdx-validator-tendermint"
+      "address": "https://lwp-mainnet-rpc.lumiwavelab.com",
+      "provider": "lwp-mainnet-rpc"
     }
   ],
-  "sdk_version": "0.53.4",
+  "sdk_version": "0.45.1",
   "coin_type": "118",
-  "min_tx_fee": "5000",
+  "min_tx_fee": "800",
   "addr_prefix": "lumi",
   "logo": "/logos/lumiwave.png",
   "assets": [
