@@ -3,15 +3,15 @@
   "api": [
    {
         "provider": "divineray",
-        "url": "https://rest-mainnet.divineray.ca"
+        "address": "https://rest-mainnet.divineray.ca"
     },
     {
         "provider": "divineray node2",
-        "url": "https://rest-mainnet-node2.divineray.ca"
+        "address": "https://rest-mainnet-node2.divineray.ca"
     },
     {
         "provider": "divineray node3",
-        "url": "https://rest-mainnet-node3.divineray.ca"
+        "address": "https://rest-mainnet-node3.divineray.ca"
     }
   ],
   "rpc": [
@@ -31,15 +31,15 @@
   "grpc": [
    {
         "provider": "divineray",
-        "url": "grpc-mainnet.divineray.ca"
+        "address": "grpc-mainnet.divineray.ca"
     },
     {
         "provider": "divineray node2",
-        "url": "grpc-mainnet-node2.divineray.ca"
+        "address": "grpc-mainnet-node2.divineray.ca"
     },
     {
         "provider": "divineray node3",
-        "url": "grpc-mainnet-node3.divineray.ca"
+        "address": "grpc-mainnet-node3.divineray.ca"
     }
   ],
   "sdk_version": "0.53.3",
