@@ -1,32 +1,39 @@
-
-name: Deploy to GitHub Pages
+name: Pull Request Review
 
 on:
-  push:
+  pull_request:
     branches: [ main ]
-  workflow_dispatch:
+    paths:
+      - 'chains/**'
+      - 'explorer'
+      - 'logos/**'
+      - '.github/workflows/**'
+      - '.gitmodules'
+      - 'README.md'
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
+  pull-requests: read
 
 jobs:
+  config-check:
+    name: Check blockchain configs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Checkout Latest
+        uses: actions/checkout@v4
+
+      - name: Check Chain Configs
+        uses: ping-pub/ping-dashboard-config-checker@v1.0
+
   build:
-    name: Build site
+    name: Build explorer
     runs-on: ubuntu-latest
     steps:
       - name: Git Checkout Latest
         uses: actions/checkout@v4
         with:
           submodules: recursive
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -47,23 +54,3 @@ jobs:
         run: yarn build
         env:
           NODE_OPTIONS: --max_old_space_size=4096
-
-      - name: Copy logos
-        run: cp -rf logos explorer/dist/
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: explorer/dist
-
-  deploy:
-    name: Deploy site
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4

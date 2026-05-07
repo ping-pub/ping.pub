@@ -1,0 +1,36 @@
+name: Auto Merge Pull Requests
+
+on:
+  pull_request_target:
+    types:
+      - labeled
+      - opened
+      - reopened
+      - ready_for_review
+      - synchronize
+      - review_requested
+  check_suite:
+    types: [ completed ]
+  status: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+  checks: read
+  statuses: read
+
+jobs:
+  automerge:
+    name: Auto merge approved PRs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto merge
+        uses: pascalgn/automerge-action@v0.16.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MERGE_LABELS: automerge
+          MERGE_METHOD: squash
+          MERGE_DELETE_BRANCH: true
+          MERGE_REQUIRED_APPROVALS: 1
+          MERGE_RETRIES: 6
+          MERGE_RETRY_SLEEP: 10000
