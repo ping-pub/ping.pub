@@ -51,6 +51,9 @@ jobs:
       - name: Copy logos
         run: cp -rf logos explorer/dist/
 
+      - name: Create SPA 404 fallback
+        run: cp explorer/dist/index.html explorer/dist/404.html
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

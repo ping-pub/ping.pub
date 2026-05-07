@@ -54,3 +54,6 @@ jobs:
         run: yarn build
         env:
           NODE_OPTIONS: --max_old_space_size=4096
+
+      - name: Verify SPA 404 fallback
+        run: cp explorer/dist/index.html explorer/dist/404.html && test -s explorer/dist/404.html

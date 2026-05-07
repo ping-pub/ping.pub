@@ -12,6 +12,8 @@ In repository settings:
 
 The `Deploy to GitHub Pages` workflow builds the `explorer` submodule, copies this repository's chain configs and logos into the build output, uploads `explorer/dist`, and deploys it through GitHub Pages.
 
+The workflow also copies `index.html` to `404.html`. GitHub Pages serves `404.html` for missing paths, so direct visits to Vue Router history-mode URLs can fall back to the SPA entry and be handled client-side. This approximates an nginx `try_files $uri /index.html` setup, although the HTTP status for those fallback responses is still 404 because GitHub Pages is static hosting.
+
 ## Pull Request Review
 
 The `Pull Request Review` workflow runs on pull requests that change chain configs, logos, workflows, or repository metadata. It validates chain configs and verifies that the explorer still builds.
